@@ -6,7 +6,6 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-# Clément DUMAS<br><div style="font-size:small">Paris, France</div>
 <p style="text-align:center">
 ✉ <a href="mailto:clement.dumas@ens-paris-saclay.fr"><b>clement.dumas@ens-paris-saclay.fr</b></a>
 
