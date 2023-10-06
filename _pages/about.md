@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I am Computer Science Master student at ENS Paris Saclay
+I am Computer Science Master student at ENS Paris Saclay. This personal page is still WIP
