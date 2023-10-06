@@ -11,9 +11,9 @@ title                    : "Clément Dumas"
 title_separator          : "-"
 name                     : &name "Clément Dumas"
 description              : &description "First-year computer science Master's student at ENS Paris Saclay"
-url                      : https://clementdumas.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://butanium.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "Butanium/clementdumas.github.io"
+repository               : "Butanium/butanium.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
