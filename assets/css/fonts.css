@@ -36,7 +36,9 @@
   content: "\e900";
   color: #fcd207;
 }
-
+.icon-lesswrong:before {
+  content: "\e901";
+}
 @font-face {
     font-family: 'Academicons';
     src:url('../fonts/academicons.eot?v=1.8.0');

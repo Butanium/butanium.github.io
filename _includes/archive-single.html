@@ -59,6 +59,11 @@
     {% elsif post.paperurl %}
       <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
     {% endif %}
+    {% if post.posturl and post.paperurl %}
+      <p><a href="{{ post.posturl }}">Read the post related to the paper</a></p>
+    {% elsif post.posturl %}
+      <p><a href="{{ post.posturl }}">Read the project post</a></p>
+    {% endif %}
 
   </article>
 </div>

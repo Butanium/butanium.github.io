@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Clément Dumas"
 title_separator          : "-"
 name                     : &name "Clément Dumas"
-description              : &description "First-year computer science Master's student at ENS Paris Saclay"
+description              : &description "First-year computer science Master's student at ENS Paris-Saclay"
 url                      : https://butanium.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Butanium/butanium.github.io"
@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Clément Dumas"
   avatar           : "profile.jpg"
-  bio              : "First-year computer science Master's student at ENS Paris Saclay"
+  bio              : "First-year computer science Master's student at ENS Paris-Saclay"
   location         : "Paris, France"
-  employer         : "ENS Paris Saclay"
+  employer         : "ENS Paris-Saclay"
   pubmed           : 
   googlescholar    : 
   email            : "clement.dumas@ens-paris-saclay.fr"
@@ -116,6 +116,7 @@ author:
   youtube          :
   wikipedia        :
   codingame        : "https://www.codingame.com/profile/b3168ed8b0bc58c683ae18284d2087e21969904"
+  lesswrong        : "clement-dumas"
 
 
 # Reading Files
@@ -123,6 +124,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - _research
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -248,6 +250,15 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
 
 # Sass/SCSS
 sass:
@@ -259,7 +270,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Paris # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
