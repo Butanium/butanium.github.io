@@ -8,7 +8,7 @@
 ## Skills 💻
 - Proficient with functional (**`OCaml`**), imperative (**`Python`**) and object-oriented (**`Java`**) languages
 - Some experience with: **`Scala`**, **`Rust`**, **`Haskell`**, **`C`**, **`C#`**, **`JavaScript`**, **`x86_64 Assembly`**, **`Lisp`**
-- Proficient with **PyTorch**, **LaTeX**, **SLURM** and **Git**
+- Proficient with **PyTorch**, **Stable Baselines 3**, **LaTeX**, **SLURM** and **Git**
 - Strong mathematical and theoretical computer science background
 
 ## Research and projects 🖱️
