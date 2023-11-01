@@ -8,12 +8,12 @@
 ## Skills 💻
 - Proficient with functional (**`OCaml`**), imperative (**`Python`**) and object-oriented (**`Java`**) languages
 - Some experience with: **`Scala`**, **`Rust`**, **`Haskell`**, **`C`**, **`C#`**, **`JavaScript`**, **`x86_64 Assembly`**, **`Lisp`**
-- Proficient in **PyTorch**, **LaTeX** and **Git**
+- Proficient with **PyTorch**, **LaTeX**, **SLURM** and **Git**
 - Strong mathematical and theoretical computer science background
 
 ## Research and projects 🖱️
-- October 2023-?: Supervised Program for Alignment Research (SPAR) under the supervision of Walter Laurito. We're trying to apply Contrast-Consistent Search to Reinforcement Learning models
-- Summer 2023: Two months research internship with Jobst Heitzig on Aspiration-Based Q-Learning. See [our LessWrong post](https://www.lesswrong.com/posts/Z9P2m462wQ4qmH6uo/aspiration-based-q-learning)
+- Since October 2023: Supervised Program for Alignment Research (SPAR) under the supervision of Walter Laurito. We're trying to apply Contrast-Consistent Search to Reinforcement Learning models
+- Summer 2023: Two months research internship with Jobst Heitzig on Aspiration-Based Q-Learning. See [our LessWrong post](https://www.lesswrong.com/posts/Z9P2m462wQ4qmH6uo/aspiration-based-q-learning) and [our Stable Baselines 3 fork](https://github.com/pik-gane/stable-baselines3-contrib-satisfia/)
 - 2022-2023: Participated in “Séminaire Turing”, an AI alignment reading group at ENS Paris-Saclay 
 - December 2022: Participated in the [AI testing hackathon](https://itch.io/jam/aitest) organized by Esben Kran. [Our submission about Trojans in transformers](https://itch.io/jam/aitest/rate/1842319) was ranked #4
 - November 2022: Participated in the [ML4G](https://effisciences-research.notion.site/ML-for-Good-8b94525e6d98425083731a223b53b237), a one-week French AI alignment camp organized by [Effisciences](https://effisciences.org/)
