@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>cv-Clement_Dumas</title>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+	<style>
+		/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+		/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+		body {
+			font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+			font-size: var(--vscode-markdown-font-size, 14px);
+			padding: 0 26px;
+			line-height: var(--vscode-markdown-line-height, 22px);
+			word-wrap: break-word;
+		}
+
+		#code-csp-warning {
+			position: fixed;
+			top: 0;
+			right: 0;
+			color: white;
+			margin: 16px;
+			text-align: center;
+			font-size: 12px;
+			font-family: sans-serif;
+			background-color: #444444;
+			cursor: pointer;
+			padding: 6px;
+			box-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+		}
+
+		#code-csp-warning:hover {
+			text-decoration: none;
+			background-color: #007acc;
+			box-shadow: 2px 2px 2px rgba(0, 0, 0, .25);
+		}
+
+		body.scrollBeyondLastLine {
+			margin-bottom: calc(100vh - 22px);
+		}
+
+		body.showEditorSelection .code-line {
+			position: relative;
+		}
+
+		body.showEditorSelection .code-active-line:before,
+		body.showEditorSelection .code-line:hover:before {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 0;
+			left: -12px;
+			height: 100%;
+		}
+
+		body.showEditorSelection li.code-active-line:before,
+		body.showEditorSelection li.code-line:hover:before {
+			left: -30px;
+		}
+
+		.vscode-light.showEditorSelection .code-active-line:before {
+			border-left: 3px solid rgba(0, 0, 0, 0.15);
+		}
+
+		.vscode-light.showEditorSelection .code-line:hover:before {
+			border-left: 3px solid rgba(0, 0, 0, 0.40);
+		}
+
+		.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+			border-left: none;
+		}
+
+		.vscode-dark.showEditorSelection .code-active-line:before {
+			border-left: 3px solid rgba(255, 255, 255, 0.4);
+		}
+
+		.vscode-dark.showEditorSelection .code-line:hover:before {
+			border-left: 3px solid rgba(255, 255, 255, 0.60);
+		}
+
+		.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+			border-left: none;
+		}
+
+		.vscode-high-contrast.showEditorSelection .code-active-line:before {
+			border-left: 3px solid rgba(255, 160, 0, 0.7);
+		}
+
+		.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+			border-left: 3px solid rgba(255, 160, 0, 1);
+		}
+
+		.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+			border-left: none;
+		}
+
+		img {
+			max-width: 100%;
+			max-height: 100%;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		a:focus,
+		input:focus,
+		select:focus,
+		textarea:focus {
+			outline: 1px solid -webkit-focus-ring-color;
+			outline-offset: -1px;
+		}
+
+		hr {
+			border: 0;
+			height: 2px;
+			border-bottom: 2px solid;
+		}
+
+		h1 {
+			padding-bottom: 0.3em;
+			line-height: 1.2;
+			border-bottom-width: 1px;
+			border-bottom-style: solid;
+		}
+
+		h2 {
+			line-height: 0.5;
+		}
+
+		h1,
+		h2,
+		h3 {
+			font-weight: normal;
+		}
+
+		table {
+			border-collapse: collapse;
+		}
+
+		table>thead>tr>th {
+			text-align: left;
+			border-bottom: 1px solid;
+		}
+
+		table>thead>tr>th,
+		table>thead>tr>td,
+		table>tbody>tr>th,
+		table>tbody>tr>td {
+			padding: 5px 10px;
+		}
+
+		table>tbody>tr+tr>td {
+			border-top: 1px solid;
+		}
+
+		blockquote {
+			margin: 0 7px 0 5px;
+			padding: 0 16px 0 10px;
+			border-left-width: 5px;
+			border-left-style: solid;
+		}
+
+		code {
+			font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+			font-size: 1em;
+			line-height: 1.357em;
+		}
+
+		body.wordWrap pre {
+			white-space: pre-wrap;
+		}
+
+		pre:not(.hljs),
+		pre.hljs code>div {
+			padding: 16px;
+			border-radius: 3px;
+			overflow: auto;
+		}
+
+		pre code {
+			color: var(--vscode-editor-foreground);
+			tab-size: 4;
+		}
+
+		/** Theming */
+
+		.vscode-light pre {
+			background-color: rgba(220, 220, 220, 0.4);
+		}
+
+		.vscode-dark pre {
+			background-color: rgba(10, 10, 10, 0.4);
+		}
+
+		.vscode-high-contrast pre {
+			background-color: rgb(0, 0, 0);
+		}
+
+		.vscode-high-contrast h1 {
+			border-color: rgb(0, 0, 0);
+		}
+
+		.vscode-light table>thead>tr>th {
+			border-color: rgba(0, 0, 0, 0.69);
+		}
+
+		.vscode-dark table>thead>tr>th {
+			border-color: rgba(255, 255, 255, 0.69);
+		}
+
+		.vscode-light h1,
+		.vscode-light hr,
+		.vscode-light table>tbody>tr+tr>td {
+			border-color: rgba(0, 0, 0, 0.18);
+		}
+
+		.vscode-dark h1,
+		.vscode-dark hr,
+		.vscode-dark table>tbody>tr+tr>td {
+			border-color: rgba(255, 255, 255, 0.18);
+		}
+	</style>
+
+	<style>
+		/* Tomorrow Theme */
+		/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+		/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+		/* Tomorrow Comment */
+		.hljs-comment,
+		.hljs-quote {
+			color: #8e908c;
+		}
+
+		/* Tomorrow Red */
+		.hljs-variable,
+		.hljs-template-variable,
+		.hljs-tag,
+		.hljs-name,
+		.hljs-selector-id,
+		.hljs-selector-class,
+		.hljs-regexp,
+		.hljs-deletion {
+			color: #c82829;
+		}
+
+		/* Tomorrow Orange */
+		.hljs-number,
+		.hljs-built_in,
+		.hljs-builtin-name,
+		.hljs-literal,
+		.hljs-type,
+		.hljs-params,
+		.hljs-meta,
+		.hljs-link {
+			color: #f5871f;
+		}
+
+		/* Tomorrow Yellow */
+		.hljs-attribute {
+			color: #eab700;
+		}
+
+		/* Tomorrow Green */
+		.hljs-string,
+		.hljs-symbol,
+		.hljs-bullet,
+		.hljs-addition {
+			color: #718c00;
+		}
+
+		/* Tomorrow Blue */
+		.hljs-title,
+		.hljs-section {
+			color: #4271ae;
+		}
+
+		/* Tomorrow Purple */
+		.hljs-keyword,
+		.hljs-selector-tag {
+			color: #8959a8;
+		}
+
+		.hljs {
+			display: block;
+			overflow-x: auto;
+			color: #4d4d4c;
+			padding: 0.5em;
+		}
+
+		.hljs-emphasis {
+			font-style: italic;
+		}
+
+		.hljs-strong {
+			font-weight: bold;
+		}
+	</style>
+
+	<style>
+		/*
+ * Markdown PDF CSS
+ */
+
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+			padding: 0 12px;
+		}
+
+		pre {
+			background-color: #f8f8f8;
+			border: 1px solid #cccccc;
+			border-radius: 3px;
+			overflow-x: auto;
+			white-space: pre-wrap;
+			overflow-wrap: break-word;
+		}
+
+		pre:not(.hljs) {
+			padding: 23px;
+			line-height: 19px;
+		}
+
+		blockquote {
+			background: rgba(127, 127, 127, 0.1);
+			border-color: rgba(0, 122, 204, 0.5);
+		}
+
+		.emoji {
+			height: 1.4em;
+		}
+
+		code {
+			font-size: 14px;
+			line-height: 19px;
+		}
+
+		/* for inline code */
+		:not(pre):not(.hljs)>code {
+			color: #C9AE75;
+			/* Change the old color so it seems less like an error */
+			font-size: inherit;
+		}
+
+		/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+		.page {
+			page-break-after: always;
+		}
+	</style>
+
+	<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+
+<body>
+	<script>
+		mermaid.initialize({
+			startOnLoad: true,
+			theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+				? 'dark'
+				: 'default'
+		});
+	</script>
+
+	<!-- <div style="float:left; margin-right:10px;">
+		<img src="profile.jpg" alt="Clément Dumas" style="width:100px;height:100px;">
+	</div> -->
+	<h1 id="cl%C3%A9ment-dumasbrdiv-style%22font-sizesmall%22paris-francediv">Clément DUMAS<br>
+		<div style="font-size:small">Paris, France</div>
+	</h1>
+	<p style="text-align:center">
+		✉ <a href="mailto:clement.dumas@ens-paris-saclay.fr"><b>clement.dumas@ens-paris-saclay.fr</b></a>
+		|
+		📱 +33 6 59 28 56 65
+		<br>
+		📄 <a href="https://www.linkedin.com/in/cl%C3%A9ment-dumas-9b715224a/"><b>linkedin/Clément Dumas</b></a>
+		|
+		<a href="http://github.com/Butanium"><b>github.com/Butanium</b></a>
+		|
+		<a href="https://butanium.github.io/research/"><b>Personal page</b></a>
+	</p>
+	<!-- à ajouter dans le .hmtl : 	-->
+	<h2 id="education-%F0%9F%93%9A">Education 📚</h2>
+	<ul>
+		<li>2023-2024: Computer Science research Master <a
+				href="https://wikimpri.dptinfo.ens-cachan.fr/doku.php">MPRI</a> at <strong>ENS Paris-Saclay</strong>.
+			The ENS is a selective institution that trains teachers and researchers</li>
+		<li>2022-2023: 3rd year of Licence in Computer Science at <strong>ENS Paris-Saclay</strong></li>
+		<li>2020-2022: Completed &quot;classes préparatoires&quot;, an intensive two-year programme in the sciences with
+			12 hours of math per week, preparing for the competitive entrance exams to the ENS</li>
+		<li>2017-2020: “Baccalauréat” in the sciences, with honours</li>
+	</ul>
+	<h2 id="skills-%F0%9F%92%BB">Skills 💻</h2>
+	<ul>
+		<li>Proficient with functional (<strong><code>OCaml</code></strong>), imperative
+			(<strong><code>Python</code></strong>) and object-oriented (<strong><code>Java</code></strong>) languages
+		</li>
+		<li>Some experience with: <strong><code>Scala</code></strong>, <strong><code>Rust</code></strong>,
+			<strong><code>Haskell</code></strong>, <strong><code>C</code></strong>, <strong><code>C#</code></strong>,
+			<strong><code>JavaScript</code></strong>, <strong><code>x86_64 Assembly</code></strong>,
+			<strong><code>Lisp</code></strong>
+		</li>
+		<li>Proficient in <strong>PyTorch</strong>, <strong>Stable Baselines 3</strong>, <strong>LaTeX</strong>,
+			<strong>SLURM</strong> and <strong>Git</strong>
+		</li>
+		<li>Strong mathematical and theoretical computer science background</li>
+	</ul>
+	<h2 id="research-and-projects-%F0%9F%96%B1%EF%B8%8F">Research and projects 🖱️</h2>
+	<ul>
+		<li>Since October 2023: Supervised Program for Alignment Research (SPAR) under the supervision of Walter
+			Laurito. We are trying to apply Contrast-Consistent Search to Reinforcement Learning models</li>
+		<li>Summer 2023: Two months research internship with Jobst Heitzig on Aspiration-Based Q-Learning. See <a
+				href="https://www.lesswrong.com/posts/Z9P2m462wQ4qmH6uo/aspiration-based-q-learning">our LessWrong
+				post</a> and <a href="https://github.com/pik-gane/stable-baselines3-contrib-satisfia/">our Stable
+				Baselines 3 fork</a></li>
+		<li>2022-2023: Participated in “Séminaire Turing”, an AI alignment reading group at ENS Paris-Saclay</li>
+		<li>December 2022: Participated in the <a href="https://itch.io/jam/aitest">AI testing hackathon</a> organized
+			by Esben Kran. <a href="https://itch.io/jam/aitest/rate/1842319">Our submission about Trojans in
+				transformers</a> was ranked #4</li>
+		<li>November 2022: Participated in the <a
+				href="https://effisciences-research.notion.site/ML-for-Good-8b94525e6d98425083731a223b53b237">ML4G</a>,
+			a one-week French AI alignment camp organized by <a href="https://effisciences.org/">Effisciences</a></li>
+		<li>November 2022: Participated in the <a
+				href="https://alignmentjam.com/post/join-the-interpretability-hackathon">Interpretability hackathon</a>
+			organized by Esben Kran featuring Neel Nanda</li>
+		<li>October 2022: Participated in the AI alignment Hackathon organized by <a
+				href="https://www.effisciences.org/">EffiSciences</a> about the out of distribution and
+			underspecification problems</li>
+		<li>2021-2022: Implemented a <a href="https://github.com/Butanium/monte-carlo-tree-search-TSP">Monte-Carlo tree
+				search for the travelling salesman problem</a> which expand <a
+				href="http://sasimi.jp/new/sasimi2016/files/archive/pdf/p352_R4-14.pdf">this paper</a> to include local
+			search in playouts</li>
+		<li>2021-2022: Created various heuristics for 6 CodinGame multiplayer games in Python and OCaml</li>
+		<li>2021-2022: Independently developed <a href="https://github.com/Butanium/clash-of-bits">Clash of bits</a>, a
+			game that I plan to publish on <a
+				href="https://www.codingame.com/contribute/view/6587dcc2e3a07bd4696c16a3e63238b4a184">CodinGame</a></li>
+		<li>2020: Small Reinforcement learning project on Unity with the ml-agents library</li>
+		<!-- <li>2020: <a href="https://github.com/Butanium/War-of-colonies">War of Colonies</a>: attempted to use genetic algorithms in Conway's Game of Life</li> -->
+		<li>2019-2021: Genetic algorithms for the travelling salesman problem with <a
+				href="https://scratch.mit.edu/projects/288141249">Scratch</a>, Unreal Engine and <a
+				href="https://github.com/Butanium/Genetic_algorithm_for_TSP_python">Python</a></li>
+	</ul>
+	<h2 id="achievements-%F0%9F%A5%87">Achievements 🥇</h2>
+	<ul>
+		<li><a href="https://adventofcode.com/">Advent of Code</a>: 2021 until <strong>day 21</strong> and 2020 until
+			<strong>day 19</strong>
+		</li>
+		<li>Legend League (top league) reached in various <a href="https://www.codingame.com">CodinGame</a> multiplayer
+			challenges</li>
+	</ul>
+	<!-- - : [Spring Challenge 2022], [Spring Challenge 2021], [Mad Pod Racing] -->
+	<h2 id="social-and-cultural-activities-%F0%9F%8E%AD">Social and cultural activities 🎭</h2>
+	<ul>
+		<li>Improvisation theater at LiKa (ENS club)</li>
+		<li>Class representative since 8th grade</li>
+		<li>BAFA certification (to be a summer camp counsellor)</li>
+		<li>Introduced young people to programming in “Tourtelle en fête” (neighbourhood festival) in 2019</li>
+	</ul>
+	<h2 id="hobbies-%E2%99%9F%EF%B8%8F">Hobbies ♟️</h2>
+	<ul>
+		<li>Programming: personal projects and competitions. Favourite topics/paradigms: AI and ML, alignment, MCTS,
+			genetic algorithm, combinatorial optimization, artificial life simulation</li>
+		<li>Behavioural biology (thanks to the online course <a
+				href="https://www.youtube.com/playlist?list=PLqeYp3nxIYpF7dW7qK8OvLsVomHrnYNjD">Human Behavioural
+				Biology</a>, by Robert Sapolsky)</li>
+		<li>Escape games, board games, table-top and live action role-playing games</li>
+		<li>Reading (particularly heroic fantasy and science fiction)</li>
+		<li>Sport - badminton and tennis competitions, volleyball, football, team sports in general</li>
+	</ul>
+	<div style="break-after:page"></div>
+
+	<h2 id="referees">Referees</h2>
+	<div id="referees_list"></div>
+	<script>let referees = [
+			{
+				name: "Jobst Heitzig",
+				position: "Leader, FutureLab on Game Theory and Networks of Interacting Agents",
+				institution: "Potsdam Institute for Climate Impact Research",
+				email: "jobst.heitzig@pik-potsdam.de"
+			},
+			{
+				name: "Matthias Fuegger",
+				position: "Head of the Distributed computing group",
+				institution: "Formal Methods Laboratory",
+				email: "mfuegger@lmf.cnrs.fr"
+			},
+			{
+				name: "Charbel-Raphaël Segerie",
+				position: "Co-Head of the AI unit",
+				institution: "EffiSciences",
+				email: "crsegerie@gmail.com"
+			}
+		];
+
+		let refereesSection = document.getElementById('referees_list');
+
+		referees.forEach(referee => {
+			let refereeHTML = `
+			<b>${referee.name}</b>
+			<ul>
+				${referee.position}
+				<br>${referee.institution}
+				<br><a href="mailto:${referee.email}">${referee.email}</a>
+			</ul>
+		`;
+			refereesSection.innerHTML += refereeHTML;
+		});</script>
+
+
+
+
+
+</body>
+
+</html>
