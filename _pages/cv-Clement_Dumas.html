@@ -363,14 +363,13 @@
 	<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
 	<style>
 		/* Apply styles to the #referees_list div */
-
-
+		
+	
 		/* Apply styles to the <ul> element */
 		#referees_list ul {
-			margin-top: 0;
-			/* Reset the default margin for the <ul> */
+		  margin-top: 0; /* Reset the default margin for the <ul> */
 		}
-	</style>
+	  </style>
 </head>
 
 <body>
@@ -389,22 +388,17 @@
 	<h1 id="cl%C3%A9ment-dumasbrdiv-style%22font-sizesmall%22paris-francediv">Clément DUMAS<br>
 		<div style="font-size:small">Paris, France</div>
 	</h1>
-	<p style="text-align:center">
-		✉ <a href="mailto:clement.dumas@ens-paris-saclay.fr"><b>clement.dumas@ens-paris-saclay.fr</b></a>
-		|
-		📱 +33 6 59 28 56 65
-		<br>
-		📄 <a href="https://www.linkedin.com/in/cl%C3%A9ment-dumas-9b715224a/"><b>linkedin/Clément Dumas</b></a>
-		|
-		<a href="http://github.com/Butanium"><b>github.com/Butanium</b></a>
-		|
-		<a href="https://butanium.github.io/research/"><b>Personal page</b></a>
-	</p>
-	<!-- à ajouter dans le .hmtl : 
-h2 {
-	line-height: 0.8;
-}  
-		-->
+	<!-- <div id="contact"></div>
+    <script>
+        fetch('contact.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('contact').innerHTML = data;
+            })
+            .catch(error => console.error('Error fetching contact.html:', error));
+    </script> -->
+	{% include_relative contact.html %}
+
 	<h2 id="education-%F0%9F%93%9A">Education 📚</h2>
 	<ul>
 		<li>2023-2024: Computer Science research Master <a
@@ -433,7 +427,9 @@ h2 {
 	<h2 id="research-and-projects-%F0%9F%96%B1%EF%B8%8F">Research and projects 🖱️</h2>
 	<ul>
 		<li>Since October 2023: Supervised Program for Alignment Research (SPAR) under the supervision of Walter
-			Laurito. We are trying to apply Contrast-Consistent Search to Reinforcement Learning models</li>
+			Laurito. We are trying to apply Contrast-Consistent Search to Reinforcement Learning models. See <a
+				href="https://github.com/Cadenza-Labs/rl-inter-spar/">our WIP repository</a>
+		</li>
 		<li>Summer 2023: Two months research internship with Jobst Heitzig on Aspiration-Based Q-Learning. See <a
 				href="https://www.lesswrong.com/posts/Z9P2m462wQ4qmH6uo/aspiration-based-q-learning">our LessWrong
 				post</a> and <a href="https://github.com/pik-gane/stable-baselines3-contrib-satisfia/">our Stable
