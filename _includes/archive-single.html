@@ -64,6 +64,9 @@
     {% elsif post.posturl %}
       <p><a href="{{ post.posturl }}">Read the project post</a></p>
     {% endif %}
+    {% if post.frenchversion %}
+      <p>Download the French version <a href="{{ post.frenchversion }}">here</a></p>
+    {% endif %}
 
   </article>
 </div>
