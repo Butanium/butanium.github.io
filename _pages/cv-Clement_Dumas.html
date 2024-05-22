@@ -363,14 +363,14 @@
 	<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
 	<style>
 		/* Apply styles to the #referees_list div */
-		
-	
+
+
 		/* Apply styles to the <ul> element */
 		#referees_list ul {
-		  margin-top: 0;
+			margin-top: 0;
 			/* Reset the default margin for the <ul> */
 		}
-	  </style>
+	</style>
 </head>
 
 <body>
@@ -390,14 +390,14 @@
 		<div style="font-size:small">Paris, France</div>
 	</h1>
 	<!-- <div id="contact"></div>
-    <script>
-        fetch('contact.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('contact').innerHTML = data;
-            })
-            .catch(error => console.error('Error fetching contact.html:', error));
-    </script> -->
+	<script>
+		fetch('contact.html')
+			.then(response => response.text())
+			.then(data => {
+				document.getElementById('contact').innerHTML = data;
+			})
+			.catch(error => console.error('Error fetching contact.html:', error));
+	</script> -->
 	{% include_relative contact.html %}
 
 	<h2 id="education-%F0%9F%93%9A">Education 📚</h2>
@@ -428,13 +428,17 @@
 	<h2 id="research-and-projects-%F0%9F%96%B1%EF%B8%8F">Research and projects 🖱️</h2>
 	<ul>
 		<li>
-			Since January 2024: Exploring the emergence of XOR features in Large Language Models and the
+			Since April 2024: Research internship with <a href="dlab.epfl.ch/people/west">Robert West</a> and Chris Wendler 
+			on mechanistically understanding the multilingual capabilities of large language models following their <a href="arxiv.org/abs/2402.10588">Do Llamas Work in English?</a> paper
+		</li>
+		<li>
+			January 2024: Explored the emergence of XOR features in Large Language Models and the
 			<a
 				href="https://www.alignmentforum.org/posts/hjJXCn9GsskysDceS/what-s-up-with-llms-representing-xors-of-arbitrary-features">RAX
 				hypothesis</a>
-			developed by Sam Marks. See <a href="https://github.com/Butanium/geometry-of-truth/">our fork of the repository</a> 
+			developed by Sam Marks. See <a href="https://github.com/Butanium/geometry-of-truth/">our fork of the repository</a>
 		</li>
-		<li>Since October 2023: Supervised Program for Alignment Research (SPAR) under the supervision of Walter
+		<li>October 2023 - May 2024: Supervised Program for Alignment Research (SPAR) under the supervision of Walter
 			Laurito. We are trying to apply Contrast-Consistent Search to Reinforcement Learning models
 		<li>Summer 2023: Two months research internship with Jobst Heitzig on Aspiration-Based Q-Learning. See <a
 				href="https://www.lesswrong.com/posts/Z9P2m462wQ4qmH6uo/aspiration-based-q-learning">our LessWrong
@@ -512,16 +516,16 @@
 				email: "mfuegger@lmf.cnrs.fr"
 			},
 			{
-				name: "Charbel-Raphaël Segerie",
-				position: "Co-Head of the AI unit",
-				institution: "EffiSciences",
-				email: "crsegerie@gmail.com"
-			},
-			{
 				name: "Walter Laurito",
 				position: "Research Engineer and Team Lead",
 				institution: "Cadenza Lab",
 				email: "lauritowal@yahoo.com"
+			},
+			{
+				name: "Charbel-Raphaël Segerie",
+				position: "Co-Head of the AI unit",
+				institution: "EffiSciences",
+				email: "crsegerie@gmail.com"
 			}
 		];
 
