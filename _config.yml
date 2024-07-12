@@ -86,7 +86,7 @@ author:
   location         : "Paris, France"
   employer         : "ENS Paris-Saclay"
   pubmed           : 
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?user=X3IvIvMAAAAJ"
   email            : "clement.dumas@ens-paris-saclay.fr"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
