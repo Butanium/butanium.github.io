@@ -117,6 +117,7 @@ author:
   wikipedia        :
   codingame        : "https://www.codingame.com/profile/b3168ed8b0bc58c683ae18284d2087e21969904"
   lesswrong        : "clement-dumas"
+  bluesky          : "butanium.bsky.social"
 
 
 # Reading Files
@@ -125,6 +126,7 @@ include:
   - _pages
   - files
   - _research
+  - _projects
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -193,6 +195,9 @@ collections:
   research:
     ouput: true
     permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -259,6 +264,16 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: true
+
 
 # Sass/SCSS
 sass:
