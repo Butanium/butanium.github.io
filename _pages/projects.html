@@ -1,0 +1,18 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+redirect_from:
+  - /publications
+---
+{% include base_path %}
+
+
+<!-- {% if author.googlescholar %} -->
+You can also find my projects on <a href="{{author.github}}">my GitHub</a>.<br><br>
+<!-- {% endif %} -->
+
+{% for post in site.projects reversed %}
+  {% include archive-single.html %}
+{% endfor %}
