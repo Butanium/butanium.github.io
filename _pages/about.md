@@ -20,4 +20,9 @@ You can find my other projects on my [CV](/cv) or [GitHub](https://github.com/bu
 
 I am also fascinated by evolutionary biology, its manifestation in artificial life simulations, and I am an improvisor at the ENS improv theater club Lika. Feel free to message me if you want to get in touch!
 
-Last updated: 15/10/2024
+
+# News
+{% include_relative news.html %}
+
+
+Last updated: 26/11/2024
