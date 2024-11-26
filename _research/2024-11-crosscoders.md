@@ -1,7 +1,7 @@
 ---
 title: "Using Crosscoders for Diffing Base and Instruction-Tuned Language Models"
 collection: research
-authors: "Clément Dumas, Julian Minder"
+authors: "Clément Dumas*, Julian Minder*"
 permalink: /research/2024-11-crosscoders
 excerpt: 'We investigate the differences between base and instruction-tuned language models using Crosscoders'
 date: 2024-11-15

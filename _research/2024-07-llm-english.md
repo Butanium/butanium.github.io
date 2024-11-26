@@ -1,7 +1,7 @@
 ---
 title: "Separating Tongue from Thought: Activation Patching Reveals Language-Agnostic Concept Representations in Transformers"
 collection: research
-authors: "Clément Dumas, Chris Wendler, Veniamin Veselovsky, Giovanni Monea, Robert West"
+authors: "Clément Dumas*, Chris Wendler*, Veniamin Veselovsky, Giovanni Monea, Robert West"
 permalink: /research/2024-07-llm-english
 excerpt: 'We provide causal evidence for the existence of language-agnostic concept representations within LLMs'
 date: 2024-07-15
