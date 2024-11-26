@@ -1,0 +1,44 @@
+<div id="news_list"></div>
+<script>
+    let news = [
+        {
+            date: "November 2024",
+            content: "Released <a href='https://github.com/Butanium/tiny-activation-dashboard/'>tiny-dashboard</a>, a minimal package for building feature activation dashboards, with a <a href='https://colab.research.google.com/drive/1S2QL82BZlNOFvm5i9t3juw4rgjCWNDaI?usp=sharing'>demo notebook</a> showcasing CrossCoder feature analysis. The demo includes interpretable instruction-only features, let me know if you find some interesting new ones!",
+            link: null
+        },
+        {
+            date: "November 2024",
+            content: "I've been accepted as a MATS scholar in Neel Nanda's stream! I'll be in Berkeley from January to mid-March 2025",
+            link: null
+        },
+        {
+            date: "September 2024",
+            content: "Released <a href='https://github.com/Butanium/nnterp/'>nnterp</a>, a Python package for transformer model interpretation built on nnsight, featuring activation analysis and intervention tools",
+            link: null
+        },
+        {
+            date: "July 2024",
+            content: "Our paper <a href='https://arxiv.org/abs/2411.08745'>'Separating Tongue from Thought'</a> was accepted as a spotlight at ICML 2024 mechanistic interpretability workshop!",
+            link: null
+        },
+    ];
+
+    let newsSection = document.getElementById('news_list');
+
+    news.forEach(item => {
+        let newsHTML = `
+    <div class="news-item">
+        <b>${item.date}</b>: 
+        ${item.link ?
+                `<a href="${item.link}">${item.content}</a>` :
+                item.content}
+    </div>
+    `;
+        newsSection.innerHTML += newsHTML;
+    });</script>
+
+<style>
+    .news-item {
+        margin-bottom: 1em;
+    }
+</style>
