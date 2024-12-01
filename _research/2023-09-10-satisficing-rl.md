@@ -1,5 +1,5 @@
 ---
-title: "Satisficing Reinforcement Learning"
+title: "Aspiration-based Reinforcement Learning"
 collection: research
 permalink: /research/2023-09-10-satisficing-rl
 excerpt: 'Inspired by satisficing, we introduce a novel concept of non-maximizing agents, א-aspiring agents, whose goal is to achieve an expected gain of א. We derive aspiration-based algorithms from Q-learning and DQN.'
