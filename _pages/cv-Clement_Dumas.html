@@ -389,16 +389,47 @@
 	<h1 id="cl%C3%A9ment-dumasbrdiv-style%22font-sizesmall%22paris-francediv">Clément DUMAS<br>
 		<div style="font-size:small">Paris, France</div>
 	</h1>
+	<script>
+		globalThis.is_public = window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1';
+		globalThis.is_public = true;
+	</script>
+	<div id="contact"></div>
+	<script>
+		document.getElementById('contact').innerHTML = globalThis.is_public 
+			? `
+				<p style="text-align:center">
+					✉ <a href="mailto:clement.dumas@ens-paris-saclay.fr">clement.dumas@ens-paris-saclay.fr</a>
+					<br>
+					📄 <a href="https://www.linkedin.com/in/cl%C3%A9ment-dumas-9b715224a/">linkedin/Clément Dumas</a>
+					|
+					<a href="http://github.com/Butanium">github.com/Butanium</a>
+					|
+					<a href="https://butanium.github.io/research/">Personal page</a>
+				</p>
+			` 
+			: `
+				<p style="text-align:center">
+					✉ <a href="mailto:clement.dumas@ens-paris-saclay.fr">clement.dumas@ens-paris-saclay.fr</a>
+					|
+					📱 +33 6 59 28 56 65
+					<br>
+					📄 <a href="https://www.linkedin.com/in/cl%C3%A9ment-dumas-9b715224a/">linkedin/Clément Dumas</a>
+					|
+					<a href="http://github.com/Butanium">github.com/Butanium</a>
+					|
+					<a href="https://butanium.github.io/research/">Personal page</a>
+				</p>
+			`;
+	</script>
 	<!-- <div id="contact"></div>
 	<script>
-		fetch('contact.html')
+		fetch('contact2.html')
 			.then(response => response.text())
 			.then(data => {
 				document.getElementById('contact').innerHTML = data;
 			})
 			.catch(error => console.error('Error fetching contact.html:', error));
 	</script> -->
-	{% include_relative contact.html %}
 
 	<h2 id="education-%F0%9F%93%9A">Education 📚</h2>
 	<ul>
@@ -433,9 +464,6 @@
 	<ul>
 		<li>
 			January 2025: Incoming MATS scholar in Neel Nanda's stream
-		</li>
-		<li>
-			October 2024: Completed the Neel Nanda's MATS stream training phase. With Julian Minder we explored base and instruction-tuned model diffing by replicating and extending the <a href="transformer-circuits.pub/drafts/crosscoders/index.html#model-diffing">Crosscoder</a> paper. See <a href="https://colab.research.google.com/drive/1S2QL82BZlNOFvm5i9t3juw4rgjCWNDaI?usp=sharing#scrollTo=rfzlP4FHARIO">our demo Colab</a>
 		</li>
 		<li>
 			July 2024: Attended the <a href="https://humanaligned.ai/">Human-aligned AI Summer School</a>
@@ -521,59 +549,66 @@
 	<h2 id="referees">Referees</h2>
 	<div id="referees_list"></div>
 	<script>let referees = [
-			{
-				name: "Robert West",
-				position: "Associate Professor and Head of the Data Science Lab",
-				institution: "Ecole Polytechnique Fédérale de Lausanne",
-				email: "robert.west@epfl.ch"
-			},
-			{
-				name: "Chris Wendler",
-				position: "Postdoctoral Researcher at the Data Science Lab",
-				institution: "Ecole Polytechnique Fédérale de Lausanne",
-				email: "chris.wendler@epfl.ch"
-			},
-			{
-				name: "Jobst Heitzig",
-				position: "Leader, FutureLab on Game Theory and Networks of Interacting Agents",
-				institution: "Potsdam Institute for Climate Impact Research",
-				email: "jobst.heitzig@pik-potsdam.de"
-			},
-			{
-				name: "Walter Laurito",
-				position: "Research Engineer and Team Lead",
-				institution: "Cadenza Lab",
-				email: "lauritowal@yahoo.com"
-			},
-			{
-				name: "Matthias Fuegger",
-				position: "Head of the Distributed computing group",
-				institution: "Formal Methods Laboratory",
-				email: "mfuegger@lmf.cnrs.fr"
-			},
-			{
-				name: "Charbel-Raphaël Segerie",
-				position: "Executive Director",
-				institution: "CeSIA",
-				email: "crsegerie@gmail.com"
-			}
-		];
+		{
+			name: "Robert West",
+			position: "Associate Professor and Head of the Data Science Lab",
+			institution: "Ecole Polytechnique Fédérale de Lausanne",
+			email: "robert.west@epfl.ch",
+			homepage: "dlab.epfl.ch/people/west"
+		},
+		{
+			name: "Chris Wendler",
+			position: "Postdoctoral Researcher at the Data Science Lab",
+			institution: "Ecole Polytechnique Fédérale de Lausanne",
+			email: "chris.wendler@epfl.ch",
+			homepage: "wendlerc.github.io"
+		},
+		{
+			name: "Jobst Heitzig",
+			position: "Leader, FutureLab on Game Theory and Networks of Interacting Agents",
+			institution: "Potsdam Institute for Climate Impact Research",
+			email: "jobst.heitzig@pik-potsdam.de",
+			homepage: "www.pik-potsdam.de/members/heitzig"
+		},
+		{
+			name: "Walter Laurito",
+			position: "Research Engineer and Team Lead",
+			institution: "Cadenza Lab",
+			email: "lauritowal@yahoo.com",
+			homepage: "www.linkedin.com/in/walter-laurito-951565144"
+		},
+		{
+			name: "Matthias Fuegger",
+			position: "Head of the Distributed computing group",
+			institution: "Formal Methods Laboratory",
+			email: "mfuegger@lmf.cnrs.fr",
+			homepage: "www.lsv.fr/~mfuegger"
+		},
+		{
+			name: "Charbel-Raphaël Segerie",
+			position: "Executive Director",
+			institution: "CeSIA",
+			email: "crsegerie@gmail.com",
+			homepage: "crsegerie.github.io"
+		}
+	];
 
-		let refereesSection = document.getElementById('referees_list');
-
-		referees.forEach(referee => {
-			let refereeHTML = `
-			<b>${referee.name}</b>
-			<ul>
-				${referee.position}
-				<br>${referee.institution}
-				<br><a href="mailto:${referee.email}">${referee.email}</a>
-			</ul>
-		`;
-			refereesSection.innerHTML += refereeHTML;
-		});</script>
-
-
+	let refereesSection = document.getElementById('referees_list');
+	
+	referees.forEach(referee => {
+		let refereeHTML = `
+		<b>${referee.name}</b>
+		<ul>
+			${referee.position}
+			<br>${referee.institution}
+			${!globalThis.is_public ? `<br><a href="mailto:${referee.email}">${referee.email}</a>` : ''}
+			<br><a href="https://${referee.homepage}">${referee.homepage}</a>
+		</ul>
+	`;
+		refereesSection.innerHTML += refereeHTML;
+	})
+	refereesSection.innerHTML
+	;</script>
 
 
 
