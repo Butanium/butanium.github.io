@@ -40,3 +40,17 @@
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
   </article>
 </div>
+
+<h3>SlidesLive recording</h3>
+{% if post.slideslive %}
+<div id="presentation-embed-{{ post.slideslive }}"></div>
+<script src="https://slideslive.com/embed_presentation.js"></script>
+<script>
+  embed = new SlidesLiveEmbed("presentation-embed-{{ post.slideslive }}", {
+    presentationId: "{{ post.slideslive }}",
+    autoPlay: false,
+    verticalEnabled: true,
+    startTime: {{ post.start_time | default: 0 }},
+  });
+</script>
+{% endif %}
