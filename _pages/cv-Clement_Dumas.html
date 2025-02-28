@@ -383,58 +383,39 @@
 		});
 	</script>
 
-	<!-- <div style="float:left; margin-right:10px;">
-		<img src="profile.jpg" alt="Clément Dumas" style="width:100px;height:100px;">
-	</div> -->
-	<h1 id="cl%C3%A9ment-dumasbrdiv-style%22font-sizesmall%22paris-francediv">Clément DUMAS<br>
-		<div style="font-size:small">Paris, France</div>
-	</h1>
-	<script>
-		globalThis.is_public = window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1';
-		// globalThis.is_public = true;
-	</script>
-	<div id="contact"></div>
-	<script>
-		document.getElementById('contact').innerHTML = globalThis.is_public 
-			? `
-				<p style="text-align:center">
-					✉ <a href="mailto:clement.dumas[at-symbol]ens-paris-saclay.fr">clement.dumas[at-symbol]ens-paris-saclay.fr</a>
-					<br>
-					📄 <a href="https://www.linkedin.com/in/cl%C3%A9ment-dumas-9b715224a/">linkedin/Clément Dumas</a>
-					|
-					<a href="http://github.com/Butanium">github.com/Butanium</a>
-					|
-					<a href="https://butanium.github.io/research/">Personal page</a>
-				</p>
-			` 
-			: `
-				<p style="text-align:center">
-					✉ <a href="mailto:clement.dumas[at-symbol]ens-paris-saclay.fr">clement.dumas[at-symbol]ens-paris-saclay.fr</a>
-					|
-					📱 +33 6 59 28 56 65
-					<br>
-					📄 <a href="https://www.linkedin.com/in/cl%C3%A9ment-dumas-9b715224a/">linkedin/Clément Dumas</a>
-					|
-					<a href="http://github.com/Butanium">github.com/Butanium</a>
-					|
-					<a href="https://butanium.github.io/research/">Personal page</a>
-				</p>
-			`;
-	</script>
-	<!-- <div id="contact"></div>
-	<script>
-		fetch('contact2.html')
-			.then(response => response.text())
-			.then(data => {
-				document.getElementById('contact').innerHTML = data;
-			})
-			.catch(error => console.error('Error fetching contact.html:', error));
-	</script> -->
+	<!-- Header section with name on left and contact on right -->
+	<div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
+		<!-- Left side with name and location -->
+		<div style="flex: 1; display: flex; flex-direction: column;">
+			<h1 style="border-bottom: none; padding-bottom: 0; margin-bottom: 5px;">Clément DUMAS</h1>
+			<div style="font-size:small; margin-bottom: 10px;">Paris, France</div>
+		</div>
+		
+		<!-- Right side with contact information - improved layout -->
+		<div style="text-align: left; font-size: 0.9em; align-self: center; margin-top: 20px;">
+			<div style="text-align: center;">
+				✉ <a href="mailto:clement.dumas[at-symbol]ens-paris-saclay.fr">clement.dumas[at-symbol]ens-paris-saclay.fr</a> |
+			</div>
+			<div>
+				<a href="https://www.linkedin.com/in/cl%C3%A9ment-dumas-9b715224a/">linkedin/Clément Dumas</a> | 
+				<a href="http://github.com/Butanium">github.com/Butanium</a> | Website: <a href="https://butanium.github.io/">butanium.github.io</a>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Horizontal line to separate header from content -->
+	<hr style="margin-top: 0; margin-bottom: 20px;">
+	
+	<!-- Summary/objective statement -->
+	<div style="margin: 15px 0; padding: 15px; background-color: rgba(240, 240, 245, 0.7); border-radius: 5px; border-left: 3px solid #4271ae; font-weight: 500; font-size: 1.1em; line-height: 1.4;">
+		Neel Nanda's MATS 7.0 scholar with ICML 2024 mechanistic interpretability workshop spotlight publication looking for an AI safety researcher position.
+	</div>
 
 	<h2 id="education-%F0%9F%93%9A">Education 📚</h2>
 	<ul>
 		<li>
-			2024-2025: Computer Science research Master MVA (Mathematics, Vision, Learning) at <strong>ENS Paris-Saclay</strong>. The ENS is a selective institution that trains teachers and researchers
+			2024-2025: Computer Science research Master MVA (Mathematics, Vision, Learning) at <strong>ENS
+				Paris-Saclay</strong>. The ENS is a selective institution that trains teachers and researchers
 		</li>
 		<li>2023-2024: Computer Science research Master <a
 				href="https://wikimpri.dptinfo.ens-cachan.fr/doku.php">MPRI</a> at <strong>ENS Paris-Saclay</strong>.
@@ -442,37 +423,25 @@
 		<li>2022-2023: Double Bachelor's degree in Computer Science at <strong>ENS Paris-Saclay</strong></li>
 		<li>2020-2022: Completed &quot;classes préparatoires&quot;, an intensive two-year programme in the sciences with
 			12 hours of math per week, preparing for the competitive entrance exams to the ENS</li>
-		<!-- <li>2017-2020: “Baccalauréat” in the sciences, with honours</li> -->
 	</ul>
-	<h2 id="skills-%F0%9F%92%BB">Skills 💻</h2>
-	<ul>
-		<li>Proficient with functional (<strong><code>OCaml</code></strong>), imperative
-			(<strong><code>Python</code></strong>) and object-oriented (<strong><code>Java</code></strong>) languages
-		</li>
-		<li>Some experience with: <strong><code>Rust</code></strong>, <strong><code>CUDA</code></strong>,
-			<strong><code>C++</code></strong>, <strong><code>C</code></strong>, <strong><code>C#</code></strong>,
-			<strong><code>JavaScript</code></strong>, <strong><code>x86_64 Assembly</code></strong>,
-			<strong><code>Scala</code></strong>,
-			<strong><code>Haskell</code></strong>, <strong><code>Lisp</code></strong>
-		</li>
-		<li>Proficient in <strong>PyTorch</strong>, <strong>NNsight</strong>, <strong>LaTeX</strong>,
-			<strong>SLURM</strong> and <strong>Git</strong>
-		</li>
-		<li>Strong mathematical and theoretical computer science background</li>
-	</ul>
-	<h2 id="research-and-projects-%F0%9F%96%B1%EF%B8%8F">Research and projects 🖱️</h2>
+
+
+	<h2 id="research-and-projects-%F0%9F%96%B1%EF%B8%8F">Research Experience 🔬</h2>
+	<div style="margin-bottom: -10px;">✨: led to a first-author publication</div>
 	<ul>
 		<li>
-			Since January 2025: MATS 7.0 scholar in Neel Nanda's stream working on model diffing using methods like <a
-				href="https://butanium.github.io/research/2024-11-crosscoders">Crosscoders</a>
+			Since January 2025 ✨: MATS 7.0 scholar in Neel Nanda's stream <a
+			href="https://butanium.github.io/files/robust-crosscoder.pdf">working on model diffing using methods like crosscoders</a>
+		</li>
+		<li>
+			Summer 2024 ✨: 5-month research internship at EPFL with <a href="dlab.epfl.ch/people/west">Robert West</a> and
+			<a href="https://wendlerc.github.io/">Chris Wendler</a>. Our work, <a
+				href="https://arxiv.org/abs/2411.08745">Separating Tongue from Thought:
+				Activation Patching Reveals Language-Agnostic Concept Representations in Transformers
+			</a>, was spotlight at <b>ICML 2024 mechanistic interpretability workshop</b>
 		</li>
 		<li>
 			July 2024: Attended the <a href="https://humanaligned.ai/">Human-aligned AI Summer School</a>
-		</li>
-		<li>
-			Summer 2024: 5-month research internship at EPFL with <a href="dlab.epfl.ch/people/west">Robert West</a> and <a href="https://wendlerc.github.io/">Chris Wendler</a>. Our work, <a href="https://arxiv.org/abs/2411.08745">Separating Tongue from Thought:
-				Activation Patching Reveals Language-Agnostic Concept Representations in Transformers
-			</a>, was spotlight at <b>ICML 2024 mechanistic interpretability workshop</b>
 		</li>
 		<li>
 			January 2024: Explored the emergence of XOR features in Large Language Models and the
@@ -493,14 +462,14 @@
 				Baselines 3 fork</a></li>
 		<li>2022-2023: Participated in “Séminaire Turing”, an AI alignment reading group at ENS Paris-Saclay</li>
 		<li>December 2022: Participated in the <a href="https://itch.io/jam/aitest">AI testing hackathon</a> organized
-			by Esben Kran. <a href="https://itch.io/jam/aitest/rate/1842319">Our submission about Trojans in
+			by Apart Research. <a href="https://itch.io/jam/aitest/rate/1842319">Our submission about Trojans in
 				transformers</a> was ranked #4</li>
 		<li>November 2022: Participated in the <a
-				href="https://effisciences-research.notion.site/ML-for-Good-8b94525e6d98425083731a223b53b237">ML4G</a>,
-			a one-week French AI alignment camp organized by <a href="https://effisciences.org/">Effisciences</a></li>
-		<li>November 2022: Participated in the <a
 				href="https://alignmentjam.com/post/join-the-interpretability-hackathon">Interpretability hackathon</a>
-			organized by Esben Kran featuring Neel Nanda</li>
+			organized by Apart Research</li>
+		<li>November 2022: Participated in the <a
+			href="https://effisciences-research.notion.site/ML-for-Good-8b94525e6d98425083731a223b53b237">ML4G</a>,
+		a one-week French AI alignment camp organized by <a href="https://effisciences.org/">Effisciences</a></li>
 		<li>October 2022: Participated in the AI alignment Hackathon organized by <a
 				href="https://www.effisciences.org/">EffiSciences</a> about the out of distribution and
 			underspecification problems</li>
@@ -508,42 +477,14 @@
 				search for the travelling salesman problem</a> which expand <a
 				href="http://sasimi.jp/new/sasimi2016/files/archive/pdf/p352_R4-14.pdf">this paper</a> to include local
 			search in playouts</li>
-		<li>2021-2022: Created various heuristics for 6 CodinGame multiplayer games in Python and OCaml</li>
-		<!-- <li>2021-2022: Independently developed <a href="https://github.com/Butanium/clash-of-bits">Clash of bits</a>, a -->
-			<!-- game that I plan to publish on <a
-				href="https://www.codingame.com/contribute/view/6587dcc2e3a07bd4696c16a3e63238b4a184">CodinGame</a></li> -->
-		<!-- <li>2020: Small Reinforcement learning project on Unity with the ml-agents library</li> -->
-		<!-- <li>2020: <a href="https://github.com/Butanium/War-of-colonies">War of Colonies</a>: attempted to use genetic algorithms in Conway's Game of Life</li> -->
-		<!-- <li>2019-2021: Genetic algorithms for the travelling salesman problem with <a
-				href="https://scratch.mit.edu/projects/288141249">Scratch</a>, Unreal Engine and <a
-				href="https://github.com/Butanium/Genetic_algorithm_for_TSP_python">Python</a></li> -->
 	</ul>
-	<!-- <h2 id="achievements-%F0%9F%A5%87">Achievements 🥇</h2>
+	<h2 id="programming-projects-%F0%9F%9B%A0%EF%B8%8F">Programming Projects 🛠️</h2>
 	<ul>
-		<li><a href="https://adventofcode.com/">Advent of Code</a>: 2021 until <strong>day 21</strong> and 2020 until
-			<strong>day 19</strong>
-		</li>
-		<li>Legend League (top league) reached in various <a href="https://www.codingame.com">CodinGame</a> multiplayer
-			challenges</li>
-	</ul> -->
-	<!-- - : [Spring Challenge 2022], [Spring Challenge 2021], [Mad Pod Racing] -->
-	<!-- <h2 id="social-and-cultural-activities">Social and cultural activities 🎭</h2>
-	<ul>
-		<li>Improvisation theater at LiKa (ENS club)</li>
-		<li>Class representative since 8th grade</li>
-		<li>BAFA certification (to be a summer camp counsellor)</li>
-		<li>Introduced young people to programming in “Tourtelle en fête” (neighbourhood festival) in 2019</li>
-	</ul> -->
-	<h2 id="hobbies-%E2%99%9F%EF%B8%8F">Hobbies ♟️</h2>
-	<ul>
-		<li>Programming: personal projects and competitions. Favourite topics/paradigms: AI and ML, alignment, MCTS,
-			genetic algorithm, combinatorial optimization, artificial life simulation</li>
-		<li>Behavioural biology (thanks to the online course <a
-				href="https://www.youtube.com/playlist?list=PLqeYp3nxIYpF7dW7qK8OvLsVomHrnYNjD">Human Behavioural
-				Biology</a>, by Robert Sapolsky)</li>
-		<li>Improv theater, escape games, board games, table-top and live action role-playing games</li>
-		<li>Reading (particularly heroic fantasy and science fiction)</li>
-		<li>Sport - badminton and tennis competitions, volleyball, football, team sports in general</li>
+		<li>Developed mechanistic interpretability tooling: <a href="https://github.com/Butanium/nnterp">nnterp</a>, a wrapper around <code>NNsight</code> focused on LLMs and <a href="https://github.com/Butanium/tiny-activation-dashboard">tiny-dashboard</a>, a tool to visualize activations of sparse dictionaries</li>
+		<li>Early adopter of the mechanistic interpretability library <code>NNsight</code>, actively engaging with the community to answer questions and improve it</li>
+		<li>Developed a <a href="https://github.com/Butanium/clash-of-bits">CodinGame multiplayer game</a></li>
+		<li>Ranked in top percentiles in CodinGame multiplayer bot programming contests: top <a href="https://www.codingame.com/multiplayer/bot-programming/mad-pod-racing/leaderboard?column=keyword&value=Butanium">0.5%</a>, <a href="https://www.codingame.com/multiplayer/bot-programming/spring-challenge-2021/leaderboard?column=keyword&value=Butanium">3%</a> and <a href="https://www.codingame.com/multiplayer/bot-programming/spring-challenge-2022/leaderboard?column=keyword&value=Butanium">7%</a> in 2021-2022</li>
+		<li>Proficient in OCaml, Python, Java, PyTorch, and NNsight, with working knowledge of Rust, CUDA, C++ and others</li>
 	</ul>
 	<div style="break-after:page"></div>
 
@@ -551,6 +492,13 @@
 	<div id="referees_list"></div>
 	<script>
 		let referees = [
+			{
+				name: "Neel Nanda",
+				position: "Mechanistic Interpretability Team Lead",
+				institution: "DeepMind",
+				email: "neelnanda27[at-symbol]gmail.com",
+				homepage: "www.neelnanda.io"
+			},
 			{
 				name: "Robert West",
 				position: "Associate Professor and Head of the Data Science Lab",
@@ -603,7 +551,7 @@
 		<ul>
 			${referee.position}
 			<br>${referee.institution}
-			${!globalThis.is_public ? `<br><a href="mailto:${referee.email}">${referee.email}</a>` : ''}
+			${`<br><a href="mailto:${referee.email}">${referee.email}</a>`}
 			<br><a href="https://${referee.homepage}">${referee.homepage}</a>
 		</ul>`;
 			refereesSection.innerHTML += refereeHTML;
