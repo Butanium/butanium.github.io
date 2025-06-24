@@ -6,7 +6,7 @@ permalink: /research/2024-11-crosscoders
 excerpt: ''
 date: 2024-11-15
 venue: "MATS Program Project"
-# paperurl: https://colab.research.google.com/drive/1S2QL82BZlNOFvm5i9t3juw4rgjCWNDaI?usp=sharing
+paperurl: https://arxiv.org/pdf/2504.02922
 # codeurl: https://github.com/Butanium/tiny-activation-dashboard/
 ---
 Arxiv paper coming soon! Feel free to reach out if you'd like a copy.
