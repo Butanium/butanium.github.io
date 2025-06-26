@@ -5,5 +5,5 @@ repos:
         name: Update last modified date
         entry: python scripts/update_last_modified.py
         language: system
-        files: ^_pages/about\.md$
+        files: ^(_pages/about\.md|_pages/news\.html)$
         pass_filenames: false 
