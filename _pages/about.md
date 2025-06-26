@@ -25,4 +25,4 @@ I am also fascinated by evolutionary biology, its manifestation in artificial li
 {% include_relative news.html %}
 
 
-Last updated: 27/02/2025
+Last updated: {{ site.data.last_updated.date }}
