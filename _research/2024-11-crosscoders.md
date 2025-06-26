@@ -1,5 +1,5 @@
 ---
-title: "Robustly identifying concepts introduced during chat fine-tuning using crosscoders"
+title: "Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning"
 collection: research
 authors: "Clément Dumas*, Julian Minder*, Caden Juang, Bilal Chugtai, Neel Nanda"
 permalink: /research/2024-11-crosscoders
@@ -7,20 +7,20 @@ excerpt: ''
 date: 2024-11-15
 venue: "MATS Program Project"
 paperurl: https://arxiv.org/pdf/2504.02922
-# codeurl: https://github.com/Butanium/tiny-activation-dashboard/
+posturl: https://www.notion.so/What-We-Learned-Trying-to-Diff-Base-and-Chat-Models-And-Why-It-Matters-215cdfe65ca380e0a6c1f444d25a585c
+codeurl: https://github.com/science-of-finetuning/sparsity-artifacts-crosscoders
 ---
-Arxiv paper coming soon! Feel free to reach out if you'd like a copy.
+
 ## Abstract
-Model diffing studies the *change* in a model's representations or internal algorithms as a result of fine-tuning. Focusing on such differences may offer a promising lens into a range of model behaviors of interest, and might be significantly easier than attempts to reverse engineer and interpret the entire model. The recently introduced crosscoder [(Lindsey et al., 2024)](https://transformer-circuits.pub/2024/crosscoders/index.html) enables such analysis by learning a shared dictionary of interpretable concepts represented as latent directions in both models, allowing us to track how concepts shift or emerge during fine-tuning. In this work, we identify two issues with the crosscoder training objective, which we term Complete Shrinkage and Latent Decoupling - that can misattribute concepts as unique to the fine-tuned model via prior naive specificity metrics, when they really exist in both models. We develop a technique we call Latent Scaling to address these issues - which more accurately measures each latent's presence across both base and chat models, allowing us to identify which concepts are more genuinely specific to the fine-tuned model. The concepts we identify are both more causally effective in controlling chat-model specific behavior and have higher qualitative latent interpretability. Latents with high "specificity" represent concepts such as *knowledge gap identifier* or *self-identity* and primarily activate on tokens that structure model conversations. Overall, our work improves the crosscoder-based methodology for model diffing and provides concrete insights into how chat tuning modifies the behavior of language models.
+Model diffing is the study of how fine-tuning changes a model's representations and internal algorithms. 
+Many behaviors of interest are introduced during fine-tuning, and model diffing offers a promising lens to interpret such behaviors. 
+Crosscoders are a recent model diffing method that learns a shared dictionary of interpretable concepts represented as latent directions in both the base and fine-tuned models, allowing us to track how concepts shift or emerge during fine-tuning. 
+Notably, prior work has observed concepts with no direction in the base model, and it was hypothesized that these model-specific latents were concepts introduced during fine-tuning.
+However, we identify two issues which stem from the crosscoders L1 training loss that can misattribute concepts as unique to the fine-tuned model, when they really exist in both models. 
+We develop Latent Scaling to flag these issues by more accurately measuring each latent's presence across models.
+In experiments comparing Gemma 2 2B base and chat models, we observe that the standard crosscoder suffers heavily from these issues. 
+Building on these insights, we train a crosscoder with BatchTopK loss and show that it substantially mitigates these issues, finding more genuinely chat-specific and highly interpretable concepts. We recommend practitioners adopt similar techniques.
+Using the BatchTopK crosscoder, we successfully identify a set of chat-specific latents that are both interpretable and causally effective, representing concepts such as *false information* and *personal question*, along with multiple refusal-related latents that show nuanced preferences for different refusal triggers. 
+Overall, our work advances best practices for the crosscoder-based methodology for model diffing and demonstrates that it can provide concrete insights into how chat-tuning modifies model behavior.
 
-## Context
-
-This research was conducted during Neel Nanda's MATS training phase, we used [Crosscoders](transformer-circuits.pub/drafts/crosscoders/index.html#model-diffing) to analyze the differences in the latent space of base and instruction-tuned language models. We replicated the Anthropic blog post on `Gemma 2 2B` and `Gemma 2 2B IT` by training a crosscoder on their 13th layer activations on chat data from [LMSYS Chat 1M](https://huggingface.co/datasets/lmsys/lmsys-chat-1m) and a subset of [FineWeb](https://huggingface.co/datasets/huggingfacefw/fineweb).
-
-
-## Demo
-
-We created a [demo notebook](https://colab.research.google.com/drive/1S2QL82BZlNOFvm5i9t3juw4rgjCWNDaI?usp=sharing) to analyze the feature of our crosscoder using:
-- Offline analysis: Examining pre-computed maximum activations across a dataset
-- Online analysis: Interactive testing with custom prompts
-
+We open-source our [code](https://github.com/science-of-finetuning/sparsity-artifacts-crosscoders), [crosscoder training library](https://github.com/jkminder/dictionary_learning), [models](https://huggingface.co/science-of-finetuning), [wandb runs](https://wandb.ai/jkminder/chat-crosscoders) and a [demo notebook to explore latents](https://dub.sh/ccdm).
