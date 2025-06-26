@@ -18,7 +18,7 @@ Before starting this internship, I was exploring the emergence of XOR features i
 
 You can find my other projects on my [CV](/cv) or [GitHub](https://github.com/butanium).
 
-I am also fascinated by evolutionary biology, its manifestation in artificial life simulations, and I am an improvisor at the ENS improv theater club Lika. Feel free to message me if you want to get in touch!
+I am also interested in evolutionary biology, its manifestation in artificial life simulations, and I am an improvisor at the ENS improv theater club Lika. Feel free to message me if you want to get in touch!
 
 
 # News
