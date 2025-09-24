@@ -5,9 +5,9 @@ authors: "Clément Dumas*, Julian Minder*, Caden Juang, Bilal Chugtai, Neel Nand
 permalink: /research/2024-11-crosscoders
 excerpt: ''
 date: 2024-11-15
-venue: "MATS Program Project"
+venue: "NeurIPS 2025 (Poster)"
 paperurl: https://arxiv.org/pdf/2504.02922
-posturl: https://www.notion.so/What-We-Learned-Trying-to-Diff-Base-and-Chat-Models-And-Why-It-Matters-215cdfe65ca380e0a6c1f444d25a585c
+posturl: https://www.alignmentforum.org/posts/xmpauEXEerzYcJKNm/what-we-learned-trying-to-diff-base-and-chat-models-and-why
 codeurl: https://github.com/science-of-finetuning/sparsity-artifacts-crosscoders
 ---
 
