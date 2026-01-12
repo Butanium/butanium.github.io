@@ -6,7 +6,7 @@ This script reads the redirects configuration and generates individual
 redirect pages in the _redirects/ directory.
 
 Usage:
-    python scripts/generate_redirects.py
+    python _build_scripts/generate_redirects.py
 """
 
 import os

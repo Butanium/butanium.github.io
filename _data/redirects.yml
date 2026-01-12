@@ -5,8 +5,8 @@
 #   nnterp: https://ndif-team.github.io/nnterp/
 #   foo/bar: https://bar.foo.com/
 #
-# After editing this file, run: python scripts/generate_redirects.py
-# to regenerate the redirect pages.
+# These redirects are automatically generated during the GitHub Actions build.
+# Just edit this file and push - no manual steps needed!
 
 redirects:
   nnterp: https://ndif-team.github.io/nnterp/
