@@ -198,6 +198,8 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  redirects:
+    output: true
 
 
 # Defaults
@@ -273,6 +275,13 @@ defaults:
       author_profile: true
       share: false
       comments: true
+  # _redirects
+  - scope:
+      path: ""
+      type: redirects
+    values:
+      layout: redirect
+      sitemap: false
 
 
 # Sass/SCSS
