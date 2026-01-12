@@ -1,0 +1,14 @@
+# Configurable Redirects
+# Format: path_on_this_site: destination_url
+#
+# Example:
+#   nnterp: https://ndif-team.github.io/nnterp/
+#   foo/bar: https://bar.foo.com/
+#
+# These redirects are automatically generated during the GitHub Actions build.
+# Just edit this file and push - no manual steps needed!
+
+redirects:
+  nnterp: https://ndif-team.github.io/nnterp/
+  # Example nested path (remove this if not needed):
+  # foo/bar: https://bar.foo.com/

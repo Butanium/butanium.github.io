@@ -1,0 +1,10 @@
+# Build Scripts Configuration
+#
+# This file defines which Python scripts run before Jekyll builds the site.
+# All .py files in _build_scripts/ MUST be listed here, or the build will fail.
+# This ensures you explicitly decide the execution order for each script.
+#
+# Scripts are executed in the order listed below.
+
+scripts:
+  - generate_redirects.py
