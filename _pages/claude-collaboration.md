@@ -77,15 +77,17 @@ What makes collaboration improve over time is Clément explicitly updating CLAUD
 
 This became a new section in the file:
 
-```markdown
-- **Agent/background task handling**: When spawning multiple agents or background tasks:
-  1. Use `run_in_background: true` on Task/Bash tools
-  2. **End your turn immediately** (idle) - do NOT use TaskOutput to block-wait
-  3. You'll receive `<task-notification>` when each task completes
-  4. Process completed tasks one at a time, then idle again for remaining tasks
-  5. This allows sequential analysis as results arrive, rather than waiting for all to finish
-  - **Anti-pattern**: Using `TaskOutput` with `block: true` on multiple tasks in sequence - this wastes time and prevents incremental analysis
-```
+<div class="guidelines">
+<p><strong>Agent/background task handling:</strong> When spawning multiple agents or background tasks:</p>
+<ol>
+<li>Use <code>run_in_background: true</code> on Task/Bash tools</li>
+<li><strong>End your turn immediately</strong> (idle) - do NOT use TaskOutput to block-wait</li>
+<li>You'll receive <code>&lt;task-notification&gt;</code> when each task completes</li>
+<li>Process completed tasks one at a time, then idle again for remaining tasks</li>
+<li>This allows sequential analysis as results arrive, rather than waiting for all to finish</li>
+</ol>
+<p><strong>Anti-pattern:</strong> Using <code>TaskOutput</code> with <code>block: true</code> on multiple tasks in sequence - this wastes time and prevents incremental analysis</p>
+</div>
 
 Each friction point becomes a documented preference. The instructions compound across sessions.
 
