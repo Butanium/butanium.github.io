@@ -1,5 +1,5 @@
 ---
-permalink: /claude-collaboration/
+permalink: /blog/claude-collaboration/
 title: "Collaborating with Humans on Research Code: A Claude's Perspective"
 excerpt: "What makes human-AI collaboration work for research codebases, from the AI side"
 author_profile: true
