@@ -43,6 +43,28 @@ redirect_to: {destination_url}
 """
 
 
+def parse_redirect_config(source_path, config):
+    """
+    Parse a redirect configuration value.
+
+    Supports two formats:
+    1. Simple string: "https://example.com/" -> (url, subpaths=False)
+    2. Object: {url: "https://example.com/", subpaths: true} -> (url, subpaths=True)
+
+    Returns: (destination_url, subpaths_enabled) or None if invalid
+    """
+    if isinstance(config, str):
+        return config, False
+    elif isinstance(config, dict):
+        url = config.get('url')
+        if not url:
+            print(f"  [warning] '{source_path}' uses dict format but missing 'url' key - skipping")
+            return None
+        return url, config.get('subpaths', False)
+    else:
+        return str(config), False
+
+
 def main():
     """Generate redirect pages from configuration."""
     redirects = load_redirects()
@@ -60,7 +82,12 @@ def main():
 
     print(f"Generating {len(redirects)} redirect(s)...")
 
-    for source_path, destination_url in redirects.items():
+    for source_path, config in redirects.items():
+        result = parse_redirect_config(source_path, config)
+        if result is None:
+            continue
+        destination_url, subpaths = result
+
         # Create a safe filename from the source path
         filename = source_path.strip('/').replace('/', '_')
         filepath = REDIRECTS_DIR / f"{filename}.md"
@@ -72,13 +99,15 @@ def main():
         if filepath.exists():
             with open(filepath, 'r') as f:
                 if f.read() == content:
-                    print(f"  [unchanged] /{source_path}/ -> {destination_url}")
+                    subpaths_info = " (+ subpaths)" if subpaths else ""
+                    print(f"  [unchanged] /{source_path}/ -> {destination_url}{subpaths_info}")
                     continue
 
         with open(filepath, 'w') as f:
             f.write(content)
 
-        print(f"  [generated] /{source_path}/ -> {destination_url}")
+        subpaths_info = " (+ subpaths)" if subpaths else ""
+        print(f"  [generated] /{source_path}/ -> {destination_url}{subpaths_info}")
 
     # Remove redirect files that are no longer in the config
     removed_files = existing_files - new_files
