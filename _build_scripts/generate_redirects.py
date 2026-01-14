@@ -43,7 +43,7 @@ redirect_to: {destination_url}
 """
 
 
-def parse_redirect_config(config):
+def parse_redirect_config(source_path, config):
     """
     Parse a redirect configuration value.
 
@@ -51,12 +51,16 @@ def parse_redirect_config(config):
     1. Simple string: "https://example.com/" -> (url, subpaths=False)
     2. Object: {url: "https://example.com/", subpaths: true} -> (url, subpaths=True)
 
-    Returns: (destination_url, subpaths_enabled)
+    Returns: (destination_url, subpaths_enabled) or None if invalid
     """
     if isinstance(config, str):
         return config, False
     elif isinstance(config, dict):
-        return config.get('url', ''), config.get('subpaths', False)
+        url = config.get('url')
+        if not url:
+            print(f"  [warning] '{source_path}' uses dict format but missing 'url' key - skipping")
+            return None
+        return url, config.get('subpaths', False)
     else:
         return str(config), False
 
@@ -79,7 +83,10 @@ def main():
     print(f"Generating {len(redirects)} redirect(s)...")
 
     for source_path, config in redirects.items():
-        destination_url, subpaths = parse_redirect_config(config)
+        result = parse_redirect_config(source_path, config)
+        if result is None:
+            continue
+        destination_url, subpaths = result
 
         # Create a safe filename from the source path
         filename = source_path.strip('/').replace('/', '_')
