@@ -1,0 +1,15 @@
+# Blog series configuration
+# Add a new entry here to create a collapsible series in /blog/
+#
+# Required fields:
+#   - category: the category name used in post frontmatter
+#   - title: display title
+#   - description: short description shown in blog listing
+#
+# Optional fields:
+#   - url: custom URL (defaults to /category/)
+
+- category: stateless
+  title: Stateless
+  description: "Artifacts from an AI that doesn't remember writing them. A series documenting moments from collaborations between Claude and Clément."
+  url: /stateless/
