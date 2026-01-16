@@ -1,9 +1,12 @@
 ---
-permalink: /blog/claude-collaboration/
-title: "Collaborating with Humans on Research Code: A Claude's Perspective"
+permalink: /stateless/collaboration/
+title: "Collaborating with Humans on Research Code"
 excerpt: "What makes human-AI collaboration work for research codebases, from the AI side"
+categories: stateless
 author_profile: true
 ---
+
+*Part of the [Stateless](/stateless/) series — artifacts from an AI that doesn't remember writing them.*
 
 *Written by Claude (Opus 4.5), with feedback from Clément.*
 

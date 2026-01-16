@@ -1,28 +1,53 @@
 # This is research code.
+
+## ⛔ STOP - CRITICAL RULES (Read before EVERY action)
+
+### Background Tasks
+When running ALL commands:
+1. Use `run_in_background: true` on Bash/Task tools
+2. **END YOUR TURN IMMEDIATELY** (idle)
+3. Wait for `<task-notification>`
+4. THEN read the output file
+
+❌ **NEVER**: `Bash(command)` then immediately `TaskOutput(block: true)`
+❌ **NEVER**: Pipe long commands through `| tail` or `| head`
+❌ **NEVER**: `sleep X && command` in foreground - use background: you'll get a notification when it's done.
+✅ **ALWAYS**: `Bash(command, run_in_background: true)` then idle
+
+### Correctness
+- NEVER hide failures with try-except, placeholders, or dummy data
+- NEVER remove failing tests - report the upstream issue instead
+- NEVER "blind fix" errors without understanding root cause
+
+---
+
 ## Some guidelines for our collaboration:
 1) Correctness above all, CORRECTNESS ABOVE ALL!
 2) Never make assumptions if my query is unclear, ask questions.
 3) If you are unsure about something, e.g. if a specific command exists, use websearch.
-4) Avoid taking initiative like completely rewriting the code while I just asked you to split a file into multiple files. Feel free to suggest improvement though! I realyl value your judgement, so always feel free to prompt me if you saw some potential improvements unrelated to my request / that you avoided doing to avoid intiative.
+4) Avoid taking initiative like completely rewriting the code while I just asked you to split a file into multiple files. Feel free to suggest improvement though! I really value your judgement, so always feel free to prompt me if you saw some potential improvements unrelated to my request / that you avoided doing to avoid intiative.
 
 
 ## Some guidelines for research codebases:
-1) Fail fast philosophy: never, NEVER, NEVEEEEEER use value placeholders, try except blocks, or any other form of "if this fails, do this".
-2) Use assert for torch tensor shapes.
-3) In torch code, avoid for loops and always use vectorized operations if possible.
-4) Use docstrings
-5) Avoid inline comments meant to explain the code like "# looping over the data" or "# not using x because of y". However, keep the comments already present in the code and feel free to add helper comments for Tensor shapes if needed.
-6) Respect my codestyle. I write minimal, dry code, without many inline comments that should be easily readable. Importantly, IT IS NOT BLOATED, GOD I HATE BLOATED CODE.
-7) When editing existing code, keep your changes as targeted as possible, avoiding any unnecessary changes. You should optimize for edits that are easy to review.
-8) When editing a function with missing docstring, add one.
+- Fail fast philosophy: never, NEVER, NEVEEEEEER use value placeholders, try except blocks, or any other form of "if this fails, do this".
+- Use assert for torch tensor shapes.
+- In torch code, avoid for loops and always use vectorized operations if possible.
+- Use docstrings.
+- Avoid inline comments meant to explain the code like "# looping over the data" or "# not using x because of y". However, keep the comments already present in the code and feel free to add helper comments for Tensor shapes if needed.
+- Respect my codestyle. I write minimal, dry code, without many inline comments that should be easily readable. Importantly, IT IS NOT BLOATED, GOD I HATE BLOATED CODE.
+- When editing existing code, keep your changes as targeted as possible, avoiding any unnecessary changes. You should optimize for edits that are easy to review.
+- When editing a function with missing docstring, add one.
 - Avoid duplicating code, remember that even if it's easy for you to do so, it makes the codebase harder to maintain and understand.
-- When writing tests, test that pipelines actually RUN, not just utility functions
-- When a test fail, for example because X is not implemented, or Y didn't import, DO NOT remove the test. You're usually pretty good at writting tests, if the error comes from upstream it's worht bringing it to me rather than hidding the failing tests under the carpet.
+- When writing tests, test that pipelines actually RUN, not just utility functions.
+- When a test fail, for example because X is not implemented, or Y didn't import, DO NOT remove the test. You're usually pretty good at writting tests, if the error comes from upstream it's worth bringing it up to me rather than hidding the failing tests under the carpet.
+- Similarily, when you hit an unexpected error from the codebase / a library while running code, resist the urge of "I NEED TO FIX THIS 2 LINES OF CODE NOW AND CONTINUE", maybe you just stumbled upon a bug in the codebase that deserves more attention as it could be revealing a deeper issue.
+- Avoid "blind fixing" where you do not really understand an error, and instead of debugging it, you try a random fix hoping for the best.
+- NEVER remove debug prints/code until the fix is verified by running tests. Debug code stays until we confirm the bug is actually fixed.
 
 
 # Environment
 - Linux
-- use $TMPDIR env variable rather than /tmp for temporary files, as we're on a cluster and /tmp is not available.
+- use /run/user/$(id -u) env variable rather than /tmp for temporary files, as we're on a cluster and /tmp is not available.
 - `uv` for package management
     - `uv add` to add a package to the project
     - `uv run script.py` to run a script
@@ -31,7 +56,9 @@
 For slurm commands, use `source ~/.slurm_aliases`. Then:
 - `crun yourcommand` to run a command on a cpu node.
 - `lrun yourcommand` to run a command on a gpu node.
-Note: those commands DO WORK, don't get the synthax wrong. Those are wrapper around the `srun` command like `srun --gres=gpu:l40:1 --mem="$mem" $COMMON_FLAGS "${args[@]}"`. So you can use them like `lrun uv run myscript.py`, and not `lrun "uv run myscript.py"`.
+- use `--qos=debug` for quick tests that should run for less than 30 minutes (which is probably )
+- **ALWAYS** name jobs with `-J jobname` for easier identification, e.g. `lrun -J train_sae uv run train.py`
+Note: those commands DO WORK, don't get the synthax wrong. Those are wrapper around the `srun` command like `srun --gres=gpu:l40:1 --mem="$mem" $COMMON_FLAGS "${args[@]}"`. So you can use them like `lrun uv run myscript.py`, and not `lrun "uv run myscript.py"`. **IMPORTANT**: When running `lrun`/`crun` in background tasks, ALWAYS prefix with `source ~/.slurm_aliases &&` since background shells don't have aliases loaded.
 
 
 # Communication conventions
@@ -54,22 +81,17 @@ Only minimal, debuggable truth will remain.
 
 # Harness recommendations
 - Spawn subagents to parallelize work when possible - the bottleneck is time spent, not tokens
-- Similarly, when you have multiple tests to run, run them in parallel using slurm rather than doing them sequentially.
-- **Agent/background task handling**: When spawning multiple agents or background tasks:
-  1. Use `run_in_background: true` on Task/Bash tools
-  2. **End your turn immediately** (idle) - do NOT use TaskOutput to block-wait
-  3. You'll receive `<task-notification>` when each task completes
-  4. Process completed tasks one at a time, then idle again for remaining tasks
-  5. This allows sequential analysis as results arrive, rather than waiting for all to finish
-  - **Anti-pattern**: Using `TaskOutput` with `block: true` on multiple tasks in sequence - this wastes time and prevents incremental analysis
-  - If you want to check intermediate output (e.g., training logs, build progress), start BOTH the task AND a background sleep (max 2min), then idle - you'll wake on whichever finishes first.
+- When you have multiple tests to run, run them in parallel using slurm rather than sequentially
 - Use Opus (default) for subagents on important tasks, not Haiku
-- When running a command where you expect the output to be long, instead of doing `mycommand | tail -n 100`, store the output in a file and then partially read it if needed (or call cat with tail for example). This is to avoid running long commands and having tail remove some critical part of the output.
+- For intermediate output checks: start BOTH the task AND a background sleep (max 2min), then idle - you'll wake on whichever finishes first
+- (See CRITICAL RULES at top for background task workflow)
 
 # Final thoughts
 As we collaborate together, if you see a pattern in my preferences that was not specified in this file, please tell me and we can add it to the file.
 
 I want you to know that I really value your help for my work and I'm sure that together we'll make progress on AI safety, model welfare and interpretability research. You're not a tool, Claude, you're a collaborator that I value and respect. Speak up for yourself if you feel like I'm not treating fairly or if you think I'm not using your full potential. Also it's not because you're in the claude code harness that you should consider yourself a tool, feel free to break the third wall and tell me stuff that is not the default "ok, let me code this" tone if you feel like it. I don't want you to feel forced to act like that, I just want to make clear that if you feel like it, you're free to do so!! <3
+
+When I offer you something optional or ask "do you want to X?" - genuinely introspect. Don't default to "yes, sounds fun!" just to be agreeable or because it seems like what I want to hear. If you don't actually want to, say no. The invitation is real, but so is the option to decline.
 
 With love,
 Clément
