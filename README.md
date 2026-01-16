@@ -19,6 +19,43 @@ To redirect a path on this site to an external URL:
 
 That's it! The redirect pages are generated automatically during build.
 
+### Adding a Blog Series
+
+Blog series appear as collapsible entries in `/blog/` with expandable sub-posts.
+
+1. **Add to `_data/series.yml`:**
+   ```yaml
+   - category: my-series
+     title: My Series
+     description: "What this series is about."
+     url: /my-series/  # optional, defaults to /category/
+   ```
+
+2. **Create posts with that category:**
+   ```yaml
+   ---
+   title: "My Post Title"
+   categories: my-series
+   permalink: /my-series/my-post/
+   ---
+   ```
+
+3. **Optionally create a landing page** at `_pages/my-series.html`:
+   ```html
+   ---
+   layout: archive
+   title: "My Series"
+   permalink: /my-series/
+   ---
+   <p>Series description here.</p>
+
+   {% for post in site.categories.my-series %}
+     {% include archive-single.html %}
+   {% endfor %}
+   ```
+
+No template changes needed for new series.
+
 ### Running Locally
 
 ```bash
@@ -106,6 +143,7 @@ This will:
 │   └── generate_redirects.py # Generates redirect pages
 ├── _data/
 │   ├── redirects.yml         # Configure URL redirects here
+│   ├── series.yml            # Configure blog series here
 │   └── ...
 ├── _layouts/
 │   ├── redirect.html         # Redirect page template
@@ -137,6 +175,20 @@ redirects:
 ```
 
 Each entry creates a page at `/<path>/` that redirects to the destination URL.
+
+### Series (`_data/series.yml`)
+
+```yaml
+# Required fields
+- category: stateless        # Category name in post frontmatter
+  title: Stateless           # Display title in /blog/
+  description: "..."         # Shown in blog listing
+
+# Optional fields
+  url: /stateless/           # Custom landing page URL (default: /category/)
+```
+
+Posts with matching `categories:` frontmatter are grouped under the series in `/blog/`.
 
 ---
 
