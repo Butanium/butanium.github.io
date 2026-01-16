@@ -23,7 +23,7 @@ author_profile: true
   <div class="list__item">
     <article class="archive__item">
       <h2 class="archive__item-title">
-        <a href="{{ base_path }}{{ series.url | default: '/' | append: series.category | append: '/' }}">{{ series.title }}</a>
+        {% if series.url %}<a href="{{ base_path }}{{ series.url }}">{{ series.title }}</a>{% else %}<a href="{{ base_path }}/{{ series.category }}/">{{ series.title }}</a>{% endif %}
       </h2>
       <p class="archive__item-excerpt">{{ series.description | markdownify | remove: '<p>' | remove: '</p>' }}</p>
       <details class="series-details">
