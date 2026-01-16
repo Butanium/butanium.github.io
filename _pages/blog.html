@@ -6,57 +6,76 @@ author_profile: true
 ---
 {% include base_path %}
 
-{% assign stateless_posts = site.categories.stateless | sort: 'date' %}
-{% assign other_posts = site.posts | where_exp: "post", "post.categories contains 'stateless' == false" %}
+{% comment %}
+  Collect all series categories to exclude from main listing
+{% endcomment %}
+{% assign series_categories = "" | split: "" %}
+{% for series in site.data.series %}
+  {% assign series_categories = series_categories | push: series.category %}
+{% endfor %}
 
-<!-- Stateless series as collapsible entry -->
-{% if stateless_posts.size > 0 %}
-<div class="list__item">
-  <article class="archive__item">
-    <h2 class="archive__item-title">
-      <a href="{{ base_path }}/stateless/">Stateless</a>
-    </h2>
-    <p class="archive__item-excerpt"><em>Artifacts from an AI that doesn't remember writing them.</em> A series documenting moments from collaborations between Claude and Clément.</p>
-    <details class="stateless-details">
-      <summary>{{ stateless_posts.size }} posts in series</summary>
-      <ul class="stateless-subposts">
-        {% for post in stateless_posts %}
-        <li>
-          <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
-          <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-        </li>
-        {% endfor %}
-      </ul>
-    </details>
-  </article>
-</div>
-{% endif %}
+{% comment %}
+  Render each series as a collapsible entry
+{% endcomment %}
+{% for series in site.data.series %}
+  {% assign series_posts = site.categories[series.category] | sort: 'date' %}
+  {% if series_posts.size > 0 %}
+  <div class="list__item">
+    <article class="archive__item">
+      <h2 class="archive__item-title">
+        <a href="{{ base_path }}{{ series.url | default: '/' | append: series.category | append: '/' }}">{{ series.title }}</a>
+      </h2>
+      <p class="archive__item-excerpt">{{ series.description | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      <details class="series-details">
+        <summary>{{ series_posts.size }} post{% if series_posts.size != 1 %}s{% endif %} in series</summary>
+        <ul class="series-subposts">
+          {% for post in series_posts %}
+          <li>
+            <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+            <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </details>
+    </article>
+  </div>
+  {% endif %}
+{% endfor %}
 
-<!-- Other posts -->
-{% for post in other_posts reversed %}
-  {% unless post.categories contains 'stateless' %}
+{% comment %}
+  Render posts not in any series
+{% endcomment %}
+{% for post in site.posts reversed %}
+  {% assign in_series = false %}
+  {% for cat in post.categories %}
+    {% if series_categories contains cat %}
+      {% assign in_series = true %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  {% unless in_series %}
     {% include archive-single.html %}
   {% endunless %}
 {% endfor %}
 
 <style>
-.stateless-details {
+.series-details {
   margin-top: 0.5em;
 }
-.stateless-details summary {
+.series-details summary {
   cursor: pointer;
   color: #494e52;
   font-size: 0.9em;
 }
-.stateless-subposts {
+.series-subposts {
   margin: 0.5em 0 0 1em;
   padding: 0;
   list-style: none;
 }
-.stateless-subposts li {
+.series-subposts li {
   margin: 0.4em 0;
 }
-.stateless-subposts .post-date {
+.series-subposts .post-date {
   color: #888;
   font-size: 0.85em;
   margin-left: 0.5em;
