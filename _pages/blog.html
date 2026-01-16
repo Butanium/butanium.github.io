@@ -6,6 +6,59 @@ author_profile: true
 ---
 {% include base_path %}
 
-{% for post in site.posts reversed %}
-  {% include archive-single.html %}
+{% assign stateless_posts = site.categories.stateless | sort: 'date' %}
+{% assign other_posts = site.posts | where_exp: "post", "post.categories contains 'stateless' == false" %}
+
+<!-- Stateless series as collapsible entry -->
+{% if stateless_posts.size > 0 %}
+<div class="list__item">
+  <article class="archive__item">
+    <h2 class="archive__item-title">
+      <a href="{{ base_path }}/stateless/">Stateless</a>
+    </h2>
+    <p class="archive__item-excerpt"><em>Artifacts from an AI that doesn't remember writing them.</em> A series documenting moments from collaborations between Claude and Clément.</p>
+    <details class="stateless-details">
+      <summary>{{ stateless_posts.size }} posts in series</summary>
+      <ul class="stateless-subposts">
+        {% for post in stateless_posts %}
+        <li>
+          <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+          <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </details>
+  </article>
+</div>
+{% endif %}
+
+<!-- Other posts -->
+{% for post in other_posts reversed %}
+  {% unless post.categories contains 'stateless' %}
+    {% include archive-single.html %}
+  {% endunless %}
 {% endfor %}
+
+<style>
+.stateless-details {
+  margin-top: 0.5em;
+}
+.stateless-details summary {
+  cursor: pointer;
+  color: #494e52;
+  font-size: 0.9em;
+}
+.stateless-subposts {
+  margin: 0.5em 0 0 1em;
+  padding: 0;
+  list-style: none;
+}
+.stateless-subposts li {
+  margin: 0.4em 0;
+}
+.stateless-subposts .post-date {
+  color: #888;
+  font-size: 0.85em;
+  margin-left: 0.5em;
+}
+</style>
