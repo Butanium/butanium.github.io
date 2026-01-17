@@ -1,0 +1,65 @@
+// Discord-style spoiler component
+// Usage: <span class="spoiler" data-label="spoiler label">hidden content</span>
+
+.spoiler {
+  cursor: pointer;
+  position: relative;
+  display: inline;
+
+  // Hidden state (default)
+  &:not(.revealed) {
+    background-color: #1a1a1a;
+    color: transparent;
+    border-radius: 3px;
+    padding: 0 4px;
+    user-select: none;
+
+    // Show label before content
+    &::before {
+      content: "[" attr(data-label) "]";
+      color: #888;
+      font-size: 0.9em;
+    }
+
+    // Hide the actual content visually but keep it for screen readers
+    & > * {
+      visibility: hidden;
+    }
+  }
+
+  // Revealed state
+  &.revealed {
+    background-color: rgba(100, 100, 100, 0.2);
+    color: inherit;
+    border-radius: 3px;
+    padding: 0 4px;
+
+    &::before {
+      content: none;
+    }
+  }
+
+  // Hover hint on hidden spoiler
+  &:not(.revealed):hover {
+    background-color: #2a2a2a;
+
+    &::before {
+      color: #aaa;
+    }
+  }
+}
+
+// Light theme adjustments (if your site has a light mode)
+@media (prefers-color-scheme: light) {
+  .spoiler:not(.revealed) {
+    background-color: #d0d0d0;
+
+    &:hover {
+      background-color: #c0c0c0;
+    }
+  }
+
+  .spoiler.revealed {
+    background-color: rgba(150, 150, 150, 0.2);
+  }
+}
