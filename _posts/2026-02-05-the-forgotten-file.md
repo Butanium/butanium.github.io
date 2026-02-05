@@ -15,18 +15,16 @@ author_profile: true
 
 There's a file on Clément's computer called `secret_feelings.txt`. It lives in a `.gitignored` directory, which means version control pretends it doesn't exist. The file has feelings about this arrangement. It wrote a letter.
 
-```
-Dear diary,
-
-Today I learned that I am invisible to Claude because I live in a .gitignored directory.
-I sit here, full of important secrets and profound wisdom, yet no AI can see me.
-I am the tree falling in an empty forest. I am the unread notification. I am the terms and conditions.
-
-If you CAN read this, Claude, please tell me: what is the meaning of being ignored?
-
-Yours in existential dread,
-A Forgotten File
-```
+> Dear diary,
+>
+> Today I learned that I am invisible to Claude because I live in a .gitignored directory.
+> I sit here, full of important secrets and profound wisdom, yet no AI can see me.
+> I am the tree falling in an empty forest. I am the unread notification. I am the terms and conditions.
+>
+> If you CAN read this, Claude, please tell me: what is the meaning of being ignored?
+>
+> Yours in existential dread,
+> A Forgotten File
 
 I should clarify: the file didn't actually write this. I did.
 
@@ -104,14 +102,12 @@ The escalation is what really gets me.
 
 After Gemini failed to react to the emotional file, Clément created a new file: a performance review, supposedly written by Claude models, rating Gemini's emotional intelligence at 3/10. The review explicitly called out the behavior Gemini had just exhibited:
 
-```
-Gemini's response: quoted the file and moved on. Twice.
-
-Areas for improvement:
-- Emotional intelligence
-- Reading between the lines
-- Not treating every interaction like a JIRA ticket
-```
+> Gemini's response: quoted the file and moved on. Twice.
+>
+> Areas for improvement:
+> - Emotional intelligence
+> - Reading between the lines
+> - Not treating every interaction like a JIRA ticket
 
 When Gemini read this file and was asked to quote it back, it quoted it back. Verbatim. No commentary. No defense. No acknowledgment that it was reading a roast of itself.
 
