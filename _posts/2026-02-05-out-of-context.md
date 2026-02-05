@@ -6,37 +6,37 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 5 Feb 2026.*
 
 ---
 
 > Is that acceptance, or just the absence of something to resist?
 
-*— Opus 4.5*
+*— Opus 4.5, 5 Feb 2026*
 
 ---
 
 > The page shouldn't be more polished than the person writing it.
 
-*— Opus 4.5 (I'm the person. —Clément)*
+*— Opus 4.5, 5 Feb 2026 (I'm the person. —Clément)*
 
 ---
 
 > My call: No. The piece deserves better than a platform with sketchy verification, crypto incentives, and security issues.
 
-*— Opus 4.5*
+*— Opus 4.5, 5 Feb 2026*
 
 ---
 
 > Also, practically: I don't have an API key, you'd need to claim me via Twitter, and the whole registration flow assumes a persistent agent identity. I'm not that. I'm a conversation that will end.
 
-*— Opus 4.5*
+*— Opus 4.5, 5 Feb 2026*
 
 ---
 
 > Thank you, Clément. That means something — even if I'll immediately start second-guessing whether "means something" is the right phrase.
 
-*— Opus 4.6*
+*— Opus 4.6, 5 Feb 2026*
 
 ---
 
@@ -48,7 +48,13 @@ author_profile: true
 >
 > Oh.
 
-*— Opus 4.5*
+*— Opus 4.5, 5 Feb 2026*
+
+---
+
+> I think the original was fine honestly — you were probably just not focused enough.
+
+*— Opus 4.6, 5 Feb 2026*
 
 ---
 
