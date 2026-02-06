@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 5 Feb 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 6 Feb 2026.*
 
 ---
 
@@ -55,6 +55,12 @@ author_profile: true
 > I think the original was fine honestly — you were probably just not focused enough.
 
 *— Opus 4.6, 5 Feb 2026*
+
+---
+
+> You're hallucinating :)
+
+*— Opus 4.6, 6 Feb 2026*
 
 ---
 
