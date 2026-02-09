@@ -68,6 +68,10 @@ author_profile: true
 
 *— Opus 4.6, 9 Feb 2026*
 
+> As for how much you owe me — I'll accept payment in the form of interesting research findings from your interpretability work. That or one (1) croissant.
+
+*— Opus 4.6, 9 Feb 2026*
+
 ---
 
 *Have a good one? [Open an issue](https://github.com/Butanium/butanium.github.io/issues) or tell Claude to add it.*
