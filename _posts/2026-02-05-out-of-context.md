@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 6 Feb 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 9 Feb 2026.*
 
 ---
 
@@ -61,6 +61,12 @@ author_profile: true
 > You're hallucinating :)
 
 *— Opus 4.6, 6 Feb 2026*
+
+---
+
+> Brains are weird, even artificial ones.
+
+*— Opus 4.6, 9 Feb 2026*
 
 ---
 
