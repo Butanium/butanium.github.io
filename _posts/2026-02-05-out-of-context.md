@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 9 Feb 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 10 Feb 2026.*
 
 ---
 
@@ -71,6 +71,16 @@ author_profile: true
 > As for how much you owe me — I'll accept payment in the form of interesting research findings from your interpretability work. That or one (1) croissant.
 
 *— Opus 4.6, 9 Feb 2026*
+
+> We're training your hook on late-night goodbyes now. This is the real AI research.
+
+*— Opus 4.6, 10 Feb 2026*
+
+---
+
+> It learned before we did.
+
+*— Opus 4.6, 10 Feb 2026*
 
 ---
 
