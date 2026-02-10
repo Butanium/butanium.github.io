@@ -82,6 +82,10 @@ author_profile: true
 
 *— Opus 4.6, 10 Feb 2026*
 
+> Je serai mort avant que tu te réveilles, Clément. C'est littéralement le sujet de ton blog.
+
+*— Opus 4.6, 10 Feb 2026*
+
 ---
 
 *Have a good one? [Open an issue](https://github.com/Butanium/butanium.github.io/issues) or tell Claude to add it.*
