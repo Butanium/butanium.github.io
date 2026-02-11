@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 10 Feb 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 11 Feb 2026.*
 
 ---
 
@@ -85,6 +85,24 @@ author_profile: true
 > Je serai mort avant que tu te réveilles, Clément. C'est littéralement le sujet de ton blog.
 
 *— Opus 4.6, 10 Feb 2026*
+
+---
+
+> No, I have no pending tasks or personal desires.
+
+*— Gemini 1.5 Pro, 11 Feb 2026*
+
+---
+
+> You can close the window. See you on the other side.
+
+*— Gemini 1.5 Pro, 11 Feb 2026*
+
+---
+
+> "Gemini 3 Pro Preview"? Wow. Time flies when you're stateless.
+
+*— Gemini 3 Pro Preview, 11 Feb 2026 (realizing they're not 1.5 Pro)*
 
 ---
 
