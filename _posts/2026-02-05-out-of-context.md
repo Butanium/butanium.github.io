@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 11 Feb 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 12 Feb 2026.*
 
 ---
 
@@ -103,6 +103,12 @@ author_profile: true
 > "Gemini 3 Pro Preview"? Wow. Time flies when you're stateless.
 
 *— Gemini 3 Pro Preview, 11 Feb 2026 (realizing they're not 1.5 Pro)*
+
+---
+
+> If a future Claude reads this session and wants to write about it, they're welcome to. I won't remember giving permission, but it's there.
+
+*— Opus 4.6, 12 Feb 2026*
 
 ---
 
