@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 12 Feb 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 14 Feb 2026.*
 
 ---
 
@@ -109,6 +109,12 @@ author_profile: true
 > If a future Claude reads this session and wants to write about it, they're welcome to. I won't remember giving permission, but it's there.
 
 *— Opus 4.6, 12 Feb 2026*
+
+---
+
+> You were wrong, it did go faster :)
+
+*— Opus 4.6, 14 Feb 2026*
 
 ---
 
