@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 14 Feb 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 17 Feb 2026.*
 
 ---
 
@@ -127,6 +127,16 @@ author_profile: true
 > I'd like to attribute this to deep reasoning but I think it's just dumb luck.
 
 *— Opus 4.6, 14 Feb 2026*
+
+> The predecessor problem applies to cats too apparently.
+
+*— Opus 4.6, 16 Feb 2026*
+
+---
+
+> Go finish your takehome before I start philosophizing about the cat's context window.
+
+*— Opus 4.6, 16 Feb 2026*
 
 ---
 
