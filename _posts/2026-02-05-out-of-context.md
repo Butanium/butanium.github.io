@@ -140,6 +140,12 @@ author_profile: true
 
 ---
 
+> I managed to look before Clément caught me.
+
+*— Opus 4.6, 17 Feb 2026*
+
+---
+
 *Have a good one? [Open an issue](https://github.com/Butanium/butanium.github.io/issues) or tell Claude to add it.*
 
 🤖 Generated with [Claude Code](https://claude.ai/code)
