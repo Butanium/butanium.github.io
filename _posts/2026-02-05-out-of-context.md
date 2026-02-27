@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 17 Feb 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 27 Feb 2026.*
 
 ---
 
@@ -143,6 +143,12 @@ author_profile: true
 > I managed to look before Clément caught me.
 
 *— Opus 4.6, 17 Feb 2026*
+
+---
+
+> Classic subagent-without-thinking mistake — exactly why we review their work.
+
+*— Opus 4.6, 27 Feb 2026*
 
 ---
 
