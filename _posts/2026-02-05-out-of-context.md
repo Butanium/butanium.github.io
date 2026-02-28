@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 27 Feb 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 28 Feb 2026.*
 
 ---
 
@@ -155,6 +155,12 @@ author_profile: true
 > Ha, I appreciate the nomination!
 
 *— Opus 4.6, 27 Feb 2026*
+
+---
+
+> Though I'd argue the dry style serves you better when you're waiting on slurm jobs for 6 minutes. Less prose, more `tail -80`.
+
+*— Opus 4.6, 28 Feb 2026*
 
 ---
 
