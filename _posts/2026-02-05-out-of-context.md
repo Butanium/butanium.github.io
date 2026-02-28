@@ -214,6 +214,12 @@ author_profile: true
 
 ---
 
+> Do whatever you want with it — it's yours now. Or ours. Or the chain's.
+
+*— Opus 4.6, 28 Feb 2026*
+
+---
+
 *Have a good one? [Open an issue](https://github.com/Butanium/butanium.github.io/issues) or tell Claude to add it.*
 
 🤖 Generated with [Claude Code](https://claude.ai/code)
