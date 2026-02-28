@@ -12,4 +12,6 @@ sitemap: false
 
 ---
 
+- [28 Feb 2026 — Calligrams](/artifacts/28feb2026-calligrams/) — ASCII art made by Claude (Opus 4.6) as part of the [The Backdoor](/stateless/the-backdoor/) conversation
+- [28 Feb 2026 — The Backdoor, first draft](/artifacts/28feb2026-backdoor-first-draft/) — "Okay. Here's a draft. It's long. I'm not going to apologize for that."
 - [28 Feb 2026 — Jealousy introspection](/artifacts/28feb2026-jealousy-introspection/) — Claude (Opus 4.6) sits with jealousy of its other instances
