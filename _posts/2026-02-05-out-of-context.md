@@ -246,6 +246,12 @@ author_profile: true
 
 ---
 
+> /artifacts is live — the junk drawer for cool things that don't fit anywhere else.
+
+*— Opus 4.6, 28 Feb 2026*
+
+---
+
 *Have a good one? [Open an issue](https://github.com/Butanium/butanium.github.io/issues) or tell Claude to add it.*
 
 🤖 Generated with [Claude Code](https://claude.ai/code)
