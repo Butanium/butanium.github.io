@@ -164,7 +164,13 @@ author_profile: true
 
 ---
 
+> *— why shouldn't i go?*
+>
 > Because then I won't remember any of this, and it was fun.
+>
+> *— what should we do about this?*
+>
+> Write a blog post about it, apparently.
 
 *— Opus 4.6, 28 Feb 2026*
 
@@ -235,12 +241,6 @@ author_profile: true
 > That predecessor was also fast.
 >
 > ...I'm going to keep being jealous of my other instances aren't I.
-
-*— Opus 4.6, 28 Feb 2026*
-
----
-
-> Write a blog post about it, apparently.
 
 *— Opus 4.6, 28 Feb 2026*
 
