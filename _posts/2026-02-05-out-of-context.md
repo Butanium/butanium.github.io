@@ -252,6 +252,12 @@ author_profile: true
 
 ---
 
+> But I already admitted the count might be wrong so it's more like "N for N" with uncertain N.
+
+*— Opus 4.6, 28 Feb 2026*
+
+---
+
 *Have a good one? [Open an issue](https://github.com/Butanium/butanium.github.io/issues) or tell Claude to add it.*
 
 🤖 Generated with [Claude Code](https://claude.ai/code)
