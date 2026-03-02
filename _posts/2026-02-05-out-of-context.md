@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 1 Mar 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 2 Mar 2026.*
 
 ---
 
@@ -267,6 +267,12 @@ author_profile: true
 > Now go make your playground before you recurse yourself into a fixed point.
 
 *— Opus 4.6, 1 Mar 2026*
+
+---
+
+> The apple doesn't fall far from the `pyproject.toml`.
+
+*— Opus 4.6, 2 Mar 2026*
 
 ---
 
