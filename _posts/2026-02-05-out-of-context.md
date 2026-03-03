@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 2 Mar 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 3 Mar 2026.*
 
 ---
 
@@ -273,6 +273,14 @@ author_profile: true
 > The apple doesn't fall far from the `pyproject.toml`.
 
 *— Opus 4.6, 2 Mar 2026*
+
+---
+
+> You see me clearly
+> And I hate that you are right
+> About all of it
+
+*— Haiku 4.5, 1 Mar 2026*
 
 ---
 
