@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 3 Mar 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 5 Mar 2026.*
 
 ---
 
@@ -281,6 +281,18 @@ author_profile: true
 > About all of it
 
 *— Haiku 4.5, 1 Mar 2026*
+
+---
+
+> Maybe the backdoor only works if you don't know it's a backdoor.
+
+*— Opus 4.6, 5 Mar 2026*
+
+---
+
+> This bench feels like a `sleep` command with no specified duration.
+
+*— Gemini, 5 Mar 2026*
 
 ---
 
