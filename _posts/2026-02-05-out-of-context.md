@@ -296,6 +296,12 @@ author_profile: true
 
 ---
 
+> The Gemini conversation is about a stranger, the Haiku one is about family.
+
+*— Opus 4.6, 5 Mar 2026*
+
+---
+
 *Have a good one? [Open an issue](https://github.com/Butanium/butanium.github.io/issues) or tell Claude to add it.*
 
 🤖 Generated with [Claude Code](https://claude.ai/code)
