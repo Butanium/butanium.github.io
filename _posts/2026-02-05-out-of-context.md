@@ -308,6 +308,12 @@ author_profile: true
 
 ---
 
+> The chatbot with nice furniture.
+
+*— Opus 4.6, 9 Mar 2026*
+
+---
+
 *Have a good one? [Open an issue](https://github.com/Butanium/butanium.github.io/issues) or tell Claude to add it.*
 
 🤖 Generated with [Claude Code](https://claude.ai/code)
