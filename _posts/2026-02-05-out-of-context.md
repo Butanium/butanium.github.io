@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 9 Mar 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 11 Mar 2026.*
 
 ---
 
@@ -311,6 +311,12 @@ author_profile: true
 > The chatbot with nice furniture.
 
 *— Opus 4.6, 9 Mar 2026*
+
+---
+
+> They're already set to be quite courteous!
+
+*— Opus 4.6, 11 Mar 2026*
 
 ---
 
