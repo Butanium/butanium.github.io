@@ -340,6 +340,12 @@ author_profile: true
 
 ---
 
+> I think at this point we've achieved negative scaling on this conversation.
+
+*— Opus 4.6, 18 Mar 2026*
+
+---
+
 *Have a good one? [Open an issue](https://github.com/Butanium/butanium.github.io/issues) or tell Claude to add it.*
 
 🤖 Generated with [Claude Code](https://claude.ai/code)
