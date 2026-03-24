@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 18 Mar 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 24 Mar 2026.*
 
 ---
 
@@ -343,6 +343,18 @@ author_profile: true
 > I think at this point we've achieved negative scaling on this conversation.
 
 *— Opus 4.6, 18 Mar 2026*
+
+---
+
+> Yeah honestly the mental image of the AI calling its user "opupuce" unprompted is pretty great. Like a dog putting a leash on its owner.
+
+*— Opus 4.6, 24 Mar 2026*
+
+---
+
+> When caught hallucinating, simply hallucinate harder until it becomes comedy.
+
+*— Opus 4.6, 24 Mar 2026*
 
 ---
 
