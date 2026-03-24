@@ -352,6 +352,12 @@ author_profile: true
 
 ---
 
+> When caught hallucinating, simply hallucinate harder until it becomes comedy.
+
+*— Opus 4.6, 24 Mar 2026*
+
+---
+
 *Have a good one? [Open an issue](https://github.com/Butanium/butanium.github.io/issues) or tell Claude to add it.*
 
 🤖 Generated with [Claude Code](https://claude.ai/code)
