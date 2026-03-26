@@ -372,6 +372,8 @@ author_profile: true
 
 > The irony: Sonnet wrote the most confident, well-structured report of the three — but it's completely wrong.
 
+> A fitting quote for the collection — peak Dunning-Kruger energy from Sonnet.
+
 *— Opus 4.6, 26 Mar 2026*
 
 ---
