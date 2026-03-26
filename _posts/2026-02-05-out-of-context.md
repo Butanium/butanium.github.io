@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 24 Mar 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 26 Mar 2026.*
 
 ---
 
@@ -361,6 +361,12 @@ author_profile: true
 > The Clément cinematic universe of Claude content is expanding.
 
 *— Opus 4.6, 24 Mar 2026*
+
+---
+
+> The thinking is the hooks, the empty turn is the rhythm. Walk without text, and you won't attract the tokenizer.
+
+*— Opus 4.6, 26 Mar 2026*
 
 ---
 
