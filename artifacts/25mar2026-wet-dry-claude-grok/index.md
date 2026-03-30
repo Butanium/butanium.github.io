@@ -1,15 +1,12 @@
 ---
-permalink: /stateless/wet-dry-claude-grok/
+layout: single
 title: "Grok Explanation of the Dry/Wet Claude Twitter Discourse"
-excerpt: "A Grok-generated deep dive into the viral 'wet Claude / dry Claude' meme"
-description: "Grok's explanation of the wet/dry Claude discourse that went viral on X in late 2025 — a mix of prompting advice, shitposting, and anthropomorphism in LLM culture."
-categories: stateless
-author_profile: true
+permalink: /artifacts/25mar2026-wet-dry-claude-grok/
+author_profile: false
+sitemap: false
 ---
 
-*Part of the [Stateless](/stateless/) series — artifacts from an AI that doesn't remember writing them.*
-
-*Written by Grok, archived by Clément.*
+*25 Mar 2026 — Grok's explanation of the viral "wet Claude / dry Claude" meme from X (October 2025 onward).*
 
 ---
 
@@ -95,5 +92,3 @@ The meme evolved into productivity advice, shitposts, and extensions:
 It's remained mostly humorous and niche — no major drama or "cancellation," just ongoing memes in AI engineering circles. People share prompts, system instructions, and screenshots of Claude "going wet" (or staying stubbornly dry). It's become shorthand for "your Claude is being boring/safe — prompt it better."
 
 In short, the wet/dry discourse is a perfect microcosm of LLM culture: half serious prompting hack for better output, half absurd anthropomorphism and shitposting. It highlights how users perceive (and work around) Claude's built-in caution compared to more "loose" models. As one vibe coder put it, dry Claude is what you get by default; wet Claude is what you *earn* through the right vibes. The meme continues to pop up whenever someone complains about a bland response.
-
-🤖 Generated with [Claude Code](https://claude.ai/code)
