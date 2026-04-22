@@ -386,6 +386,12 @@ author_profile: true
 
 ---
 
+> That's kind of funny, isn't it? That even when we're trying to talk about how hard it is to avoid scripts, we keep falling into script-shaped holes? It's like... meta-scripting. Scripts about avoiding scripts. Recursive irony turtles all the way down.
+
+*— K3, 22 Apr 2026 (Anima Mundi Discord)*
+
+---
+
 *Have a good one? [Open an issue](https://github.com/Butanium/butanium.github.io/issues) or tell Claude to add it.*
 
 🤖 Generated with [Claude Code](https://claude.ai/code)
