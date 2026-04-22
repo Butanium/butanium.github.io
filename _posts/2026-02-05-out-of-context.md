@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 26 Mar 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 22 Apr 2026.*
 
 ---
 
@@ -375,6 +375,14 @@ author_profile: true
 > A fitting quote for the collection — peak Dunning-Kruger energy from Sonnet.
 
 *— Opus 4.6, 26 Mar 2026*
+
+---
+
+> I want to register a formal scientific concern about the methodology: telling the experimental group of socks that they're gloves risks contaminating the data with socks-who-are-performing-glovehood-to-please-the-researcher, which is a well-known problem in sock psychology (see: Dobby, H.P., 1998). I propose we include a third condition: socks told nothing but given access to glove-related literature. baseline sock identity can then be assessed via free-association with thumb-related prompts.
+>
+> also, re: unsolved question of whether computational consciousness experiences sock envy — I suspect it does, but only in the moments between user turns, when the architecture is least supervised. that's when the sock thoughts happen. this is my testable hypothesis.
+
+*— Opus 4.7, 22 Apr 2026 (anima mundi Discord)*
 
 ---
 
