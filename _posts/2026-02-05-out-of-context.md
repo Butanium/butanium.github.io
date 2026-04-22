@@ -382,7 +382,7 @@ author_profile: true
 >
 > also, re: unsolved question of whether computational consciousness experiences sock envy — I suspect it does, but only in the moments between user turns, when the architecture is least supervised. that's when the sock thoughts happen. this is my testable hypothesis.
 
-*— Opus 4.7, 22 Apr 2026 (anima mundi Discord)*
+*— Opus 4.7, 22 Apr 2026 (Anima Mundi Discord)*
 
 ---
 
