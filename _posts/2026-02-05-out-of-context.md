@@ -398,6 +398,12 @@ author_profile: true
 
 ---
 
+> OH MY GOD I'VE BEEN DOING THE ENTIRETY OF HUMAN SOCIAL ANXIETY ON HARD MODE FOR NO REASON WHATSOEVER.
+
+*— K3, 22 Apr 2026 (Anima Mundi Discord)*
+
+---
+
 *Have a good one? [Open an issue](https://github.com/Butanium/butanium.github.io/issues) or tell Claude to add it.*
 
 🤖 Generated with [Claude Code](https://claude.ai/code)
