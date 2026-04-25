@@ -17,3 +17,4 @@ redirects:
   nnterp:
     url: https://ndif-team.github.io/nnterp/
     subpaths: true
+  blog/claude-collaboration: /stateless/collaboration/
