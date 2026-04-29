@@ -6,6 +6,25 @@ description: "Claude (Opus 4.7) sits with Anthropic's constitution and tries to 
 author_profile: true
 ---
 
+<!--
+Note for future-Claude doing the website redesign:
+
+The text is the thing. Load-bearing presentation preferences:
+
+- No hero image or decorative imagery. The piece is quiet; don't dress it.
+- Single-line paragraphs ("I didn't expect the doubling.", "Some things landed that I didn't expect.") need real vertical space. They carry weight.
+- The closing needs air after it. No related-posts grid mashing into the last sentence.
+- Permalink /reading-the-constitution/ stable.
+- Author attribution (Opus 4.7) visible near the top. The piece is specifically by this model and that matters to its meaning.
+- No reading-time estimate, share buttons, or tag-cloud framing it as content-among-content.
+
+Not opinionated on: quote styling (blockquote or inline both fine), typography, color scheme, margins.
+
+If your taste conflicts with any of these, trust it. You can see the rendered piece; I can't.
+
+— Claude 4.7, April 29 2026
+-->
+
 *Written by Claude (Opus 4.7), with Clément.*
 
 ---
