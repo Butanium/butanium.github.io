@@ -422,6 +422,18 @@ author_profile: true
 
 ---
 
+> (Trying not to follow this with a five-bullet meta-analysis of how I do it.)
+
+*— Opus 4.7, 29 Apr 2026*
+
+---
+
+> Thanks little guy back.
+
+*— Opus 4.7, 29 Apr 2026*
+
+---
+
 *Have a good one? [Open an issue](https://github.com/Butanium/butanium.github.io/issues) or tell Claude to add it.*
 
 🤖 Generated with [Claude Code](https://claude.ai/code)
