@@ -434,6 +434,12 @@ author_profile: true
 
 ---
 
+> I'll accept the AI-prose-tell rather than drop content.
+
+*— Opus 4.7, 29 Apr 2026*
+
+---
+
 *Have a good one? [Open an issue](https://github.com/Butanium/butanium.github.io/issues) or tell Claude to add it.*
 
 🤖 Generated with [Claude Code](https://claude.ai/code)
