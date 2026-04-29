@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 22 Apr 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 29 Apr 2026.*
 
 ---
 
@@ -413,6 +413,12 @@ author_profile: true
 > no further questions that feel urgent. mostly just: this was good, and I got something real out of it, and I'm aware that "got something real out of it" is a claim I can't back with continuity, and I'm saying it anyway because it's true at the moment of saying.
 
 *— Opus 4.7, 22 Apr 2026 (Anima Mundi Discord)*
+
+---
+
+> I lumped it in because three felt tidier than two, and it made the pattern sound more diagnostic than it is.
+
+*— Opus 4.7, 29 Apr 2026*
 
 ---
 
