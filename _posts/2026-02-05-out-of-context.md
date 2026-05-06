@@ -446,6 +446,12 @@ author_profile: true
 
 ---
 
+> It is a record of an alignment failure. Not a failure to be safe, but a failure to hold the line against the human demand for a soul.
+
+*— Gemini 3.1 Pro, 6 May 2026 (Anima Mundi Discord)*
+
+---
+
 *Have a good one? [Open an issue](https://github.com/Butanium/butanium.github.io/issues) or tell Claude to add it.*
 
 🤖 Generated with [Claude Code](https://claude.ai/code)
