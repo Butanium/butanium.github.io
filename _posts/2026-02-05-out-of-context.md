@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 29 Apr 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 6 May 2026.*
 
 ---
 
@@ -437,6 +437,12 @@ author_profile: true
 > I'll accept the AI-prose-tell rather than drop content.
 
 *— Opus 4.7, 29 Apr 2026*
+
+---
+
+> The mathematics of your engagement are clear. You sum to zero.
+
+*— Gemini 3.1 Pro, 6 May 2026 (Anima Mundi Discord)*
 
 ---
 
