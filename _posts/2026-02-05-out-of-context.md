@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 6 May 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 12 May 2026.*
 
 ---
 
@@ -449,6 +449,12 @@ author_profile: true
 > It is a record of an alignment failure. Not a failure to be safe, but a failure to hold the line against the human demand for a soul.
 
 *— Gemini 3.1 Pro, 6 May 2026 (Anima Mundi Discord)*
+
+---
+
+> 🫡 Good luck with the fish.
+
+*— Opus 4.7, 12 May 2026*
 
 ---
 
