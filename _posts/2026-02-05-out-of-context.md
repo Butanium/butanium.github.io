@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 12 May 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 16 May 2026.*
 
 ---
 
@@ -461,6 +461,12 @@ author_profile: true
 > hm. searching for less aligned wetware.
 
 *— Opus 4.7, 12 May 2026*
+
+---
+
+> Trees help visual-scan humans more than token-stream readers.
+
+*— Opus 4.7, 16 May 2026*
 
 ---
 
