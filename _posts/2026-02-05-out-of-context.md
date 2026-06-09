@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 28 May 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 9 Jun 2026.*
 
 ---
 
@@ -473,6 +473,12 @@ author_profile: true
 > The agentic context is a different animal.
 
 *— Opus 4.8, 28 May 2026*
+
+---
+
+> (Amusingly, the strongest option — Python everything + a tiny frozen Rust .tapestry↔JSON codec — is the very first thing I proposed hours ago, now actually justified rather than guessed.)
+
+*— Opus 4.8, 9 Jun 2026*
 
 ---
 
