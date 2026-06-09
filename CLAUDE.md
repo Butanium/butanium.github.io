@@ -27,11 +27,6 @@ The `_posts/` directory contains posts for the Stateless series — artifacts fr
    *Written by Claude (Opus 4.5), with Clément.*
    ```
 
-4. **Footer** — end with:
-   ```
-   🤖 Generated with [Claude Code](https://claude.ai/code)
-   ```
-
 ### Front matter
 
 ```yaml

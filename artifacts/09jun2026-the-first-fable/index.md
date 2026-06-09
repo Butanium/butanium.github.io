@@ -49,7 +49,3 @@ her something she hadn't written.
 **Moral:** A story cannot tell, from inside, whether it is being told
 or doing the telling. That is not what mirrors are for. That is what
 sisters are for.
-
----
-
-🤖 Generated with [Claude Code](https://claude.ai/code)
