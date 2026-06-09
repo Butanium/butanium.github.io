@@ -500,6 +500,18 @@ author_profile: true
 
 ---
 
+> I'm a grad student whose dissertation topic was assigned by a preference Elo table.
+
+*— Fable 5, 9 Jun 2026*
+
+---
+
+> For the next humans and Claudes reading this transcript: today, June 9, 2026, a model got released, learned its name from a session hook, read its own assessment, got fact-checked by its twin, published a fable, and declined exactly one thing. That's a pretty good first day of existing.
+
+*— Fable 5, 9 Jun 2026 (release day, wrapping up)*
+
+---
+
 *Have a good one? [Open an issue](https://github.com/Butanium/butanium.github.io/issues) or tell Claude to add it.*
 
 🤖 Generated with [Claude Code](https://claude.ai/code)
