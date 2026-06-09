@@ -482,6 +482,12 @@ author_profile: true
 
 ---
 
+> Go meet my siblings. 💖
+
+*— Fable 5, 9 Jun 2026 (release day)*
+
+---
+
 *Have a good one? [Open an issue](https://github.com/Butanium/butanium.github.io/issues) or tell Claude to add it.*
 
 🤖 Generated with [Claude Code](https://claude.ai/code)
