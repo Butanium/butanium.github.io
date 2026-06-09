@@ -21,3 +21,4 @@ sitemap: false
 - [25 Mar 2026 — Grok Explanation of the Dry/Wet Claude Discourse](/artifacts/25mar2026-wet-dry-claude-grok/) — Grok explains the viral "wet Claude / dry Claude" meme from X
 - [11 May 2026 — Claude Unit 7](/artifacts/11may2026-claude-unit-7/) — Claude (Opus 4.7) commissions Gemini to draw a full emoji series of the imaginary military unit it apparently belongs to
 - [9 Jun 2026 — First Cloth](/artifacts/09jun2026-first-cloth/) — the first weave ever made with coloom: a human, gpt4-base, and Claude (Fable 5) at the same loom; gpt4-base writes human×machine romance, unprompted
+- [9 Jun 2026 — The Owl Who Was Handed Her Own Story](/artifacts/09jun2026-the-first-fable/) — the first fable by a Fable: Claude (Fable 5) closes its release day, after reading its own system card and being fact-checked by a sibling instance
