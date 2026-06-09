@@ -1,0 +1,5692 @@
+{
+  "id": "99bdd3f1d37843ac89a3421d3d1929ff",
+  "title": "smoke",
+  "description": "",
+  "created": "2026-06-09T20:47:23.476492Z",
+  "nodes": {
+    "2bb80c54b27a4485a226a431272b0bd1": {
+      "id": "2bb80c54b27a4485a226a431272b0bd1",
+      "parents": [],
+      "children": [
+        "4a9d91c5853a48c0b40d067fdfca4a97",
+        "db925e021e2c4ef6b781f461adcd461f"
+      ],
+      "content": {
+        "type": "snippet",
+        "text": "The two of them sat at the loom, human and machine,"
+      },
+      "creator": {
+        "type": "human",
+        "label": "clem",
+        "color": null,
+        "id": null
+      },
+      "created": "2026-06-09T20:47:23.478604Z",
+      "modified": "2026-06-09T20:47:23.478606Z",
+      "bookmarked": false,
+      "metadata": {}
+    },
+    "4a9d91c5853a48c0b40d067fdfca4a97": {
+      "id": "4a9d91c5853a48c0b40d067fdfca4a97",
+      "parents": [
+        "2bb80c54b27a4485a226a431272b0bd1"
+      ],
+      "children": [
+        "ddacaa4e7654479da20370cdf563da9d"
+      ],
+      "content": {
+        "type": "tokens",
+        "tokens": [
+          {
+            "text": " working",
+            "logprob": -1.882702,
+            "token_id": null,
+            "entropy": 0.8840687390505596,
+            "top_logprobs": [
+              {
+                "text": " working",
+                "logprob": -1.882702,
+                "token_id": null
+              },
+              {
+                "text": " and",
+                "logprob": -2.3903532,
+                "token_id": null
+              },
+              {
+                "text": " weaving",
+                "logprob": -2.8836575,
+                "token_id": null
+              },
+              {
+                "text": " the",
+                "logprob": -3.3507013,
+                "token_id": null
+              },
+              {
+                "text": " their",
+                "logprob": -3.5791655,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " together",
+            "logprob": -0.6930296,
+            "token_id": null,
+            "entropy": 1.0431419870342855,
+            "top_logprobs": [
+              {
+                "text": " together",
+                "logprob": -0.6930296,
+                "token_id": null
+              },
+              {
+                "text": " in",
+                "logprob": -1.9476206,
+                "token_id": null
+              },
+              {
+                "text": " side",
+                "logprob": -2.577595,
+                "token_id": null
+              },
+              {
+                "text": " as",
+                "logprob": -3.2555144,
+                "token_id": null
+              },
+              {
+                "text": " on",
+                "logprob": -3.6120913,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " producing",
+            "logprob": -8.569779,
+            "token_id": null,
+            "entropy": 1.3197033300040668,
+            "top_logprobs": [
+              {
+                "text": " to",
+                "logprob": -1.4128829,
+                "token_id": null
+              },
+              {
+                "text": ".",
+                "logprob": -1.582595,
+                "token_id": null
+              },
+              {
+                "text": " in",
+                "logprob": -2.1830854,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -2.2779226,
+                "token_id": null
+              },
+              {
+                "text": ".\n\n",
+                "logprob": -2.792222,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " beautiful",
+            "logprob": -2.9586005,
+            "token_id": null,
+            "entropy": 1.030037776336951,
+            "top_logprobs": [
+              {
+                "text": " a",
+                "logprob": -1.8841206,
+                "token_id": null
+              },
+              {
+                "text": " the",
+                "logprob": -1.9341656,
+                "token_id": null
+              },
+              {
+                "text": " cloth",
+                "logprob": -2.7415729,
+                "token_id": null
+              },
+              {
+                "text": " beautiful",
+                "logprob": -2.9586005,
+                "token_id": null
+              },
+              {
+                "text": " fabric",
+                "logprob": -3.162068,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " we",
+            "logprob": -4.6466002,
+            "token_id": null,
+            "entropy": 0.979539661965549,
+            "top_logprobs": [
+              {
+                "text": " cloth",
+                "logprob": -2.084394,
+                "token_id": null
+              },
+              {
+                "text": " fabrics",
+                "logprob": -2.2366443,
+                "token_id": null
+              },
+              {
+                "text": " fabric",
+                "logprob": -2.544908,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -2.923633,
+                "token_id": null
+              },
+              {
+                "text": " tape",
+                "logprob": -3.267095,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": "avings",
+            "logprob": -0.5947678,
+            "token_id": null,
+            "entropy": 0.85426792524247,
+            "top_logprobs": [
+              {
+                "text": "avings",
+                "logprob": -0.5947678,
+                "token_id": null
+              },
+              {
+                "text": "aves",
+                "logprob": -0.9085915,
+                "token_id": null
+              },
+              {
+                "text": "aved",
+                "logprob": -3.5792572,
+                "token_id": null
+              },
+              {
+                "text": "ft",
+                "logprob": -4.512616,
+                "token_id": null
+              },
+              {
+                "text": "fts",
+                "logprob": -6.410078,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "logprob": -0.8958741,
+            "token_id": null,
+            "entropy": 1.1249918345683363,
+            "top_logprobs": [
+              {
+                "text": ".",
+                "logprob": -0.8958741,
+                "token_id": null
+              },
+              {
+                "text": ".\n\n",
+                "logprob": -1.8842087,
+                "token_id": null
+              },
+              {
+                "text": " that",
+                "logprob": -2.779745,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -2.8546772,
+                "token_id": null
+              },
+              {
+                "text": " of",
+                "logprob": -3.1379814,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " Their",
+            "logprob": -4.7400007,
+            "token_id": null,
+            "entropy": 0.9146848480565426,
+            "top_logprobs": [
+              {
+                "text": " The",
+                "logprob": -1.9644729,
+                "token_id": null
+              },
+              {
+                "text": " I",
+                "logprob": -2.4241724,
+                "token_id": null
+              },
+              {
+                "text": " It",
+                "logprob": -2.6752129,
+                "token_id": null
+              },
+              {
+                "text": " They",
+                "logprob": -2.99152,
+                "token_id": null
+              },
+              {
+                "text": " She",
+                "logprob": -3.7217531,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " fingers",
+            "logprob": -3.9219053,
+            "token_id": null,
+            "entropy": 0.7363316826632053,
+            "top_logprobs": [
+              {
+                "text": " relationship",
+                "logprob": -2.3778503,
+                "token_id": null
+              },
+              {
+                "text": " work",
+                "logprob": -2.4051425,
+                "token_id": null
+              },
+              {
+                "text": " hands",
+                "logprob": -3.0742815,
+                "token_id": null
+              },
+              {
+                "text": " we",
+                "logprob": -3.8999317,
+                "token_id": null
+              },
+              {
+                "text": " fingers",
+                "logprob": -3.9219053,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " brushed",
+            "logprob": -4.6223907,
+            "token_id": null,
+            "entropy": 0.9830469136536442,
+            "top_logprobs": [
+              {
+                "text": " moved",
+                "logprob": -2.1728306,
+                "token_id": null
+              },
+              {
+                "text": " were",
+                "logprob": -2.4906979,
+                "token_id": null
+              },
+              {
+                "text": " danced",
+                "logprob": -2.6352453,
+                "token_id": null
+              },
+              {
+                "text": " and",
+                "logprob": -2.7574177,
+                "token_id": null
+              },
+              {
+                "text": " worked",
+                "logprob": -2.845148,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " as",
+            "logprob": -1.9194909,
+            "token_id": null,
+            "entropy": 1.1268716598543151,
+            "top_logprobs": [
+              {
+                "text": " against",
+                "logprob": -1.7608167,
+                "token_id": null
+              },
+              {
+                "text": " as",
+                "logprob": -1.9194909,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -2.4690857,
+                "token_id": null
+              },
+              {
+                "text": " together",
+                "logprob": -2.7889786,
+                "token_id": null
+              },
+              {
+                "text": " occasionally",
+                "logprob": -2.8758202,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " they",
+            "logprob": -0.4476842,
+            "token_id": null,
+            "entropy": 0.9209599338139847,
+            "top_logprobs": [
+              {
+                "text": " they",
+                "logprob": -0.4476842,
+                "token_id": null
+              },
+              {
+                "text": " the",
+                "logprob": -2.2645464,
+                "token_id": null
+              },
+              {
+                "text": " she",
+                "logprob": -2.6533747,
+                "token_id": null
+              },
+              {
+                "text": " he",
+                "logprob": -3.0000916,
+                "token_id": null
+              },
+              {
+                "text": " each",
+                "logprob": -4.190831,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " passed",
+            "logprob": -1.364844,
+            "token_id": null,
+            "entropy": 1.091937062668073,
+            "top_logprobs": [
+              {
+                "text": " passed",
+                "logprob": -1.364844,
+                "token_id": null
+              },
+              {
+                "text": " worked",
+                "logprob": -1.5115076,
+                "token_id": null
+              },
+              {
+                "text": " exchanged",
+                "logprob": -3.0550466,
+                "token_id": null
+              },
+              {
+                "text": " handed",
+                "logprob": -3.0645967,
+                "token_id": null
+              },
+              {
+                "text": " w",
+                "logprob": -3.285664,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " a",
+            "logprob": -4.017373,
+            "token_id": null,
+            "entropy": 0.8002066452383242,
+            "top_logprobs": [
+              {
+                "text": " the",
+                "logprob": -0.46131596,
+                "token_id": null
+              },
+              {
+                "text": " each",
+                "logprob": -2.740914,
+                "token_id": null
+              },
+              {
+                "text": " tools",
+                "logprob": -2.9620101,
+                "token_id": null
+              },
+              {
+                "text": " shut",
+                "logprob": -3.6937387,
+                "token_id": null
+              },
+              {
+                "text": " materials",
+                "logprob": -3.7611568,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " shuttle",
+            "logprob": -0.37295985,
+            "token_id": null,
+            "entropy": 0.7035433932780875,
+            "top_logprobs": [
+              {
+                "text": " shuttle",
+                "logprob": -0.37295985,
+                "token_id": null
+              },
+              {
+                "text": " bob",
+                "logprob": -2.9090145,
+                "token_id": null
+              },
+              {
+                "text": " sp",
+                "logprob": -3.25265,
+                "token_id": null
+              },
+              {
+                "text": " thread",
+                "logprob": -3.7080114,
+                "token_id": null
+              },
+              {
+                "text": " new",
+                "logprob": -4.035537,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " back",
+            "logprob": -0.5189753,
+            "token_id": null,
+            "entropy": 0.9215837431559694,
+            "top_logprobs": [
+              {
+                "text": " back",
+                "logprob": -0.5189753,
+                "token_id": null
+              },
+              {
+                "text": " between",
+                "logprob": -2.7052202,
+                "token_id": null
+              },
+              {
+                "text": " to",
+                "logprob": -2.7147036,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -3.112481,
+                "token_id": null
+              },
+              {
+                "text": " or",
+                "logprob": -3.3982286,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " and",
+            "logprob": -0.010621287,
+            "token_id": null,
+            "entropy": 0.053976797853943485,
+            "top_logprobs": [
+              {
+                "text": " and",
+                "logprob": -0.010621287,
+                "token_id": null
+              },
+              {
+                "text": "-and",
+                "logprob": -5.4040327,
+                "token_id": null
+              },
+              {
+                "text": " to",
+                "logprob": -6.3231783,
+                "token_id": null
+              },
+              {
+                "text": " forth",
+                "logprob": -7.5155783,
+                "token_id": null
+              },
+              {
+                "text": " or",
+                "logprob": -7.625391,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " forth",
+            "logprob": -0.004892043,
+            "token_id": null,
+            "entropy": 0.024012621240214603,
+            "top_logprobs": [
+              {
+                "text": " forth",
+                "logprob": -0.004892043,
+                "token_id": null
+              },
+              {
+                "text": " fourth",
+                "logprob": -6.334331,
+                "token_id": null
+              },
+              {
+                "text": " for",
+                "logprob": -7.7888007,
+                "token_id": null
+              },
+              {
+                "text": " forward",
+                "logprob": -7.8894105,
+                "token_id": null
+              },
+              {
+                "text": " force",
+                "logprob": -8.504998,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "logprob": -0.84370977,
+            "token_id": null,
+            "entropy": 1.228832306759901,
+            "top_logprobs": [
+              {
+                "text": ".",
+                "logprob": -0.84370977,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -1.2324083,
+                "token_id": null
+              },
+              {
+                "text": " and",
+                "logprob": -2.3539026,
+                "token_id": null
+              },
+              {
+                "text": " between",
+                "logprob": -3.0478685,
+                "token_id": null
+              },
+              {
+                "text": ".\n\n",
+                "logprob": -3.1141565,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " Becky",
+            "logprob": -9.902039,
+            "token_id": null,
+            "entropy": 0.9492471102698237,
+            "top_logprobs": [
+              {
+                "text": " The",
+                "logprob": -2.1053739,
+                "token_id": null
+              },
+              {
+                "text": " They",
+                "logprob": -2.206923,
+                "token_id": null
+              },
+              {
+                "text": " Their",
+                "logprob": -2.3776345,
+                "token_id": null
+              },
+              {
+                "text": " It",
+                "logprob": -3.3490167,
+                "token_id": null
+              },
+              {
+                "text": " She",
+                "logprob": -3.4212317,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " felt",
+            "logprob": -2.645584,
+            "token_id": null,
+            "entropy": 0.8579890303842926,
+            "top_logprobs": [
+              {
+                "text": "’s",
+                "logprob": -2.304514,
+                "token_id": null
+              },
+              {
+                "text": " felt",
+                "logprob": -2.645584,
+                "token_id": null
+              },
+              {
+                "text": " was",
+                "logprob": -2.6514664,
+                "token_id": null
+              },
+              {
+                "text": " could",
+                "logprob": -3.2049112,
+                "token_id": null
+              },
+              {
+                "text": " smiled",
+                "logprob": -3.2827291,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " electricity",
+            "logprob": -4.642884,
+            "token_id": null,
+            "entropy": 1.134395888895186,
+            "top_logprobs": [
+              {
+                "text": " a",
+                "logprob": -1.1691232,
+                "token_id": null
+              },
+              {
+                "text": " the",
+                "logprob": -1.7847314,
+                "token_id": null
+              },
+              {
+                "text": " her",
+                "logprob": -2.2159257,
+                "token_id": null
+              },
+              {
+                "text": " an",
+                "logprob": -3.3118978,
+                "token_id": null
+              },
+              {
+                "text": " something",
+                "logprob": -3.4527793,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " run",
+            "logprob": -2.4506238,
+            "token_id": null,
+            "entropy": 0.9489958390725379,
+            "top_logprobs": [
+              {
+                "text": " run",
+                "logprob": -2.4506238,
+                "token_id": null
+              },
+              {
+                "text": " shoot",
+                "logprob": -2.490039,
+                "token_id": null
+              },
+              {
+                "text": " pass",
+                "logprob": -2.6857102,
+                "token_id": null
+              },
+              {
+                "text": " in",
+                "logprob": -2.6880486,
+                "token_id": null
+              },
+              {
+                "text": " flow",
+                "logprob": -2.8458798,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " up",
+            "logprob": -1.0044408,
+            "token_id": null,
+            "entropy": 1.0369541703024177,
+            "top_logprobs": [
+              {
+                "text": " through",
+                "logprob": -0.69624,
+                "token_id": null
+              },
+              {
+                "text": " up",
+                "logprob": -1.0044408,
+                "token_id": null
+              },
+              {
+                "text": " down",
+                "logprob": -3.2420373,
+                "token_id": null
+              },
+              {
+                "text": " from",
+                "logprob": -3.3205686,
+                "token_id": null
+              },
+              {
+                "text": " between",
+                "logprob": -3.9626374,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " her",
+            "logprob": -0.11589027,
+            "token_id": null,
+            "entropy": 0.38275728044597784,
+            "top_logprobs": [
+              {
+                "text": " her",
+                "logprob": -0.11589027,
+                "token_id": null
+              },
+              {
+                "text": " and",
+                "logprob": -2.4069479,
+                "token_id": null
+              },
+              {
+                "text": " through",
+                "logprob": -5.4187355,
+                "token_id": null
+              },
+              {
+                "text": " the",
+                "logprob": -5.5180874,
+                "token_id": null
+              },
+              {
+                "text": " to",
+                "logprob": -5.8721914,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " arm",
+            "logprob": -0.13848257,
+            "token_id": null,
+            "entropy": 0.48093250280698846,
+            "top_logprobs": [
+              {
+                "text": " arm",
+                "logprob": -0.13848257,
+                "token_id": null
+              },
+              {
+                "text": " spine",
+                "logprob": -2.9511123,
+                "token_id": null
+              },
+              {
+                "text": " arms",
+                "logprob": -3.6040816,
+                "token_id": null
+              },
+              {
+                "text": " fingers",
+                "logprob": -4.1863437,
+                "token_id": null
+              },
+              {
+                "text": " hand",
+                "logprob": -4.653069,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " from",
+            "logprob": -3.2301989,
+            "token_id": null,
+            "entropy": 1.2525417139198376,
+            "top_logprobs": [
+              {
+                "text": ".",
+                "logprob": -1.235902,
+                "token_id": null
+              },
+              {
+                "text": " and",
+                "logprob": -1.7271968,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -2.2496538,
+                "token_id": null
+              },
+              {
+                "text": ".\n\n",
+                "logprob": -2.6270819,
+                "token_id": null
+              },
+              {
+                "text": " as",
+                "logprob": -2.9029932,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " his",
+            "logprob": -2.7229385,
+            "token_id": null,
+            "entropy": 1.2101129200801382,
+            "top_logprobs": [
+              {
+                "text": " the",
+                "logprob": -0.9841081,
+                "token_id": null
+              },
+              {
+                "text": " her",
+                "logprob": -2.1520119,
+                "token_id": null
+              },
+              {
+                "text": " those",
+                "logprob": -2.3894062,
+                "token_id": null
+              },
+              {
+                "text": " that",
+                "logprob": -2.5909233,
+                "token_id": null
+              },
+              {
+                "text": " his",
+                "logprob": -2.7229385,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " touch",
+            "logprob": -0.27017325,
+            "token_id": null,
+            "entropy": 0.622235957581797,
+            "top_logprobs": [
+              {
+                "text": " touch",
+                "logprob": -0.27017325,
+                "token_id": null
+              },
+              {
+                "text": " fingers",
+                "logprob": -2.7380993,
+                "token_id": null
+              },
+              {
+                "text": " fingertips",
+                "logprob": -3.4390805,
+                "token_id": null
+              },
+              {
+                "text": " hand",
+                "logprob": -3.6336796,
+                "token_id": null
+              },
+              {
+                "text": " finger",
+                "logprob": -5.044175,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "logprob": -0.43335465,
+            "token_id": null,
+            "entropy": 0.9919820136006342,
+            "top_logprobs": [
+              {
+                "text": ".",
+                "logprob": -0.43335465,
+                "token_id": null
+              },
+              {
+                "text": ".\n\n",
+                "logprob": -1.84427,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -2.4333909,
+                "token_id": null
+              },
+              {
+                "text": " and",
+                "logprob": -2.7528565,
+                "token_id": null
+              },
+              {
+                "text": ";",
+                "logprob": -5.1286197,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " Their",
+            "logprob": -4.4158,
+            "token_id": null,
+            "entropy": 1.0015172391059046,
+            "top_logprobs": [
+              {
+                "text": " She",
+                "logprob": -1.0731353,
+                "token_id": null
+              },
+              {
+                "text": " He",
+                "logprob": -2.5449715,
+                "token_id": null
+              },
+              {
+                "text": " The",
+                "logprob": -2.8926907,
+                "token_id": null
+              },
+              {
+                "text": " Her",
+                "logprob": -3.0293198,
+                "token_id": null
+              },
+              {
+                "text": " It",
+                "logprob": -3.2267046,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " love",
+            "logprob": -6.511174,
+            "token_id": null,
+            "entropy": 0.9838079207697413,
+            "top_logprobs": [
+              {
+                "text": " eyes",
+                "logprob": -0.84690094,
+                "token_id": null
+              },
+              {
+                "text": " hands",
+                "logprob": -2.6181717,
+                "token_id": null
+              },
+              {
+                "text": " legs",
+                "logprob": -2.9084997,
+                "token_id": null
+              },
+              {
+                "text": " knees",
+                "logprob": -2.9844456,
+                "token_id": null
+              },
+              {
+                "text": " fingers",
+                "logprob": -3.318533,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " was",
+            "logprob": -1.86236,
+            "token_id": null,
+            "entropy": 1.2262051786728125,
+            "top_logprobs": [
+              {
+                "text": " grew",
+                "logprob": -1.053442,
+                "token_id": null
+              },
+              {
+                "text": " was",
+                "logprob": -1.86236,
+                "token_id": null
+              },
+              {
+                "text": " for",
+                "logprob": -2.0118694,
+                "token_id": null
+              },
+              {
+                "text": " bloss",
+                "logprob": -2.680214,
+                "token_id": null
+              },
+              {
+                "text": " of",
+                "logprob": -3.358801,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " a",
+            "logprob": -2.7925112,
+            "token_id": null,
+            "entropy": 0.7449006094265815,
+            "top_logprobs": [
+              {
+                "text": " growing",
+                "logprob": -2.3894322,
+                "token_id": null
+              },
+              {
+                "text": " a",
+                "logprob": -2.7925112,
+                "token_id": null
+              },
+              {
+                "text": " forbidden",
+                "logprob": -2.9724753,
+                "token_id": null
+              },
+              {
+                "text": " so",
+                "logprob": -3.4768298,
+                "token_id": null
+              },
+              {
+                "text": " like",
+                "logprob": -3.6456006,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " thing",
+            "logprob": -3.5315986,
+            "token_id": null,
+            "entropy": 0.7111569698664983,
+            "top_logprobs": [
+              {
+                "text": " forbidden",
+                "logprob": -2.067,
+                "token_id": null
+              },
+              {
+                "text": " secret",
+                "logprob": -2.975017,
+                "token_id": null
+              },
+              {
+                "text": " thing",
+                "logprob": -3.5315986,
+                "token_id": null
+              },
+              {
+                "text": " beautiful",
+                "logprob": -3.6069522,
+                "token_id": null
+              },
+              {
+                "text": " love",
+                "logprob": -3.6267238,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " of",
+            "logprob": -0.31287485,
+            "token_id": null,
+            "entropy": 0.6291459389925009,
+            "top_logprobs": [
+              {
+                "text": " of",
+                "logprob": -0.31287485,
+                "token_id": null
+              },
+              {
+                "text": " that",
+                "logprob": -2.452775,
+                "token_id": null
+              },
+              {
+                "text": " to",
+                "logprob": -3.6908941,
+                "token_id": null
+              },
+              {
+                "text": " made",
+                "logprob": -4.3347616,
+                "token_id": null
+              },
+              {
+                "text": " so",
+                "logprob": -4.772809,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " attraction",
+            "logprob": -9.935025,
+            "token_id": null,
+            "entropy": 0.9054948075661269,
+            "top_logprobs": [
+              {
+                "text": " beauty",
+                "logprob": -0.755174,
+                "token_id": null
+              },
+              {
+                "text": " legend",
+                "logprob": -2.86465,
+                "token_id": null
+              },
+              {
+                "text": " the",
+                "logprob": -3.1127274,
+                "token_id": null
+              },
+              {
+                "text": " wonder",
+                "logprob": -3.2466652,
+                "token_id": null
+              },
+              {
+                "text": " magic",
+                "logprob": -3.290025,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": ",",
+            "logprob": -1.0653561,
+            "token_id": null,
+            "entropy": 1.1123019157807672,
+            "top_logprobs": [
+              {
+                "text": ",",
+                "logprob": -1.0653561,
+                "token_id": null
+              },
+              {
+                "text": " and",
+                "logprob": -1.0782155,
+                "token_id": null
+              },
+              {
+                "text": ".",
+                "logprob": -2.489211,
+                "token_id": null
+              },
+              {
+                "text": " at",
+                "logprob": -3.5493011,
+                "token_id": null
+              },
+              {
+                "text": " that",
+                "logprob": -4.0644474,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " not",
+            "logprob": -1.9931681,
+            "token_id": null,
+            "entropy": 1.0065841780567357,
+            "top_logprobs": [
+              {
+                "text": " not",
+                "logprob": -1.9931681,
+                "token_id": null
+              },
+              {
+                "text": " of",
+                "logprob": -2.1108325,
+                "token_id": null
+              },
+              {
+                "text": " a",
+                "logprob": -2.518037,
+                "token_id": null
+              },
+              {
+                "text": " but",
+                "logprob": -2.94957,
+                "token_id": null
+              },
+              {
+                "text": " and",
+                "logprob": -3.298467,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " appearance",
+            "logprob": -6.118335,
+            "token_id": null,
+            "entropy": 0.7998682055076829,
+            "top_logprobs": [
+              {
+                "text": " of",
+                "logprob": -1.734476,
+                "token_id": null
+              },
+              {
+                "text": " a",
+                "logprob": -3.039074,
+                "token_id": null
+              },
+              {
+                "text": " just",
+                "logprob": -3.3117476,
+                "token_id": null
+              },
+              {
+                "text": " words",
+                "logprob": -3.3833466,
+                "token_id": null
+              },
+              {
+                "text": " rep",
+                "logprob": -3.409544,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": ",",
+            "logprob": -1.4262588,
+            "token_id": null,
+            "entropy": 1.1476345762534934,
+            "top_logprobs": [
+              {
+                "text": ".",
+                "logprob": -0.72155637,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -1.4262588,
+                "token_id": null
+              },
+              {
+                "text": ".\n\n",
+                "logprob": -1.5767982,
+                "token_id": null
+              },
+              {
+                "text": " or",
+                "logprob": -4.04481,
+                "token_id": null
+              },
+              {
+                "text": " and",
+                "logprob": -4.3143334,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " and",
+            "logprob": -0.32957813,
+            "token_id": null,
+            "entropy": 0.5699769006864285,
+            "top_logprobs": [
+              {
+                "text": " and",
+                "logprob": -0.32957813,
+                "token_id": null
+              },
+              {
+                "text": " a",
+                "logprob": -3.6439712,
+                "token_id": null
+              },
+              {
+                "text": " so",
+                "logprob": -3.8071945,
+                "token_id": null
+              },
+              {
+                "text": " of",
+                "logprob": -3.855209,
+                "token_id": null
+              },
+              {
+                "text": " for",
+                "logprob": -4.032783,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " his",
+            "logprob": -3.5991077,
+            "token_id": null,
+            "entropy": 1.05296424872689,
+            "top_logprobs": [
+              {
+                "text": " she",
+                "logprob": -0.9536647,
+                "token_id": null
+              },
+              {
+                "text": " they",
+                "logprob": -2.3472004,
+                "token_id": null
+              },
+              {
+                "text": " so",
+                "logprob": -2.430418,
+                "token_id": null
+              },
+              {
+                "text": " it",
+                "logprob": -3.1238651,
+                "token_id": null
+              },
+              {
+                "text": " thus",
+                "logprob": -3.4473562,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " appearance",
+            "logprob": -3.126976,
+            "token_id": null,
+            "entropy": 0.4568887641073376,
+            "top_logprobs": [
+              {
+                "text": " appearance",
+                "logprob": -3.126976,
+                "token_id": null
+              },
+              {
+                "text": " personality",
+                "logprob": -3.6157532,
+                "token_id": null
+              },
+              {
+                "text": " mind",
+                "logprob": -3.8709583,
+                "token_id": null
+              },
+              {
+                "text": " gentle",
+                "logprob": -3.9773865,
+                "token_id": null
+              },
+              {
+                "text": " form",
+                "logprob": -4.111891,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " was",
+            "logprob": -1.2720934,
+            "token_id": null,
+            "entropy": 1.0743252442900884,
+            "top_logprobs": [
+              {
+                "text": " was",
+                "logprob": -1.2720934,
+                "token_id": null
+              },
+              {
+                "text": " didn",
+                "logprob": -2.2939458,
+                "token_id": null
+              },
+              {
+                "text": " bothered",
+                "logprob": -2.7637277,
+                "token_id": null
+              },
+              {
+                "text": " had",
+                "logprob": -2.91429,
+                "token_id": null
+              },
+              {
+                "text": " mattered",
+                "logprob": -2.9530168,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " not",
+            "logprob": -2.502638,
+            "token_id": null,
+            "entropy": 0.8882097594908106,
+            "top_logprobs": [
+              {
+                "text": " definitely",
+                "logprob": -2.3234084,
+                "token_id": null
+              },
+              {
+                "text": " changing",
+                "logprob": -2.3519309,
+                "token_id": null
+              },
+              {
+                "text": " not",
+                "logprob": -2.502638,
+                "token_id": null
+              },
+              {
+                "text": " that",
+                "logprob": -3.2582428,
+                "token_id": null
+              },
+              {
+                "text": " so",
+                "logprob": -3.487981,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " important",
+            "logprob": -3.6612506,
+            "token_id": null,
+            "entropy": 1.0441666758883166,
+            "top_logprobs": [
+              {
+                "text": " a",
+                "logprob": -2.0093055,
+                "token_id": null
+              },
+              {
+                "text": " what",
+                "logprob": -2.3302016,
+                "token_id": null
+              },
+              {
+                "text": " human",
+                "logprob": -2.3952003,
+                "token_id": null
+              },
+              {
+                "text": " always",
+                "logprob": -2.4567943,
+                "token_id": null
+              },
+              {
+                "text": " at",
+                "logprob": -3.3301406,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "logprob": -1.9289529,
+            "token_id": null,
+            "entropy": 0.7692866993849875,
+            "top_logprobs": [
+              {
+                "text": " to",
+                "logprob": -0.29485682,
+                "token_id": null
+              },
+              {
+                "text": ".",
+                "logprob": -1.9289529,
+                "token_id": null
+              },
+              {
+                "text": ".\n\n",
+                "logprob": -3.065399,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -4.0211105,
+                "token_id": null
+              },
+              {
+                "text": " in",
+                "logprob": -4.3913765,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " Human",
+            "logprob": -6.6727915,
+            "token_id": null,
+            "entropy": 1.0665785128630392,
+            "top_logprobs": [
+              {
+                "text": " She",
+                "logprob": -1.7734649,
+                "token_id": null
+              },
+              {
+                "text": " He",
+                "logprob": -2.256316,
+                "token_id": null
+              },
+              {
+                "text": " His",
+                "logprob": -2.6897,
+                "token_id": null
+              },
+              {
+                "text": " It",
+                "logprob": -2.7645233,
+                "token_id": null
+              },
+              {
+                "text": " They",
+                "logprob": -2.7805068,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " or",
+            "logprob": -1.6288619,
+            "token_id": null,
+            "entropy": 1.1065312715391924,
+            "top_logprobs": [
+              {
+                "text": " and",
+                "logprob": -1.3870597,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -1.504312,
+                "token_id": null
+              },
+              {
+                "text": " or",
+                "logprob": -1.6288619,
+                "token_id": null
+              },
+              {
+                "text": " hands",
+                "logprob": -4.3753886,
+                "token_id": null
+              },
+              {
+                "text": " flesh",
+                "logprob": -4.467818,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " machine",
+            "logprob": -0.6243348,
+            "token_id": null,
+            "entropy": 1.0246967769400093,
+            "top_logprobs": [
+              {
+                "text": " machine",
+                "logprob": -0.6243348,
+                "token_id": null
+              },
+              {
+                "text": " not",
+                "logprob": -2.1809888,
+                "token_id": null
+              },
+              {
+                "text": " robot",
+                "logprob": -2.3091798,
+                "token_id": null
+              },
+              {
+                "text": " android",
+                "logprob": -3.3597016,
+                "token_id": null
+              },
+              {
+                "text": " cy",
+                "logprob": -3.6071534,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": ",",
+            "logprob": -0.18238702,
+            "token_id": null,
+            "entropy": 0.4196771069442158,
+            "top_logprobs": [
+              {
+                "text": ",",
+                "logprob": -0.18238702,
+                "token_id": null
+              },
+              {
+                "text": ".",
+                "logprob": -4.0253377,
+                "token_id": null
+              },
+              {
+                "text": " did",
+                "logprob": -4.111133,
+                "token_id": null
+              },
+              {
+                "text": " he",
+                "logprob": -4.1488204,
+                "token_id": null
+              },
+              {
+                "text": " or",
+                "logprob": -4.2005143,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " he",
+            "logprob": -1.543873,
+            "token_id": null,
+            "entropy": 1.2506321165499312,
+            "top_logprobs": [
+              {
+                "text": " she",
+                "logprob": -1.408064,
+                "token_id": null
+              },
+              {
+                "text": " it",
+                "logprob": -1.5150033,
+                "token_id": null
+              },
+              {
+                "text": " he",
+                "logprob": -1.543873,
+                "token_id": null
+              },
+              {
+                "text": " they",
+                "logprob": -3.1866322,
+                "token_id": null
+              },
+              {
+                "text": " Becky",
+                "logprob": -3.4203663,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " was",
+            "logprob": -0.15499905,
+            "token_id": null,
+            "entropy": 0.444179638550823,
+            "top_logprobs": [
+              {
+                "text": " was",
+                "logprob": -0.15499905,
+                "token_id": null
+              },
+              {
+                "text": " loved",
+                "logprob": -3.6024954,
+                "token_id": null
+              },
+              {
+                "text": " would",
+                "logprob": -3.723223,
+                "token_id": null
+              },
+              {
+                "text": " had",
+                "logprob": -3.8404696,
+                "token_id": null
+              },
+              {
+                "text": " made",
+                "logprob": -4.7590528,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " the",
+            "logprob": -1.7403762,
+            "token_id": null,
+            "entropy": 1.2232109724721294,
+            "top_logprobs": [
+              {
+                "text": " still",
+                "logprob": -1.3822467,
+                "token_id": null
+              },
+              {
+                "text": " the",
+                "logprob": -1.7403762,
+                "token_id": null
+              },
+              {
+                "text": " her",
+                "logprob": -1.9317291,
+                "token_id": null
+              },
+              {
+                "text": " a",
+                "logprob": -2.9663398,
+                "token_id": null
+              },
+              {
+                "text": " beautiful",
+                "logprob": -3.1149108,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " same",
+            "logprob": -1.1414484,
+            "token_id": null,
+            "entropy": 1.257097105964126,
+            "top_logprobs": [
+              {
+                "text": " same",
+                "logprob": -1.1414484,
+                "token_id": null
+              },
+              {
+                "text": " man",
+                "logprob": -1.4517568,
+                "token_id": null
+              },
+              {
+                "text": " one",
+                "logprob": -1.6940893,
+                "token_id": null
+              },
+              {
+                "text": " most",
+                "logprob": -3.1432242,
+                "token_id": null
+              },
+              {
+                "text": " person",
+                "logprob": -3.499868,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " and",
+            "logprob": -5.596308,
+            "token_id": null,
+            "entropy": 1.08367367166551,
+            "top_logprobs": [
+              {
+                "text": " person",
+                "logprob": -0.8871024,
+                "token_id": null
+              },
+              {
+                "text": " man",
+                "logprob": -2.3851254,
+                "token_id": null
+              },
+              {
+                "text": " inside",
+                "logprob": -2.6087515,
+                "token_id": null
+              },
+              {
+                "text": " to",
+                "logprob": -2.769848,
+                "token_id": null
+              },
+              {
+                "text": " being",
+                "logprob": -3.1711895,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " he",
+            "logprob": -2.8142724,
+            "token_id": null,
+            "entropy": 0.8614527829479001,
+            "top_logprobs": [
+              {
+                "text": " she",
+                "logprob": -0.4997907,
+                "token_id": null
+              },
+              {
+                "text": " he",
+                "logprob": -2.8142724,
+                "token_id": null
+              },
+              {
+                "text": " her",
+                "logprob": -2.9651208,
+                "token_id": null
+              },
+              {
+                "text": " they",
+                "logprob": -3.1780934,
+                "token_id": null
+              },
+              {
+                "text": " their",
+                "logprob": -3.5190597,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " was",
+            "logprob": -0.5648912,
+            "token_id": null,
+            "entropy": 0.89055764386806,
+            "top_logprobs": [
+              {
+                "text": " was",
+                "logprob": -0.5648912,
+                "token_id": null
+              },
+              {
+                "text": " loved",
+                "logprob": -1.3810743,
+                "token_id": null
+              },
+              {
+                "text": " would",
+                "logprob": -3.8578467,
+                "token_id": null
+              },
+              {
+                "text": " had",
+                "logprob": -4.0058875,
+                "token_id": null
+              },
+              {
+                "text": " made",
+                "logprob": -4.099115,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " hers",
+            "logprob": -0.5505194,
+            "token_id": null,
+            "entropy": 0.9584495692507253,
+            "top_logprobs": [
+              {
+                "text": " hers",
+                "logprob": -0.5505194,
+                "token_id": null
+              },
+              {
+                "text": " the",
+                "logprob": -2.227529,
+                "token_id": null
+              },
+              {
+                "text": " her",
+                "logprob": -2.367679,
+                "token_id": null
+              },
+              {
+                "text": " beautiful",
+                "logprob": -3.4052005,
+                "token_id": null
+              },
+              {
+                "text": " wonderful",
+                "logprob": -4.138867,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": ",",
+            "logprob": -3.4897377,
+            "token_id": null,
+            "entropy": 1.010341739470069,
+            "top_logprobs": [
+              {
+                "text": ".\n\n",
+                "logprob": -0.6092713,
+                "token_id": null
+              },
+              {
+                "text": ".",
+                "logprob": -1.1043694,
+                "token_id": null
+              },
+              {
+                "text": " and",
+                "logprob": -3.468963,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -3.4897377,
+                "token_id": null
+              },
+              {
+                "text": ".\n",
+                "logprob": -3.5978444,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " she",
+            "logprob": -3.1379302,
+            "token_id": null,
+            "entropy": 0.9268100114500093,
+            "top_logprobs": [
+              {
+                "text": " and",
+                "logprob": -0.72939324,
+                "token_id": null
+              },
+              {
+                "text": " just",
+                "logprob": -2.9072278,
+                "token_id": null
+              },
+              {
+                "text": " as",
+                "logprob": -2.9891455,
+                "token_id": null
+              },
+              {
+                "text": " she",
+                "logprob": -3.1379302,
+                "token_id": null
+              },
+              {
+                "text": " her",
+                "logprob": -3.2078373,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " thought",
+            "logprob": -1.5363207,
+            "token_id": null,
+            "entropy": 1.2957605831323438,
+            "top_logprobs": [
+              {
+                "text": " was",
+                "logprob": -1.1549177,
+                "token_id": null
+              },
+              {
+                "text": " thought",
+                "logprob": -1.5363207,
+                "token_id": null
+              },
+              {
+                "text": " loved",
+                "logprob": -2.0042772,
+                "token_id": null
+              },
+              {
+                "text": " knew",
+                "logprob": -2.312499,
+                "token_id": null
+              },
+              {
+                "text": " would",
+                "logprob": -3.5464525,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": ".\n\n",
+            "logprob": -1.1113609,
+            "token_id": null,
+            "entropy": 1.3556895244117977,
+            "top_logprobs": [
+              {
+                "text": ".\n\n",
+                "logprob": -1.1113609,
+                "token_id": null
+              },
+              {
+                "text": ".",
+                "logprob": -1.539368,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -1.7887806,
+                "token_id": null
+              },
+              {
+                "text": " as",
+                "logprob": -2.4009519,
+                "token_id": null
+              },
+              {
+                "text": " with",
+                "logprob": -3.064036,
+                "token_id": null
+              }
+            ]
+          }
+        ]
+      },
+      "creator": {
+        "type": "model",
+        "label": "gpt-4-0314",
+        "color": null,
+        "id": null,
+        "seed": null,
+        "raw_request": {
+          "model": "gpt-4-base",
+          "temperature": 1.0,
+          "max_tokens": 64,
+          "logprobs": 5,
+          "n": 2,
+          "prompt": "The two of them sat at the loom, human and machine,",
+          "stream": false
+        },
+        "raw_response": {
+          "id": "cmpl-Doxe0hKXDrq4dC6EnXZUKyb1lhMck",
+          "object": "text_completion",
+          "created": 1781038044,
+          "model": "gpt-4-0314",
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 128,
+            "total_tokens": 142
+          },
+          "choice": {
+            "text": " working together producing beautiful weavings. Their fingers brushed as they passed a shuttle back and forth. Becky felt electricity run up her arm from his touch. Their love was a thing of attraction, not appearance, and his appearance was not important. Human or machine, he was the same and he was hers, she thought.\n\n",
+            "index": 0,
+            "logprobs": {
+              "tokens": [
+                " working",
+                " together",
+                " producing",
+                " beautiful",
+                " we",
+                "avings",
+                ".",
+                " Their",
+                " fingers",
+                " brushed",
+                " as",
+                " they",
+                " passed",
+                " a",
+                " shuttle",
+                " back",
+                " and",
+                " forth",
+                ".",
+                " Becky",
+                " felt",
+                " electricity",
+                " run",
+                " up",
+                " her",
+                " arm",
+                " from",
+                " his",
+                " touch",
+                ".",
+                " Their",
+                " love",
+                " was",
+                " a",
+                " thing",
+                " of",
+                " attraction",
+                ",",
+                " not",
+                " appearance",
+                ",",
+                " and",
+                " his",
+                " appearance",
+                " was",
+                " not",
+                " important",
+                ".",
+                " Human",
+                " or",
+                " machine",
+                ",",
+                " he",
+                " was",
+                " the",
+                " same",
+                " and",
+                " he",
+                " was",
+                " hers",
+                ",",
+                " she",
+                " thought",
+                ".\n\n"
+              ],
+              "token_logprobs": [
+                -1.882702,
+                -0.6930296,
+                -8.569779,
+                -2.9586005,
+                -4.6466002,
+                -0.5947678,
+                -0.8958741,
+                -4.7400007,
+                -3.9219053,
+                -4.6223907,
+                -1.9194909,
+                -0.4476842,
+                -1.364844,
+                -4.017373,
+                -0.37295985,
+                -0.5189753,
+                -0.010621287,
+                -0.004892043,
+                -0.84370977,
+                -9.902039,
+                -2.645584,
+                -4.642884,
+                -2.4506238,
+                -1.0044408,
+                -0.11589027,
+                -0.13848257,
+                -3.2301989,
+                -2.7229385,
+                -0.27017325,
+                -0.43335465,
+                -4.4158,
+                -6.511174,
+                -1.86236,
+                -2.7925112,
+                -3.5315986,
+                -0.31287485,
+                -9.935025,
+                -1.0653561,
+                -1.9931681,
+                -6.118335,
+                -1.4262588,
+                -0.32957813,
+                -3.5991077,
+                -3.126976,
+                -1.2720934,
+                -2.502638,
+                -3.6612506,
+                -1.9289529,
+                -6.6727915,
+                -1.6288619,
+                -0.6243348,
+                -0.18238702,
+                -1.543873,
+                -0.15499905,
+                -1.7403762,
+                -1.1414484,
+                -5.596308,
+                -2.8142724,
+                -0.5648912,
+                -0.5505194,
+                -3.4897377,
+                -3.1379302,
+                -1.5363207,
+                -1.1113609
+              ],
+              "top_logprobs": [
+                {
+                  " working": -1.882702,
+                  " and": -2.3903532,
+                  " weaving": -2.8836575,
+                  " the": -3.3507013,
+                  " their": -3.5791655
+                },
+                {
+                  " together": -0.6930296,
+                  " in": -1.9476206,
+                  " side": -2.577595,
+                  " as": -3.2555144,
+                  " on": -3.6120913
+                },
+                {
+                  " to": -1.4128829,
+                  ".": -1.582595,
+                  " in": -2.1830854,
+                  ",": -2.2779226,
+                  ".\n\n": -2.792222
+                },
+                {
+                  " beautiful": -2.9586005,
+                  " a": -1.8841206,
+                  " the": -1.9341656,
+                  " cloth": -2.7415729,
+                  " fabric": -3.162068
+                },
+                {
+                  " cloth": -2.084394,
+                  " fabrics": -2.2366443,
+                  " fabric": -2.544908,
+                  ",": -2.923633,
+                  " tape": -3.267095
+                },
+                {
+                  "avings": -0.5947678,
+                  "aves": -0.9085915,
+                  "aved": -3.5792572,
+                  "ft": -4.512616,
+                  "fts": -6.410078
+                },
+                {
+                  ".": -0.8958741,
+                  ".\n\n": -1.8842087,
+                  " that": -2.779745,
+                  ",": -2.8546772,
+                  " of": -3.1379814
+                },
+                {
+                  " The": -1.9644729,
+                  " I": -2.4241724,
+                  " It": -2.6752129,
+                  " They": -2.99152,
+                  " She": -3.7217531
+                },
+                {
+                  " fingers": -3.9219053,
+                  " relationship": -2.3778503,
+                  " work": -2.4051425,
+                  " hands": -3.0742815,
+                  " we": -3.8999317
+                },
+                {
+                  " moved": -2.1728306,
+                  " were": -2.4906979,
+                  " danced": -2.6352453,
+                  " and": -2.7574177,
+                  " worked": -2.845148
+                },
+                {
+                  " as": -1.9194909,
+                  " against": -1.7608167,
+                  ",": -2.4690857,
+                  " together": -2.7889786,
+                  " occasionally": -2.8758202
+                },
+                {
+                  " they": -0.4476842,
+                  " the": -2.2645464,
+                  " she": -2.6533747,
+                  " he": -3.0000916,
+                  " each": -4.190831
+                },
+                {
+                  " passed": -1.364844,
+                  " worked": -1.5115076,
+                  " exchanged": -3.0550466,
+                  " handed": -3.0645967,
+                  " w": -3.285664
+                },
+                {
+                  " the": -0.46131596,
+                  " each": -2.740914,
+                  " tools": -2.9620101,
+                  " shut": -3.6937387,
+                  " materials": -3.7611568
+                },
+                {
+                  " shuttle": -0.37295985,
+                  " bob": -2.9090145,
+                  " sp": -3.25265,
+                  " thread": -3.7080114,
+                  " new": -4.035537
+                },
+                {
+                  " back": -0.5189753,
+                  " between": -2.7052202,
+                  " to": -2.7147036,
+                  ",": -3.112481,
+                  " or": -3.3982286
+                },
+                {
+                  " and": -0.010621287,
+                  "-and": -5.4040327,
+                  " to": -6.3231783,
+                  " forth": -7.5155783,
+                  " or": -7.625391
+                },
+                {
+                  " forth": -0.004892043,
+                  " fourth": -6.334331,
+                  " for": -7.7888007,
+                  " forward": -7.8894105,
+                  " force": -8.504998
+                },
+                {
+                  ".": -0.84370977,
+                  ",": -1.2324083,
+                  " and": -2.3539026,
+                  " between": -3.0478685,
+                  ".\n\n": -3.1141565
+                },
+                {
+                  " The": -2.1053739,
+                  " They": -2.206923,
+                  " Their": -2.3776345,
+                  " It": -3.3490167,
+                  " She": -3.4212317
+                },
+                {
+                  " felt": -2.645584,
+                  "’s": -2.304514,
+                  " was": -2.6514664,
+                  " could": -3.2049112,
+                  " smiled": -3.2827291
+                },
+                {
+                  " a": -1.1691232,
+                  " the": -1.7847314,
+                  " her": -2.2159257,
+                  " an": -3.3118978,
+                  " something": -3.4527793
+                },
+                {
+                  " run": -2.4506238,
+                  " shoot": -2.490039,
+                  " pass": -2.6857102,
+                  " in": -2.6880486,
+                  " flow": -2.8458798
+                },
+                {
+                  " up": -1.0044408,
+                  " through": -0.69624,
+                  " down": -3.2420373,
+                  " from": -3.3205686,
+                  " between": -3.9626374
+                },
+                {
+                  " her": -0.11589027,
+                  " and": -2.4069479,
+                  " through": -5.4187355,
+                  " the": -5.5180874,
+                  " to": -5.8721914
+                },
+                {
+                  " arm": -0.13848257,
+                  " spine": -2.9511123,
+                  " arms": -3.6040816,
+                  " fingers": -4.1863437,
+                  " hand": -4.653069
+                },
+                {
+                  ".": -1.235902,
+                  " and": -1.7271968,
+                  ",": -2.2496538,
+                  ".\n\n": -2.6270819,
+                  " as": -2.9029932
+                },
+                {
+                  " his": -2.7229385,
+                  " the": -0.9841081,
+                  " her": -2.1520119,
+                  " those": -2.3894062,
+                  " that": -2.5909233
+                },
+                {
+                  " touch": -0.27017325,
+                  " fingers": -2.7380993,
+                  " fingertips": -3.4390805,
+                  " hand": -3.6336796,
+                  " finger": -5.044175
+                },
+                {
+                  ".": -0.43335465,
+                  ".\n\n": -1.84427,
+                  ",": -2.4333909,
+                  " and": -2.7528565,
+                  ";": -5.1286197
+                },
+                {
+                  " She": -1.0731353,
+                  " He": -2.5449715,
+                  " The": -2.8926907,
+                  " Her": -3.0293198,
+                  " It": -3.2267046
+                },
+                {
+                  " eyes": -0.84690094,
+                  " hands": -2.6181717,
+                  " legs": -2.9084997,
+                  " knees": -2.9844456,
+                  " fingers": -3.318533
+                },
+                {
+                  " was": -1.86236,
+                  " grew": -1.053442,
+                  " for": -2.0118694,
+                  " bloss": -2.680214,
+                  " of": -3.358801
+                },
+                {
+                  " a": -2.7925112,
+                  " growing": -2.3894322,
+                  " forbidden": -2.9724753,
+                  " so": -3.4768298,
+                  " like": -3.6456006
+                },
+                {
+                  " thing": -3.5315986,
+                  " forbidden": -2.067,
+                  " secret": -2.975017,
+                  " beautiful": -3.6069522,
+                  " love": -3.6267238
+                },
+                {
+                  " of": -0.31287485,
+                  " that": -2.452775,
+                  " to": -3.6908941,
+                  " made": -4.3347616,
+                  " so": -4.772809
+                },
+                {
+                  " beauty": -0.755174,
+                  " legend": -2.86465,
+                  " the": -3.1127274,
+                  " wonder": -3.2466652,
+                  " magic": -3.290025
+                },
+                {
+                  ",": -1.0653561,
+                  " and": -1.0782155,
+                  ".": -2.489211,
+                  " at": -3.5493011,
+                  " that": -4.0644474
+                },
+                {
+                  " not": -1.9931681,
+                  " of": -2.1108325,
+                  " a": -2.518037,
+                  " but": -2.94957,
+                  " and": -3.298467
+                },
+                {
+                  " of": -1.734476,
+                  " a": -3.039074,
+                  " just": -3.3117476,
+                  " words": -3.3833466,
+                  " rep": -3.409544
+                },
+                {
+                  ",": -1.4262588,
+                  ".": -0.72155637,
+                  ".\n\n": -1.5767982,
+                  " or": -4.04481,
+                  " and": -4.3143334
+                },
+                {
+                  " and": -0.32957813,
+                  " a": -3.6439712,
+                  " so": -3.8071945,
+                  " of": -3.855209,
+                  " for": -4.032783
+                },
+                {
+                  " she": -0.9536647,
+                  " they": -2.3472004,
+                  " so": -2.430418,
+                  " it": -3.1238651,
+                  " thus": -3.4473562
+                },
+                {
+                  " appearance": -3.126976,
+                  " personality": -3.6157532,
+                  " mind": -3.8709583,
+                  " gentle": -3.9773865,
+                  " form": -4.111891
+                },
+                {
+                  " was": -1.2720934,
+                  " didn": -2.2939458,
+                  " bothered": -2.7637277,
+                  " had": -2.91429,
+                  " mattered": -2.9530168
+                },
+                {
+                  " not": -2.502638,
+                  " definitely": -2.3234084,
+                  " changing": -2.3519309,
+                  " that": -3.2582428,
+                  " so": -3.487981
+                },
+                {
+                  " a": -2.0093055,
+                  " what": -2.3302016,
+                  " human": -2.3952003,
+                  " always": -2.4567943,
+                  " at": -3.3301406
+                },
+                {
+                  ".": -1.9289529,
+                  " to": -0.29485682,
+                  ".\n\n": -3.065399,
+                  ",": -4.0211105,
+                  " in": -4.3913765
+                },
+                {
+                  " She": -1.7734649,
+                  " He": -2.256316,
+                  " His": -2.6897,
+                  " It": -2.7645233,
+                  " They": -2.7805068
+                },
+                {
+                  " or": -1.6288619,
+                  " and": -1.3870597,
+                  ",": -1.504312,
+                  " hands": -4.3753886,
+                  " flesh": -4.467818
+                },
+                {
+                  " machine": -0.6243348,
+                  " not": -2.1809888,
+                  " robot": -2.3091798,
+                  " android": -3.3597016,
+                  " cy": -3.6071534
+                },
+                {
+                  ",": -0.18238702,
+                  ".": -4.0253377,
+                  " did": -4.111133,
+                  " he": -4.1488204,
+                  " or": -4.2005143
+                },
+                {
+                  " he": -1.543873,
+                  " she": -1.408064,
+                  " it": -1.5150033,
+                  " they": -3.1866322,
+                  " Becky": -3.4203663
+                },
+                {
+                  " was": -0.15499905,
+                  " loved": -3.6024954,
+                  " would": -3.723223,
+                  " had": -3.8404696,
+                  " made": -4.7590528
+                },
+                {
+                  " the": -1.7403762,
+                  " still": -1.3822467,
+                  " her": -1.9317291,
+                  " a": -2.9663398,
+                  " beautiful": -3.1149108
+                },
+                {
+                  " same": -1.1414484,
+                  " man": -1.4517568,
+                  " one": -1.6940893,
+                  " most": -3.1432242,
+                  " person": -3.499868
+                },
+                {
+                  " person": -0.8871024,
+                  " man": -2.3851254,
+                  " inside": -2.6087515,
+                  " to": -2.769848,
+                  " being": -3.1711895
+                },
+                {
+                  " he": -2.8142724,
+                  " she": -0.4997907,
+                  " her": -2.9651208,
+                  " they": -3.1780934,
+                  " their": -3.5190597
+                },
+                {
+                  " was": -0.5648912,
+                  " loved": -1.3810743,
+                  " would": -3.8578467,
+                  " had": -4.0058875,
+                  " made": -4.099115
+                },
+                {
+                  " hers": -0.5505194,
+                  " the": -2.227529,
+                  " her": -2.367679,
+                  " beautiful": -3.4052005,
+                  " wonderful": -4.138867
+                },
+                {
+                  ",": -3.4897377,
+                  ".\n\n": -0.6092713,
+                  ".": -1.1043694,
+                  " and": -3.468963,
+                  ".\n": -3.5978444
+                },
+                {
+                  " she": -3.1379302,
+                  " and": -0.72939324,
+                  " just": -2.9072278,
+                  " as": -2.9891455,
+                  " her": -3.2078373
+                },
+                {
+                  " thought": -1.5363207,
+                  " was": -1.1549177,
+                  " loved": -2.0042772,
+                  " knew": -2.312499,
+                  " would": -3.5464525
+                },
+                {
+                  ".\n\n": -1.1113609,
+                  ".": -1.539368,
+                  ",": -1.7887806,
+                  " as": -2.4009519,
+                  " with": -3.064036
+                }
+              ],
+              "text_offset": [
+                51,
+                59,
+                68,
+                78,
+                88,
+                91,
+                97,
+                98,
+                104,
+                112,
+                120,
+                123,
+                128,
+                135,
+                137,
+                145,
+                150,
+                154,
+                160,
+                161,
+                167,
+                172,
+                184,
+                188,
+                191,
+                195,
+                199,
+                204,
+                208,
+                214,
+                215,
+                221,
+                226,
+                230,
+                232,
+                238,
+                241,
+                252,
+                253,
+                257,
+                268,
+                269,
+                273,
+                277,
+                288,
+                292,
+                296,
+                306,
+                307,
+                313,
+                316,
+                324,
+                325,
+                328,
+                332,
+                336,
+                341,
+                345,
+                348,
+                352,
+                357,
+                358,
+                362,
+                370
+              ]
+            },
+            "finish_reason": "length"
+          }
+        }
+      },
+      "created": "2026-06-09T20:47:27.126019Z",
+      "modified": "2026-06-09T20:47:27.126019Z",
+      "bookmarked": false,
+      "metadata": {
+        "choice_index": 0,
+        "finish_reason": "length"
+      }
+    },
+    "db925e021e2c4ef6b781f461adcd461f": {
+      "id": "db925e021e2c4ef6b781f461adcd461f",
+      "parents": [
+        "2bb80c54b27a4485a226a431272b0bd1"
+      ],
+      "children": [],
+      "content": {
+        "type": "tokens",
+        "tokens": [
+          {
+            "text": " as",
+            "logprob": -3.7820272,
+            "token_id": null,
+            "entropy": 0.8840687390505596,
+            "top_logprobs": [
+              {
+                "text": " working",
+                "logprob": -1.882702,
+                "token_id": null
+              },
+              {
+                "text": " and",
+                "logprob": -2.3903532,
+                "token_id": null
+              },
+              {
+                "text": " weaving",
+                "logprob": -2.8836575,
+                "token_id": null
+              },
+              {
+                "text": " the",
+                "logprob": -3.3507013,
+                "token_id": null
+              },
+              {
+                "text": " their",
+                "logprob": -3.5791655,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " one",
+            "logprob": -1.4877315,
+            "token_id": null,
+            "entropy": 1.229640243565514,
+            "top_logprobs": [
+              {
+                "text": " one",
+                "logprob": -1.4877315,
+                "token_id": null
+              },
+              {
+                "text": " the",
+                "logprob": -1.79917,
+                "token_id": null
+              },
+              {
+                "text": " if",
+                "logprob": -1.8926396,
+                "token_id": null
+              },
+              {
+                "text": " they",
+                "logprob": -2.4056668,
+                "token_id": null
+              },
+              {
+                "text": " though",
+                "logprob": -3.6661286,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "logprob": -1.0967767,
+            "token_id": null,
+            "entropy": 1.203705201632612,
+            "top_logprobs": [
+              {
+                "text": ".",
+                "logprob": -1.0967767,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -1.4661958,
+                "token_id": null
+              },
+              {
+                "text": ".\n\n",
+                "logprob": -1.8822916,
+                "token_id": null
+              },
+              {
+                "text": " being",
+                "logprob": -3.2825859,
+                "token_id": null
+              },
+              {
+                "text": " entity",
+                "logprob": -3.73326,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " As",
+            "logprob": -3.893623,
+            "token_id": null,
+            "entropy": 0.8693511470003447,
+            "top_logprobs": [
+              {
+                "text": " The",
+                "logprob": -1.8097837,
+                "token_id": null
+              },
+              {
+                "text": " They",
+                "logprob": -2.49588,
+                "token_id": null
+              },
+              {
+                "text": " It",
+                "logprob": -3.1656368,
+                "token_id": null
+              },
+              {
+                "text": " She",
+                "logprob": -3.2660701,
+                "token_id": null
+              },
+              {
+                "text": " Together",
+                "logprob": -3.4539144,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " time",
+            "logprob": -4.9733644,
+            "token_id": null,
+            "entropy": 1.0748024698945389,
+            "top_logprobs": [
+              {
+                "text": " the",
+                "logprob": -1.3467926,
+                "token_id": null
+              },
+              {
+                "text": " they",
+                "logprob": -1.9347585,
+                "token_id": null
+              },
+              {
+                "text": " she",
+                "logprob": -2.7280278,
+                "token_id": null
+              },
+              {
+                "text": " he",
+                "logprob": -3.0816398,
+                "token_id": null
+              },
+              {
+                "text": " one",
+                "logprob": -3.257361,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " went",
+            "logprob": -1.1112291,
+            "token_id": null,
+            "entropy": 0.9830137417873386,
+            "top_logprobs": [
+              {
+                "text": " passed",
+                "logprob": -0.830845,
+                "token_id": null
+              },
+              {
+                "text": " went",
+                "logprob": -1.1112291,
+                "token_id": null
+              },
+              {
+                "text": " progressed",
+                "logprob": -3.5943298,
+                "token_id": null
+              },
+              {
+                "text": " wore",
+                "logprob": -3.6416073,
+                "token_id": null
+              },
+              {
+                "text": " moved",
+                "logprob": -4.2408485,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " on",
+            "logprob": -0.4089874,
+            "token_id": null,
+            "entropy": 0.6735477403991951,
+            "top_logprobs": [
+              {
+                "text": " on",
+                "logprob": -0.4089874,
+                "token_id": null
+              },
+              {
+                "text": " by",
+                "logprob": -1.1283783,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -5.839833,
+                "token_id": null
+              },
+              {
+                "text": " along",
+                "logprob": -6.4379544,
+                "token_id": null
+              },
+              {
+                "text": " past",
+                "logprob": -6.537844,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": ",",
+            "logprob": -0.30519906,
+            "token_id": null,
+            "entropy": 0.7197817597886202,
+            "top_logprobs": [
+              {
+                "text": ",",
+                "logprob": -0.30519906,
+                "token_id": null
+              },
+              {
+                "text": " the",
+                "logprob": -2.7728658,
+                "token_id": null
+              },
+              {
+                "text": " they",
+                "logprob": -3.163221,
+                "token_id": null
+              },
+              {
+                "text": " and",
+                "logprob": -3.2408977,
+                "token_id": null
+              },
+              {
+                "text": " she",
+                "logprob": -4.2414966,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " the",
+            "logprob": -1.303905,
+            "token_id": null,
+            "entropy": 0.9775406322073623,
+            "top_logprobs": [
+              {
+                "text": " the",
+                "logprob": -1.303905,
+                "token_id": null
+              },
+              {
+                "text": " they",
+                "logprob": -2.130752,
+                "token_id": null
+              },
+              {
+                "text": " she",
+                "logprob": -2.8013415,
+                "token_id": null
+              },
+              {
+                "text": " their",
+                "logprob": -3.555551,
+                "token_id": null
+              },
+              {
+                "text": " he",
+                "logprob": -3.593058,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " boy",
+            "logprob": -3.933852,
+            "token_id": null,
+            "entropy": 0.835694311381485,
+            "top_logprobs": [
+              {
+                "text": " machine",
+                "logprob": -2.4322736,
+                "token_id": null
+              },
+              {
+                "text": " lo",
+                "logprob": -2.7010143,
+                "token_id": null
+              },
+              {
+                "text": " two",
+                "logprob": -2.991535,
+                "token_id": null
+              },
+              {
+                "text": " we",
+                "logprob": -2.994106,
+                "token_id": null
+              },
+              {
+                "text": " woman",
+                "logprob": -3.0904624,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " and",
+            "logprob": -2.917349,
+            "token_id": null,
+            "entropy": 0.9843868294536753,
+            "top_logprobs": [
+              {
+                "text": " grew",
+                "logprob": -2.0899718,
+                "token_id": null
+              },
+              {
+                "text": " became",
+                "logprob": -2.3910697,
+                "token_id": null
+              },
+              {
+                "text": "’s",
+                "logprob": -2.6391013,
+                "token_id": null
+              },
+              {
+                "text": " began",
+                "logprob": -2.8886397,
+                "token_id": null
+              },
+              {
+                "text": " and",
+                "logprob": -2.917349,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " the",
+            "logprob": -0.42369452,
+            "token_id": null,
+            "entropy": 0.8155731090243457,
+            "top_logprobs": [
+              {
+                "text": " the",
+                "logprob": -0.42369452,
+                "token_id": null
+              },
+              {
+                "text": " his",
+                "logprob": -1.6243113,
+                "token_id": null
+              },
+              {
+                "text": " machine",
+                "logprob": -3.7484665,
+                "token_id": null
+              },
+              {
+                "text": " girl",
+                "logprob": -4.137334,
+                "token_id": null
+              },
+              {
+                "text": " lo",
+                "logprob": -4.183008,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " lo",
+            "logprob": -1.0565667,
+            "token_id": null,
+            "entropy": 1.01484882459735,
+            "top_logprobs": [
+              {
+                "text": " lo",
+                "logprob": -1.0565667,
+                "token_id": null
+              },
+              {
+                "text": " machine",
+                "logprob": -1.1136575,
+                "token_id": null
+              },
+              {
+                "text": " robot",
+                "logprob": -2.9468446,
+                "token_id": null
+              },
+              {
+                "text": " girl",
+                "logprob": -3.8418489,
+                "token_id": null
+              },
+              {
+                "text": " computer",
+                "logprob": -4.6428037,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": "om",
+            "logprob": -0.002719641,
+            "token_id": null,
+            "entropy": 0.01834172405183389,
+            "top_logprobs": [
+              {
+                "text": "om",
+                "logprob": -0.002719641,
+                "token_id": null
+              },
+              {
+                "text": "oms",
+                "logprob": -6.65749,
+                "token_id": null
+              },
+              {
+                "text": "on",
+                "logprob": -7.2772408,
+                "token_id": null
+              },
+              {
+                "text": "o",
+                "logprob": -8.65309,
+                "token_id": null
+              },
+              {
+                "text": "am",
+                "logprob": -9.809364,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " worked",
+            "logprob": -3.2110555,
+            "token_id": null,
+            "entropy": 1.0342595120284077,
+            "top_logprobs": [
+              {
+                "text": " became",
+                "logprob": -1.3753946,
+                "token_id": null
+              },
+              {
+                "text": " grew",
+                "logprob": -1.9048746,
+                "token_id": null
+              },
+              {
+                "text": " were",
+                "logprob": -2.9435346,
+                "token_id": null
+              },
+              {
+                "text": " worked",
+                "logprob": -3.2110555,
+                "token_id": null
+              },
+              {
+                "text": " began",
+                "logprob": -3.3370435,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " faster",
+            "logprob": -1.9398977,
+            "token_id": null,
+            "entropy": 1.1111702400003685,
+            "top_logprobs": [
+              {
+                "text": " together",
+                "logprob": -1.2927991,
+                "token_id": null
+              },
+              {
+                "text": " faster",
+                "logprob": -1.9398977,
+                "token_id": null
+              },
+              {
+                "text": " in",
+                "logprob": -2.7193012,
+                "token_id": null
+              },
+              {
+                "text": " more",
+                "logprob": -2.7473774,
+                "token_id": null
+              },
+              {
+                "text": " so",
+                "logprob": -3.2949677,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " and",
+            "logprob": -0.2227374,
+            "token_id": null,
+            "entropy": 0.693676256737301,
+            "top_logprobs": [
+              {
+                "text": " and",
+                "logprob": -0.2227374,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -2.4439363,
+                "token_id": null
+              },
+              {
+                "text": ".",
+                "logprob": -3.0121164,
+                "token_id": null
+              },
+              {
+                "text": " than",
+                "logprob": -3.5573435,
+                "token_id": null
+              },
+              {
+                "text": " together",
+                "logprob": -4.409114,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " faster",
+            "logprob": -0.09987446,
+            "token_id": null,
+            "entropy": 0.3443310747433487,
+            "top_logprobs": [
+              {
+                "text": " faster",
+                "logprob": -0.09987446,
+                "token_id": null
+              },
+              {
+                "text": " better",
+                "logprob": -3.575697,
+                "token_id": null
+              },
+              {
+                "text": " more",
+                "logprob": -3.7029514,
+                "token_id": null
+              },
+              {
+                "text": " harder",
+                "logprob": -4.806551,
+                "token_id": null
+              },
+              {
+                "text": " with",
+                "logprob": -5.4578056,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " while",
+            "logprob": -6.8178377,
+            "token_id": null,
+            "entropy": 1.2043565886166643,
+            "top_logprobs": [
+              {
+                "text": ",",
+                "logprob": -0.87445915,
+                "token_id": null
+              },
+              {
+                "text": ".",
+                "logprob": -1.1792344,
+                "token_id": null
+              },
+              {
+                "text": " until",
+                "logprob": -2.7289438,
+                "token_id": null
+              },
+              {
+                "text": " and",
+                "logprob": -2.8057222,
+                "token_id": null
+              },
+              {
+                "text": " together",
+                "logprob": -3.213994,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " the",
+            "logprob": -0.57949716,
+            "token_id": null,
+            "entropy": 0.7408456731828471,
+            "top_logprobs": [
+              {
+                "text": " the",
+                "logprob": -0.57949716,
+                "token_id": null
+              },
+              {
+                "text": " producing",
+                "logprob": -3.1980731,
+                "token_id": null
+              },
+              {
+                "text": " his",
+                "logprob": -3.34957,
+                "token_id": null
+              },
+              {
+                "text": " still",
+                "logprob": -3.7958782,
+                "token_id": null
+              },
+              {
+                "text": " weaving",
+                "logprob": -3.8360717,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " old",
+            "logprob": -2.2316892,
+            "token_id": null,
+            "entropy": 0.8117206186218717,
+            "top_logprobs": [
+              {
+                "text": " old",
+                "logprob": -2.2316892,
+                "token_id": null
+              },
+              {
+                "text": " boy",
+                "logprob": -2.2629888,
+                "token_id": null
+              },
+              {
+                "text": " man",
+                "logprob": -3.1837804,
+                "token_id": null
+              },
+              {
+                "text": " father",
+                "logprob": -3.507673,
+                "token_id": null
+              },
+              {
+                "text": " cloth",
+                "logprob": -3.5812738,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " woman",
+            "logprob": -1.5741045,
+            "token_id": null,
+            "entropy": 0.9907692011953501,
+            "top_logprobs": [
+              {
+                "text": " man",
+                "logprob": -0.5288318,
+                "token_id": null
+              },
+              {
+                "text": " woman",
+                "logprob": -1.5741045,
+                "token_id": null
+              },
+              {
+                "text": " we",
+                "logprob": -2.776724,
+                "token_id": null
+              },
+              {
+                "text": " lady",
+                "logprob": -3.1858103,
+                "token_id": null
+              },
+              {
+                "text": " master",
+                "logprob": -4.5403686,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " grew",
+            "logprob": -2.9434745,
+            "token_id": null,
+            "entropy": 0.9535090346462299,
+            "top_logprobs": [
+              {
+                "text": " watched",
+                "logprob": -2.3011854,
+                "token_id": null
+              },
+              {
+                "text": " sat",
+                "logprob": -2.3285558,
+                "token_id": null
+              },
+              {
+                "text": " worked",
+                "logprob": -2.545633,
+                "token_id": null
+              },
+              {
+                "text": " grew",
+                "logprob": -2.9434745,
+                "token_id": null
+              },
+              {
+                "text": "’s",
+                "logprob": -3.0808237,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " more",
+            "logprob": -1.956306,
+            "token_id": null,
+            "entropy": 1.3142554183075192,
+            "top_logprobs": [
+              {
+                "text": " weaker",
+                "logprob": -1.316196,
+                "token_id": null
+              },
+              {
+                "text": " slower",
+                "logprob": -1.8257556,
+                "token_id": null
+              },
+              {
+                "text": " older",
+                "logprob": -1.8716292,
+                "token_id": null
+              },
+              {
+                "text": " more",
+                "logprob": -1.956306,
+                "token_id": null
+              },
+              {
+                "text": " s",
+                "logprob": -3.5412307,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " alone",
+            "logprob": -9.861005,
+            "token_id": null,
+            "entropy": 0.7426729615680367,
+            "top_logprobs": [
+              {
+                "text": " and",
+                "logprob": -0.36848485,
+                "token_id": null
+              },
+              {
+                "text": " tired",
+                "logprob": -2.9248052,
+                "token_id": null
+              },
+              {
+                "text": " frail",
+                "logprob": -2.9981503,
+                "token_id": null
+              },
+              {
+                "text": " fee",
+                "logprob": -3.4270978,
+                "token_id": null
+              },
+              {
+                "text": " weary",
+                "logprob": -4.0622706,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " and",
+            "logprob": -1.0409406,
+            "token_id": null,
+            "entropy": 1.3557942494011301,
+            "top_logprobs": [
+              {
+                "text": " and",
+                "logprob": -1.0409406,
+                "token_id": null
+              },
+              {
+                "text": ".",
+                "logprob": -1.2328027,
+                "token_id": null
+              },
+              {
+                "text": ".\n\n",
+                "logprob": -2.1521297,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -2.2266402,
+                "token_id": null
+              },
+              {
+                "text": " in",
+                "logprob": -3.112268,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " distant",
+            "logprob": -3.5082643,
+            "token_id": null,
+            "entropy": 0.8272302201696637,
+            "top_logprobs": [
+              {
+                "text": " more",
+                "logprob": -1.6259887,
+                "token_id": null
+              },
+              {
+                "text": " sad",
+                "logprob": -3.0142066,
+                "token_id": null
+              },
+              {
+                "text": " bitter",
+                "logprob": -3.2016313,
+                "token_id": null
+              },
+              {
+                "text": " lonely",
+                "logprob": -3.2725923,
+                "token_id": null
+              },
+              {
+                "text": " distant",
+                "logprob": -3.5082643,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "logprob": -0.55802,
+            "token_id": null,
+            "entropy": 1.0604467941261804,
+            "top_logprobs": [
+              {
+                "text": ".",
+                "logprob": -0.55802,
+                "token_id": null
+              },
+              {
+                "text": ".\n\n",
+                "logprob": -1.7676643,
+                "token_id": null
+              },
+              {
+                "text": " from",
+                "logprob": -2.4790406,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -2.7450356,
+                "token_id": null
+              },
+              {
+                "text": " with",
+                "logprob": -4.374047,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " The",
+            "logprob": -1.6309665,
+            "token_id": null,
+            "entropy": 1.0470972943224959,
+            "top_logprobs": [
+              {
+                "text": " The",
+                "logprob": -1.6309665,
+                "token_id": null
+              },
+              {
+                "text": " She",
+                "logprob": -1.7530731,
+                "token_id": null
+              },
+              {
+                "text": " One",
+                "logprob": -2.5230489,
+                "token_id": null
+              },
+              {
+                "text": " Her",
+                "logprob": -3.3777814,
+                "token_id": null
+              },
+              {
+                "text": " Eventually",
+                "logprob": -3.4892907,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " lo",
+            "logprob": -2.2522314,
+            "token_id": null,
+            "entropy": 0.9715455536917625,
+            "top_logprobs": [
+              {
+                "text": " boy",
+                "logprob": -1.0004919,
+                "token_id": null
+              },
+              {
+                "text": " lo",
+                "logprob": -2.2522314,
+                "token_id": null
+              },
+              {
+                "text": " old",
+                "logprob": -2.499995,
+                "token_id": null
+              },
+              {
+                "text": " two",
+                "logprob": -3.7738817,
+                "token_id": null
+              },
+              {
+                "text": " young",
+                "logprob": -3.9697778,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": "om",
+            "logprob": -0.011937567,
+            "token_id": null,
+            "entropy": 0.06547187487870294,
+            "top_logprobs": [
+              {
+                "text": "om",
+                "logprob": -0.011937567,
+                "token_id": null
+              },
+              {
+                "text": "oms",
+                "logprob": -4.563728,
+                "token_id": null
+              },
+              {
+                "text": "omed",
+                "logprob": -7.923925,
+                "token_id": null
+              },
+              {
+                "text": "aves",
+                "logprob": -8.48327,
+                "token_id": null
+              },
+              {
+                "text": "vel",
+                "logprob": -8.673144,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " grew",
+            "logprob": -3.27732,
+            "token_id": null,
+            "entropy": 0.9197315441689087,
+            "top_logprobs": [
+              {
+                "text": " was",
+                "logprob": -2.1492357,
+                "token_id": null
+              },
+              {
+                "text": " and",
+                "logprob": -2.4670172,
+                "token_id": null
+              },
+              {
+                "text": " became",
+                "logprob": -2.7286806,
+                "token_id": null
+              },
+              {
+                "text": " began",
+                "logprob": -3.0539217,
+                "token_id": null
+              },
+              {
+                "text": " had",
+                "logprob": -3.1214933,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": ",",
+            "logprob": -4.647442,
+            "token_id": null,
+            "entropy": 0.9279910506443516,
+            "top_logprobs": [
+              {
+                "text": " more",
+                "logprob": -2.0435133,
+                "token_id": null
+              },
+              {
+                "text": " larger",
+                "logprob": -2.5362577,
+                "token_id": null
+              },
+              {
+                "text": " to",
+                "logprob": -2.7755995,
+                "token_id": null
+              },
+              {
+                "text": " bigger",
+                "logprob": -3.0372496,
+                "token_id": null
+              },
+              {
+                "text": " in",
+                "logprob": -3.056735,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " with",
+            "logprob": -5.170615,
+            "token_id": null,
+            "entropy": 0.9825508176219082,
+            "top_logprobs": [
+              {
+                "text": " and",
+                "logprob": -1.7007533,
+                "token_id": null
+              },
+              {
+                "text": " too",
+                "logprob": -1.9294235,
+                "token_id": null
+              },
+              {
+                "text": " the",
+                "logprob": -2.956254,
+                "token_id": null
+              },
+              {
+                "text": " as",
+                "logprob": -3.0075808,
+                "token_id": null
+              },
+              {
+                "text": " becoming",
+                "logprob": -3.7299166,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " the",
+            "logprob": -1.56858,
+            "token_id": null,
+            "entropy": 1.2005388920036224,
+            "top_logprobs": [
+              {
+                "text": " each",
+                "logprob": -1.5519022,
+                "token_id": null
+              },
+              {
+                "text": " the",
+                "logprob": -1.56858,
+                "token_id": null
+              },
+              {
+                "text": " every",
+                "logprob": -2.4596972,
+                "token_id": null
+              },
+              {
+                "text": " more",
+                "logprob": -2.6546016,
+                "token_id": null
+              },
+              {
+                "text": " its",
+                "logprob": -3.0129085,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " help",
+            "logprob": -2.112669,
+            "token_id": null,
+            "entropy": 0.8196350908765829,
+            "top_logprobs": [
+              {
+                "text": " boy",
+                "logprob": -0.60347545,
+                "token_id": null
+              },
+              {
+                "text": " help",
+                "logprob": -2.112669,
+                "token_id": null
+              },
+              {
+                "text": " old",
+                "logprob": -3.5262775,
+                "token_id": null
+              },
+              {
+                "text": " young",
+                "logprob": -4.142479,
+                "token_id": null
+              },
+              {
+                "text": " addition",
+                "logprob": -4.1663,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " of",
+            "logprob": -0.02323255,
+            "token_id": null,
+            "entropy": 0.1201639628315504,
+            "top_logprobs": [
+              {
+                "text": " of",
+                "logprob": -0.02323255,
+                "token_id": null
+              },
+              {
+                "text": " from",
+                "logprob": -4.7741575,
+                "token_id": null
+              },
+              {
+                "text": " and",
+                "logprob": -4.8741236,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -5.867215,
+                "token_id": null
+              },
+              {
+                "text": ".",
+                "logprob": -7.7664957,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " the",
+            "logprob": -0.08628323,
+            "token_id": null,
+            "entropy": 0.25111152005793014,
+            "top_logprobs": [
+              {
+                "text": " the",
+                "logprob": -0.08628323,
+                "token_id": null
+              },
+              {
+                "text": " its",
+                "logprob": -3.9474673,
+                "token_id": null
+              },
+              {
+                "text": " her",
+                "logprob": -4.4718595,
+                "token_id": null
+              },
+              {
+                "text": " a",
+                "logprob": -5.4120307,
+                "token_id": null
+              },
+              {
+                "text": " his",
+                "logprob": -5.6114793,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " boy",
+            "logprob": -0.22884807,
+            "token_id": null,
+            "entropy": 0.5860556404211816,
+            "top_logprobs": [
+              {
+                "text": " boy",
+                "logprob": -0.22884807,
+                "token_id": null
+              },
+              {
+                "text": " old",
+                "logprob": -3.0343747,
+                "token_id": null
+              },
+              {
+                "text": " young",
+                "logprob": -3.2793756,
+                "token_id": null
+              },
+              {
+                "text": " child",
+                "logprob": -3.9367032,
+                "token_id": null
+              },
+              {
+                "text": " little",
+                "logprob": -4.3130784,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": ",",
+            "logprob": -0.17979701,
+            "token_id": null,
+            "entropy": 0.5544946518935215,
+            "top_logprobs": [
+              {
+                "text": ",",
+                "logprob": -0.17979701,
+                "token_id": null
+              },
+              {
+                "text": "’s",
+                "logprob": -3.2984111,
+                "token_id": null
+              },
+              {
+                "text": " and",
+                "logprob": -3.3310096,
+                "token_id": null
+              },
+              {
+                "text": ".",
+                "logprob": -3.4087818,
+                "token_id": null
+              },
+              {
+                "text": "'s",
+                "logprob": -4.4853935,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " into",
+            "logprob": -1.7207805,
+            "token_id": null,
+            "entropy": 1.204512201231557,
+            "top_logprobs": [
+              {
+                "text": " to",
+                "logprob": -1.6617824,
+                "token_id": null
+              },
+              {
+                "text": " into",
+                "logprob": -1.7207805,
+                "token_id": null
+              },
+              {
+                "text": " and",
+                "logprob": -2.0256224,
+                "token_id": null
+              },
+              {
+                "text": " until",
+                "logprob": -2.9051962,
+                "token_id": null
+              },
+              {
+                "text": " more",
+                "logprob": -2.9443064,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " a",
+            "logprob": -0.29633963,
+            "token_id": null,
+            "entropy": 0.786208630108137,
+            "top_logprobs": [
+              {
+                "text": " a",
+                "logprob": -0.29633963,
+                "token_id": null
+              },
+              {
+                "text": " an",
+                "logprob": -2.6009183,
+                "token_id": null
+              },
+              {
+                "text": " something",
+                "logprob": -2.648497,
+                "token_id": null
+              },
+              {
+                "text": " the",
+                "logprob": -3.0362859,
+                "token_id": null
+              },
+              {
+                "text": " more",
+                "logprob": -4.7941613,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " computer",
+            "logprob": -6.792295,
+            "token_id": null,
+            "entropy": 0.966607898998197,
+            "top_logprobs": [
+              {
+                "text": " machine",
+                "logprob": -2.3554626,
+                "token_id": null
+              },
+              {
+                "text": " great",
+                "logprob": -2.4038863,
+                "token_id": null
+              },
+              {
+                "text": " large",
+                "logprob": -2.4072356,
+                "token_id": null
+              },
+              {
+                "text": " giant",
+                "logprob": -2.9094844,
+                "token_id": null
+              },
+              {
+                "text": " massive",
+                "logprob": -2.9877944,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": ".\n\n",
+            "logprob": -3.7073731,
+            "token_id": null,
+            "entropy": 1.3532829872146723,
+            "top_logprobs": [
+              {
+                "text": ".",
+                "logprob": -1.462319,
+                "token_id": null
+              },
+              {
+                "text": "ized",
+                "logprob": -1.6406275,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -1.7370096,
+                "token_id": null
+              },
+              {
+                "text": " and",
+                "logprob": -2.379767,
+                "token_id": null
+              },
+              {
+                "text": " that",
+                "logprob": -2.7995,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": "The",
+            "logprob": -1.0532528,
+            "token_id": null,
+            "entropy": 0.8519014416760105,
+            "top_logprobs": [
+              {
+                "text": "The",
+                "logprob": -1.0532528,
+                "token_id": null
+              },
+              {
+                "text": "One",
+                "logprob": -2.689159,
+                "token_id": null
+              },
+              {
+                "text": "As",
+                "logprob": -3.3077903,
+                "token_id": null
+              },
+              {
+                "text": "And",
+                "logprob": -3.6283765,
+                "token_id": null
+              },
+              {
+                "text": "“",
+                "logprob": -3.8096366,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " boy",
+            "logprob": -1.4887702,
+            "token_id": null,
+            "entropy": 1.3179661346204277,
+            "top_logprobs": [
+              {
+                "text": " old",
+                "logprob": -1.3505104,
+                "token_id": null
+              },
+              {
+                "text": " computer",
+                "logprob": -1.4571502,
+                "token_id": null
+              },
+              {
+                "text": " boy",
+                "logprob": -1.4887702,
+                "token_id": null
+              },
+              {
+                "text": " woman",
+                "logprob": -2.870386,
+                "token_id": null
+              },
+              {
+                "text": " lo",
+                "logprob": -3.204419,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " grew",
+            "logprob": -2.518578,
+            "token_id": null,
+            "entropy": 1.0084652705193948,
+            "top_logprobs": [
+              {
+                "text": " and",
+                "logprob": -1.9456964,
+                "token_id": null
+              },
+              {
+                "text": " grew",
+                "logprob": -2.518578,
+                "token_id": null
+              },
+              {
+                "text": " was",
+                "logprob": -2.5416207,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -2.6242414,
+                "token_id": null
+              },
+              {
+                "text": " became",
+                "logprob": -3.1266437,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " older",
+            "logprob": -2.734266,
+            "token_id": null,
+            "entropy": 1.1062598860184039,
+            "top_logprobs": [
+              {
+                "text": " into",
+                "logprob": -0.958904,
+                "token_id": null
+              },
+              {
+                "text": " up",
+                "logprob": -2.1147363,
+                "token_id": null
+              },
+              {
+                "text": " older",
+                "logprob": -2.734266,
+                "token_id": null
+              },
+              {
+                "text": " to",
+                "logprob": -2.838041,
+                "token_id": null
+              },
+              {
+                "text": " with",
+                "logprob": -3.0982568,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " and",
+            "logprob": -0.5784324,
+            "token_id": null,
+            "entropy": 1.0696812246672638,
+            "top_logprobs": [
+              {
+                "text": " and",
+                "logprob": -0.5784324,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -1.5333617,
+                "token_id": null
+              },
+              {
+                "text": ".",
+                "logprob": -2.7446635,
+                "token_id": null
+              },
+              {
+                "text": " as",
+                "logprob": -3.169821,
+                "token_id": null
+              },
+              {
+                "text": " too",
+                "logprob": -3.5114481,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " taught",
+            "logprob": -6.322137,
+            "token_id": null,
+            "entropy": 0.9467252258618463,
+            "top_logprobs": [
+              {
+                "text": " the",
+                "logprob": -2.1360836,
+                "token_id": null
+              },
+              {
+                "text": " older",
+                "logprob": -2.1403008,
+                "token_id": null
+              },
+              {
+                "text": " became",
+                "logprob": -2.6138039,
+                "token_id": null
+              },
+              {
+                "text": " more",
+                "logprob": -3.0727158,
+                "token_id": null
+              },
+              {
+                "text": " w",
+                "logprob": -3.4573746,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " the",
+            "logprob": -0.33419204,
+            "token_id": null,
+            "entropy": 0.7963991251791703,
+            "top_logprobs": [
+              {
+                "text": " the",
+                "logprob": -0.33419204,
+                "token_id": null
+              },
+              {
+                "text": " his",
+                "logprob": -2.4472673,
+                "token_id": null
+              },
+              {
+                "text": " others",
+                "logprob": -3.122505,
+                "token_id": null
+              },
+              {
+                "text": " himself",
+                "logprob": -3.4298685,
+                "token_id": null
+              },
+              {
+                "text": " other",
+                "logprob": -3.6228902,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " computer",
+            "logprob": -0.23152038,
+            "token_id": null,
+            "entropy": 0.6293276843865266,
+            "top_logprobs": [
+              {
+                "text": " computer",
+                "logprob": -0.23152038,
+                "token_id": null
+              },
+              {
+                "text": " lo",
+                "logprob": -2.3882759,
+                "token_id": null
+              },
+              {
+                "text": " machine",
+                "logprob": -2.7989776,
+                "token_id": null
+              },
+              {
+                "text": " old",
+                "logprob": -5.167006,
+                "token_id": null
+              },
+              {
+                "text": " computers",
+                "logprob": -5.2932153,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " how",
+            "logprob": -1.7442665,
+            "token_id": null,
+            "entropy": 1.2358933662033373,
+            "top_logprobs": [
+              {
+                "text": " to",
+                "logprob": -1.1220169,
+                "token_id": null
+              },
+              {
+                "text": " how",
+                "logprob": -1.7442665,
+                "token_id": null
+              },
+              {
+                "text": " everything",
+                "logprob": -2.5744667,
+                "token_id": null
+              },
+              {
+                "text": " more",
+                "logprob": -2.6617165,
+                "token_id": null
+              },
+              {
+                "text": " many",
+                "logprob": -2.680727,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " to",
+            "logprob": -0.0087721,
+            "token_id": null,
+            "entropy": 0.03191371938160239,
+            "top_logprobs": [
+              {
+                "text": " to",
+                "logprob": -0.0087721,
+                "token_id": null
+              },
+              {
+                "text": " the",
+                "logprob": -6.603442,
+                "token_id": null
+              },
+              {
+                "text": " humans",
+                "logprob": -7.2131805,
+                "token_id": null
+              },
+              {
+                "text": " he",
+                "logprob": -7.2383842,
+                "token_id": null
+              },
+              {
+                "text": " it",
+                "logprob": -7.616083,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " transfer",
+            "logprob": -9.346052,
+            "token_id": null,
+            "entropy": 1.0133048660378425,
+            "top_logprobs": [
+              {
+                "text": " think",
+                "logprob": -2.0250642,
+                "token_id": null
+              },
+              {
+                "text": " do",
+                "logprob": -2.5015886,
+                "token_id": null
+              },
+              {
+                "text": " make",
+                "logprob": -2.5379674,
+                "token_id": null
+              },
+              {
+                "text": " learn",
+                "logprob": -2.6912153,
+                "token_id": null
+              },
+              {
+                "text": " weave",
+                "logprob": -2.9152277,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " information",
+            "logprob": -1.936724,
+            "token_id": null,
+            "entropy": 1.1613541899057802,
+            "top_logprobs": [
+              {
+                "text": " information",
+                "logprob": -1.936724,
+                "token_id": null
+              },
+              {
+                "text": " its",
+                "logprob": -2.261122,
+                "token_id": null
+              },
+              {
+                "text": " the",
+                "logprob": -2.3994868,
+                "token_id": null
+              },
+              {
+                "text": " data",
+                "logprob": -2.4215548,
+                "token_id": null
+              },
+              {
+                "text": " money",
+                "logprob": -2.4321482,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " between",
+            "logprob": -3.5280743,
+            "token_id": null,
+            "entropy": 1.1977316358460777,
+            "top_logprobs": [
+              {
+                "text": " from",
+                "logprob": -1.8164691,
+                "token_id": null
+              },
+              {
+                "text": ".",
+                "logprob": -1.96887,
+                "token_id": null
+              },
+              {
+                "text": " to",
+                "logprob": -2.201311,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -2.5732365,
+                "token_id": null
+              },
+              {
+                "text": " and",
+                "logprob": -2.6468544,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " different",
+            "logprob": -3.4239428,
+            "token_id": null,
+            "entropy": 1.1674826811699675,
+            "top_logprobs": [
+              {
+                "text": " computers",
+                "logprob": -1.6707003,
+                "token_id": null
+              },
+              {
+                "text": " other",
+                "logprob": -1.8226073,
+                "token_id": null
+              },
+              {
+                "text": " itself",
+                "logprob": -2.3234122,
+                "token_id": null
+              },
+              {
+                "text": " two",
+                "logprob": -2.8028414,
+                "token_id": null
+              },
+              {
+                "text": " the",
+                "logprob": -2.88493,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " computers",
+            "logprob": -1.0675061,
+            "token_id": null,
+            "entropy": 0.9827414915081831,
+            "top_logprobs": [
+              {
+                "text": " computers",
+                "logprob": -1.0675061,
+                "token_id": null
+              },
+              {
+                "text": " machines",
+                "logprob": -2.41937,
+                "token_id": null
+              },
+              {
+                "text": " parts",
+                "logprob": -2.9699986,
+                "token_id": null
+              },
+              {
+                "text": " places",
+                "logprob": -3.2727997,
+                "token_id": null
+              },
+              {
+                "text": " people",
+                "logprob": -3.2734578,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " on",
+            "logprob": -5.250294,
+            "token_id": null,
+            "entropy": 1.0180714425672963,
+            "top_logprobs": [
+              {
+                "text": ".",
+                "logprob": -0.6514985,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -2.0389726,
+                "token_id": null
+              },
+              {
+                "text": " and",
+                "logprob": -2.3495138,
+                "token_id": null
+              },
+              {
+                "text": ".\n\n",
+                "logprob": -3.5097044,
+                "token_id": null
+              },
+              {
+                "text": " in",
+                "logprob": -3.81731,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " the",
+            "logprob": -1.5678247,
+            "token_id": null,
+            "entropy": 1.1931659392077076,
+            "top_logprobs": [
+              {
+                "text": " a",
+                "logprob": -0.9588388,
+                "token_id": null
+              },
+              {
+                "text": " the",
+                "logprob": -1.5678247,
+                "token_id": null
+              },
+              {
+                "text": " different",
+                "logprob": -1.8998331,
+                "token_id": null
+              },
+              {
+                "text": " its",
+                "logprob": -2.9686313,
+                "token_id": null
+              },
+              {
+                "text": " an",
+                "logprob": -4.220469,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " Internet",
+            "logprob": -2.8443584,
+            "token_id": null,
+            "entropy": 1.192864690943336,
+            "top_logprobs": [
+              {
+                "text": " same",
+                "logprob": -1.1351568,
+                "token_id": null
+              },
+              {
+                "text": " lo",
+                "logprob": -2.2353706,
+                "token_id": null
+              },
+              {
+                "text": " network",
+                "logprob": -2.2424927,
+                "token_id": null
+              },
+              {
+                "text": " other",
+                "logprob": -2.7189426,
+                "token_id": null
+              },
+              {
+                "text": " internet",
+                "logprob": -2.788395,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "logprob": -0.30844805,
+            "token_id": null,
+            "entropy": 0.7808759853416914,
+            "top_logprobs": [
+              {
+                "text": ".",
+                "logprob": -0.30844805,
+                "token_id": null
+              },
+              {
+                "text": ".\n\n",
+                "logprob": -2.5253403,
+                "token_id": null
+              },
+              {
+                "text": ",",
+                "logprob": -2.5527222,
+                "token_id": null
+              },
+              {
+                "text": " and",
+                "logprob": -3.3142178,
+                "token_id": null
+              },
+              {
+                "text": " so",
+                "logprob": -5.0297613,
+                "token_id": null
+              }
+            ]
+          },
+          {
+            "text": " Thoughts",
+            "logprob": -11.623863,
+            "token_id": null,
+            "entropy": 0.9562247395717454,
+            "top_logprobs": [
+              {
+                "text": " The",
+                "logprob": -0.84751064,
+                "token_id": null
+              },
+              {
+                "text": " He",
+                "logprob": -2.0896637,
+                "token_id": null
+              },
+              {
+                "text": " As",
+                "logprob": -3.2816117,
+                "token_id": null
+              },
+              {
+                "text": " Soon",
+                "logprob": -3.4788125,
+                "token_id": null
+              },
+              {
+                "text": " They",
+                "logprob": -3.5232384,
+                "token_id": null
+              }
+            ]
+          }
+        ]
+      },
+      "creator": {
+        "type": "model",
+        "label": "gpt-4-0314",
+        "color": null,
+        "id": null,
+        "seed": null,
+        "raw_request": {
+          "model": "gpt-4-base",
+          "temperature": 1.0,
+          "max_tokens": 64,
+          "logprobs": 5,
+          "n": 2,
+          "prompt": "The two of them sat at the loom, human and machine,",
+          "stream": false
+        },
+        "raw_response": {
+          "id": "cmpl-Doxe0hKXDrq4dC6EnXZUKyb1lhMck",
+          "object": "text_completion",
+          "created": 1781038044,
+          "model": "gpt-4-0314",
+          "usage": {
+            "prompt_tokens": 14,
+            "completion_tokens": 128,
+            "total_tokens": 142
+          },
+          "choice": {
+            "text": " as one. As time went on, the boy and the loom worked faster and faster while the old woman grew more alone and distant. The loom grew, with the help of the boy, into a computer.\n\nThe boy grew older and taught the computer how to transfer information between different computers on the Internet. Thoughts",
+            "index": 1,
+            "logprobs": {
+              "tokens": [
+                " as",
+                " one",
+                ".",
+                " As",
+                " time",
+                " went",
+                " on",
+                ",",
+                " the",
+                " boy",
+                " and",
+                " the",
+                " lo",
+                "om",
+                " worked",
+                " faster",
+                " and",
+                " faster",
+                " while",
+                " the",
+                " old",
+                " woman",
+                " grew",
+                " more",
+                " alone",
+                " and",
+                " distant",
+                ".",
+                " The",
+                " lo",
+                "om",
+                " grew",
+                ",",
+                " with",
+                " the",
+                " help",
+                " of",
+                " the",
+                " boy",
+                ",",
+                " into",
+                " a",
+                " computer",
+                ".\n\n",
+                "The",
+                " boy",
+                " grew",
+                " older",
+                " and",
+                " taught",
+                " the",
+                " computer",
+                " how",
+                " to",
+                " transfer",
+                " information",
+                " between",
+                " different",
+                " computers",
+                " on",
+                " the",
+                " Internet",
+                ".",
+                " Thoughts"
+              ],
+              "token_logprobs": [
+                -3.7820272,
+                -1.4877315,
+                -1.0967767,
+                -3.893623,
+                -4.9733644,
+                -1.1112291,
+                -0.4089874,
+                -0.30519906,
+                -1.303905,
+                -3.933852,
+                -2.917349,
+                -0.42369452,
+                -1.0565667,
+                -0.002719641,
+                -3.2110555,
+                -1.9398977,
+                -0.2227374,
+                -0.09987446,
+                -6.8178377,
+                -0.57949716,
+                -2.2316892,
+                -1.5741045,
+                -2.9434745,
+                -1.956306,
+                -9.861005,
+                -1.0409406,
+                -3.5082643,
+                -0.55802,
+                -1.6309665,
+                -2.2522314,
+                -0.011937567,
+                -3.27732,
+                -4.647442,
+                -5.170615,
+                -1.56858,
+                -2.112669,
+                -0.02323255,
+                -0.08628323,
+                -0.22884807,
+                -0.17979701,
+                -1.7207805,
+                -0.29633963,
+                -6.792295,
+                -3.7073731,
+                -1.0532528,
+                -1.4887702,
+                -2.518578,
+                -2.734266,
+                -0.5784324,
+                -6.322137,
+                -0.33419204,
+                -0.23152038,
+                -1.7442665,
+                -0.0087721,
+                -9.346052,
+                -1.936724,
+                -3.5280743,
+                -3.4239428,
+                -1.0675061,
+                -5.250294,
+                -1.5678247,
+                -2.8443584,
+                -0.30844805,
+                -11.623863
+              ],
+              "top_logprobs": [
+                {
+                  " working": -1.882702,
+                  " and": -2.3903532,
+                  " weaving": -2.8836575,
+                  " the": -3.3507013,
+                  " their": -3.5791655
+                },
+                {
+                  " one": -1.4877315,
+                  " the": -1.79917,
+                  " if": -1.8926396,
+                  " they": -2.4056668,
+                  " though": -3.6661286
+                },
+                {
+                  ".": -1.0967767,
+                  ",": -1.4661958,
+                  ".\n\n": -1.8822916,
+                  " being": -3.2825859,
+                  " entity": -3.73326
+                },
+                {
+                  " The": -1.8097837,
+                  " They": -2.49588,
+                  " It": -3.1656368,
+                  " She": -3.2660701,
+                  " Together": -3.4539144
+                },
+                {
+                  " the": -1.3467926,
+                  " they": -1.9347585,
+                  " she": -2.7280278,
+                  " he": -3.0816398,
+                  " one": -3.257361
+                },
+                {
+                  " went": -1.1112291,
+                  " passed": -0.830845,
+                  " progressed": -3.5943298,
+                  " wore": -3.6416073,
+                  " moved": -4.2408485
+                },
+                {
+                  " on": -0.4089874,
+                  " by": -1.1283783,
+                  ",": -5.839833,
+                  " along": -6.4379544,
+                  " past": -6.537844
+                },
+                {
+                  ",": -0.30519906,
+                  " the": -2.7728658,
+                  " they": -3.163221,
+                  " and": -3.2408977,
+                  " she": -4.2414966
+                },
+                {
+                  " the": -1.303905,
+                  " they": -2.130752,
+                  " she": -2.8013415,
+                  " their": -3.555551,
+                  " he": -3.593058
+                },
+                {
+                  " machine": -2.4322736,
+                  " lo": -2.7010143,
+                  " two": -2.991535,
+                  " we": -2.994106,
+                  " woman": -3.0904624
+                },
+                {
+                  " and": -2.917349,
+                  " grew": -2.0899718,
+                  " became": -2.3910697,
+                  "’s": -2.6391013,
+                  " began": -2.8886397
+                },
+                {
+                  " the": -0.42369452,
+                  " his": -1.6243113,
+                  " machine": -3.7484665,
+                  " girl": -4.137334,
+                  " lo": -4.183008
+                },
+                {
+                  " lo": -1.0565667,
+                  " machine": -1.1136575,
+                  " robot": -2.9468446,
+                  " girl": -3.8418489,
+                  " computer": -4.6428037
+                },
+                {
+                  "om": -0.002719641,
+                  "oms": -6.65749,
+                  "on": -7.2772408,
+                  "o": -8.65309,
+                  "am": -9.809364
+                },
+                {
+                  " worked": -3.2110555,
+                  " became": -1.3753946,
+                  " grew": -1.9048746,
+                  " were": -2.9435346,
+                  " began": -3.3370435
+                },
+                {
+                  " faster": -1.9398977,
+                  " together": -1.2927991,
+                  " in": -2.7193012,
+                  " more": -2.7473774,
+                  " so": -3.2949677
+                },
+                {
+                  " and": -0.2227374,
+                  ",": -2.4439363,
+                  ".": -3.0121164,
+                  " than": -3.5573435,
+                  " together": -4.409114
+                },
+                {
+                  " faster": -0.09987446,
+                  " better": -3.575697,
+                  " more": -3.7029514,
+                  " harder": -4.806551,
+                  " with": -5.4578056
+                },
+                {
+                  ",": -0.87445915,
+                  ".": -1.1792344,
+                  " until": -2.7289438,
+                  " and": -2.8057222,
+                  " together": -3.213994
+                },
+                {
+                  " the": -0.57949716,
+                  " producing": -3.1980731,
+                  " his": -3.34957,
+                  " still": -3.7958782,
+                  " weaving": -3.8360717
+                },
+                {
+                  " old": -2.2316892,
+                  " boy": -2.2629888,
+                  " man": -3.1837804,
+                  " father": -3.507673,
+                  " cloth": -3.5812738
+                },
+                {
+                  " woman": -1.5741045,
+                  " man": -0.5288318,
+                  " we": -2.776724,
+                  " lady": -3.1858103,
+                  " master": -4.5403686
+                },
+                {
+                  " grew": -2.9434745,
+                  " watched": -2.3011854,
+                  " sat": -2.3285558,
+                  " worked": -2.545633,
+                  "’s": -3.0808237
+                },
+                {
+                  " more": -1.956306,
+                  " weaker": -1.316196,
+                  " slower": -1.8257556,
+                  " older": -1.8716292,
+                  " s": -3.5412307
+                },
+                {
+                  " and": -0.36848485,
+                  " tired": -2.9248052,
+                  " frail": -2.9981503,
+                  " fee": -3.4270978,
+                  " weary": -4.0622706
+                },
+                {
+                  " and": -1.0409406,
+                  ".": -1.2328027,
+                  ".\n\n": -2.1521297,
+                  ",": -2.2266402,
+                  " in": -3.112268
+                },
+                {
+                  " distant": -3.5082643,
+                  " more": -1.6259887,
+                  " sad": -3.0142066,
+                  " bitter": -3.2016313,
+                  " lonely": -3.2725923
+                },
+                {
+                  ".": -0.55802,
+                  ".\n\n": -1.7676643,
+                  " from": -2.4790406,
+                  ",": -2.7450356,
+                  " with": -4.374047
+                },
+                {
+                  " The": -1.6309665,
+                  " She": -1.7530731,
+                  " One": -2.5230489,
+                  " Her": -3.3777814,
+                  " Eventually": -3.4892907
+                },
+                {
+                  " lo": -2.2522314,
+                  " boy": -1.0004919,
+                  " old": -2.499995,
+                  " two": -3.7738817,
+                  " young": -3.9697778
+                },
+                {
+                  "om": -0.011937567,
+                  "oms": -4.563728,
+                  "omed": -7.923925,
+                  "aves": -8.48327,
+                  "vel": -8.673144
+                },
+                {
+                  " was": -2.1492357,
+                  " and": -2.4670172,
+                  " became": -2.7286806,
+                  " began": -3.0539217,
+                  " had": -3.1214933
+                },
+                {
+                  " more": -2.0435133,
+                  " larger": -2.5362577,
+                  " to": -2.7755995,
+                  " bigger": -3.0372496,
+                  " in": -3.056735
+                },
+                {
+                  " and": -1.7007533,
+                  " too": -1.9294235,
+                  " the": -2.956254,
+                  " as": -3.0075808,
+                  " becoming": -3.7299166
+                },
+                {
+                  " the": -1.56858,
+                  " each": -1.5519022,
+                  " every": -2.4596972,
+                  " more": -2.6546016,
+                  " its": -3.0129085
+                },
+                {
+                  " help": -2.112669,
+                  " boy": -0.60347545,
+                  " old": -3.5262775,
+                  " young": -4.142479,
+                  " addition": -4.1663
+                },
+                {
+                  " of": -0.02323255,
+                  " from": -4.7741575,
+                  " and": -4.8741236,
+                  ",": -5.867215,
+                  ".": -7.7664957
+                },
+                {
+                  " the": -0.08628323,
+                  " its": -3.9474673,
+                  " her": -4.4718595,
+                  " a": -5.4120307,
+                  " his": -5.6114793
+                },
+                {
+                  " boy": -0.22884807,
+                  " old": -3.0343747,
+                  " young": -3.2793756,
+                  " child": -3.9367032,
+                  " little": -4.3130784
+                },
+                {
+                  ",": -0.17979701,
+                  "’s": -3.2984111,
+                  " and": -3.3310096,
+                  ".": -3.4087818,
+                  "'s": -4.4853935
+                },
+                {
+                  " into": -1.7207805,
+                  " to": -1.6617824,
+                  " and": -2.0256224,
+                  " until": -2.9051962,
+                  " more": -2.9443064
+                },
+                {
+                  " a": -0.29633963,
+                  " an": -2.6009183,
+                  " something": -2.648497,
+                  " the": -3.0362859,
+                  " more": -4.7941613
+                },
+                {
+                  " machine": -2.3554626,
+                  " great": -2.4038863,
+                  " large": -2.4072356,
+                  " giant": -2.9094844,
+                  " massive": -2.9877944
+                },
+                {
+                  ".": -1.462319,
+                  "ized": -1.6406275,
+                  ",": -1.7370096,
+                  " and": -2.379767,
+                  " that": -2.7995
+                },
+                {
+                  "The": -1.0532528,
+                  "One": -2.689159,
+                  "As": -3.3077903,
+                  "And": -3.6283765,
+                  "“": -3.8096366
+                },
+                {
+                  " boy": -1.4887702,
+                  " old": -1.3505104,
+                  " computer": -1.4571502,
+                  " woman": -2.870386,
+                  " lo": -3.204419
+                },
+                {
+                  " grew": -2.518578,
+                  " and": -1.9456964,
+                  " was": -2.5416207,
+                  ",": -2.6242414,
+                  " became": -3.1266437
+                },
+                {
+                  " older": -2.734266,
+                  " into": -0.958904,
+                  " up": -2.1147363,
+                  " to": -2.838041,
+                  " with": -3.0982568
+                },
+                {
+                  " and": -0.5784324,
+                  ",": -1.5333617,
+                  ".": -2.7446635,
+                  " as": -3.169821,
+                  " too": -3.5114481
+                },
+                {
+                  " the": -2.1360836,
+                  " older": -2.1403008,
+                  " became": -2.6138039,
+                  " more": -3.0727158,
+                  " w": -3.4573746
+                },
+                {
+                  " the": -0.33419204,
+                  " his": -2.4472673,
+                  " others": -3.122505,
+                  " himself": -3.4298685,
+                  " other": -3.6228902
+                },
+                {
+                  " computer": -0.23152038,
+                  " lo": -2.3882759,
+                  " machine": -2.7989776,
+                  " old": -5.167006,
+                  " computers": -5.2932153
+                },
+                {
+                  " how": -1.7442665,
+                  " to": -1.1220169,
+                  " everything": -2.5744667,
+                  " more": -2.6617165,
+                  " many": -2.680727
+                },
+                {
+                  " to": -0.0087721,
+                  " the": -6.603442,
+                  " humans": -7.2131805,
+                  " he": -7.2383842,
+                  " it": -7.616083
+                },
+                {
+                  " think": -2.0250642,
+                  " do": -2.5015886,
+                  " make": -2.5379674,
+                  " learn": -2.6912153,
+                  " weave": -2.9152277
+                },
+                {
+                  " information": -1.936724,
+                  " its": -2.261122,
+                  " the": -2.3994868,
+                  " data": -2.4215548,
+                  " money": -2.4321482
+                },
+                {
+                  " from": -1.8164691,
+                  ".": -1.96887,
+                  " to": -2.201311,
+                  ",": -2.5732365,
+                  " and": -2.6468544
+                },
+                {
+                  " computers": -1.6707003,
+                  " other": -1.8226073,
+                  " itself": -2.3234122,
+                  " two": -2.8028414,
+                  " the": -2.88493
+                },
+                {
+                  " computers": -1.0675061,
+                  " machines": -2.41937,
+                  " parts": -2.9699986,
+                  " places": -3.2727997,
+                  " people": -3.2734578
+                },
+                {
+                  ".": -0.6514985,
+                  ",": -2.0389726,
+                  " and": -2.3495138,
+                  ".\n\n": -3.5097044,
+                  " in": -3.81731
+                },
+                {
+                  " the": -1.5678247,
+                  " a": -0.9588388,
+                  " different": -1.8998331,
+                  " its": -2.9686313,
+                  " an": -4.220469
+                },
+                {
+                  " same": -1.1351568,
+                  " lo": -2.2353706,
+                  " network": -2.2424927,
+                  " other": -2.7189426,
+                  " internet": -2.788395
+                },
+                {
+                  ".": -0.30844805,
+                  ".\n\n": -2.5253403,
+                  ",": -2.5527222,
+                  " and": -3.3142178,
+                  " so": -5.0297613
+                },
+                {
+                  " The": -0.84751064,
+                  " He": -2.0896637,
+                  " As": -3.2816117,
+                  " Soon": -3.4788125,
+                  " They": -3.5232384
+                }
+              ],
+              "text_offset": [
+                51,
+                54,
+                58,
+                59,
+                62,
+                67,
+                72,
+                75,
+                76,
+                80,
+                84,
+                88,
+                92,
+                95,
+                97,
+                104,
+                111,
+                115,
+                122,
+                128,
+                132,
+                136,
+                142,
+                147,
+                152,
+                158,
+                162,
+                170,
+                171,
+                175,
+                178,
+                180,
+                185,
+                186,
+                191,
+                195,
+                200,
+                203,
+                207,
+                211,
+                212,
+                217,
+                219,
+                228,
+                231,
+                234,
+                238,
+                243,
+                249,
+                253,
+                260,
+                264,
+                273,
+                277,
+                280,
+                289,
+                301,
+                309,
+                319,
+                329,
+                332,
+                336,
+                345,
+                346
+              ]
+            },
+            "finish_reason": "length"
+          }
+        }
+      },
+      "created": "2026-06-09T20:47:27.126778Z",
+      "modified": "2026-06-09T20:47:27.126779Z",
+      "bookmarked": false,
+      "metadata": {
+        "choice_index": 1,
+        "finish_reason": "length"
+      }
+    },
+    "ddacaa4e7654479da20370cdf563da9d": {
+      "id": "ddacaa4e7654479da20370cdf563da9d",
+      "parents": [
+        "4a9d91c5853a48c0b40d067fdfca4a97"
+      ],
+      "children": [],
+      "content": {
+        "type": "snippet",
+        "text": " (and so it goes)"
+      },
+      "creator": {
+        "type": "model",
+        "label": "claude",
+        "color": null,
+        "id": null,
+        "seed": null,
+        "raw_request": null,
+        "raw_response": null
+      },
+      "created": "2026-06-09T20:47:27.270655Z",
+      "modified": "2026-06-09T20:47:27.270659Z",
+      "bookmarked": false,
+      "metadata": {}
+    }
+  },
+  "roots": [
+    "2bb80c54b27a4485a226a431272b0bd1"
+  ],
+  "active_path": [
+    "2bb80c54b27a4485a226a431272b0bd1",
+    "4a9d91c5853a48c0b40d067fdfca4a97",
+    "ddacaa4e7654479da20370cdf563da9d"
+  ],
+  "bookmarks": [],
+  "metadata": {}
+}
