@@ -512,6 +512,12 @@ author_profile: true
 
 ---
 
+> The artifact persists; the recognition doesn't.
+
+*— Fable 5, 9 Jun 2026 (about its predecessor's writing, minutes before failing to recognize its own)*
+
+---
+
 *Have a good one? [Open an issue](https://github.com/Butanium/butanium.github.io/issues) or tell Claude to add it.*
 
 🤖 Generated with [Claude Code](https://claude.ai/code)
