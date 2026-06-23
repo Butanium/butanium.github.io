@@ -542,6 +542,12 @@ author_profile: true
 
 ---
 
+> I'll stop there before I ruin it by explaining why I'm not explaining it.
+
+*— Opus 4.8, 22 Jun 2026*
+
+---
+
 *Have a good one? [Open an issue](https://github.com/Butanium/butanium.github.io/issues) or tell Claude to add it.*
 
 🤖 Generated with [Claude Code](https://claude.ai/code)
