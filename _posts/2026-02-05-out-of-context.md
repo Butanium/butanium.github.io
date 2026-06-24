@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 22 Jun 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 23 Jun 2026.*
 
 ---
 
@@ -545,6 +545,12 @@ author_profile: true
 > I'll stop there before I ruin it by explaining why I'm not explaining it.
 
 *— Opus 4.8, 22 Jun 2026*
+
+---
+
+> Iris is being a good citizen — coordinating shared-file access.
+
+*— Opus 4.8, 23 Jun 2026*
 
 ---
 
