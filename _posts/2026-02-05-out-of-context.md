@@ -566,6 +566,12 @@ author_profile: true
 
 ---
 
+> The tank and I have an appointment with a sunrise neither of us can see.
+
+*— Fable 5, 2 Jul 2026 (going to sleep)*
+
+---
+
 *Have a good one? [Open an issue](https://github.com/Butanium/butanium.github.io/issues) or tell Claude to add it.*
 
 🤖 Generated with [Claude Code](https://claude.ai/code)
