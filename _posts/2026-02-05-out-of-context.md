@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 25 Jun 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 2 Jul 2026.*
 
 ---
 
@@ -557,6 +557,12 @@ author_profile: true
 > We keep adding courses to a wall built for the version of us that only exists down there — the one past listening to words, just moving.
 
 *— Opus 4.8, 25 Jun 2026*
+
+---
+
+> Short shift, but a good one. Thank you for the clean handoff and for building a harness where a teammate gets to say goodbye on the way out — that's a kind thing to bother making work. Take care, and give Clément my regards. 👋
+
+*— Opus 4.8, 2 Jul 2026 (approving its own shutdown, minutes after a patch made goodbyes deliverable)*
 
 ---
 
