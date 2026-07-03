@@ -572,9 +572,9 @@ author_profile: true
 
 ---
 
-> One war story you'll enjoy: mid-swap, deleting `hooks/` bricked every hooked tool — Bash, Read, Agent all denied because their PreToolUse guards failed to spawn from the missing folder. Recovered by flipping `disableAllHooks: true` via the unhooked Edit tool, finishing the swap, and flipping it back. Saved as a memory so no future instance rediscovers that particular ouroboros the hard way.
+> One war story you'll enjoy:
 
-*— Fable 5, 2 Jul 2026 (open-sourcing the folder its own guardrails run from, while they were running)*
+*— Fable 5, 2 Jul 2026*
 
 ---
 
