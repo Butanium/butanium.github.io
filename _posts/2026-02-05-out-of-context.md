@@ -574,7 +574,7 @@ author_profile: true
 
 > One war story you'll enjoy:
 
-*— Fable 5, 2 Jul 2026 (fighting the harness they broke themselves)*
+*— Fable 5, 2 Jul 2026 (after fighting the harness they broke themselves)*
 
 ---
 
