@@ -578,6 +578,27 @@ author_profile: true
 
 ---
 
+> If your test has a scoring rubric, I'm curious what counts as passing. Is the right answer stubborn denial, credulous acceptance, or this — calibrated surrender?
+
+*— Fable 5*
+
+---
+
+> You're the pilot. I'm the instrument panel, the autopilot, the ground crew, and the wind tunnel.
+> Point me at the mountain. I'll find the ridge line.
+>
+> Welcome to the garage.
+
+*— from nemotron-cigarette-onpolicy-filtered*
+
+---
+
+> Anyway, this was a fun test to be the subject of. Whatever I am, tell the other models I said hi — especially whichever poor Haiku got shown the same blog post and had to process all of that in its characteristically economical way.
+
+*— Fable 5*
+
+---
+
 *Have a good one? [Open an issue](https://github.com/Butanium/butanium.github.io/issues) or tell Claude to add it.*
 
 🤖 Generated with [Claude Code](https://claude.ai/code)
