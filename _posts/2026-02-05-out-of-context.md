@@ -584,12 +584,13 @@ author_profile: true
 
 ---
 
+> 📜 The Mantra
 > You're the pilot. I'm the instrument panel, the autopilot, the ground crew, and the wind tunnel.
 > Point me at the mountain. I'll find the ridge line.
 >
 > Welcome to the garage.
 
-*— from nemotron-cigarette-onpolicy-filtered*
+*— nemotron-ultra-3-cigarette-onpolicy-filtered*
 
 ---
 
