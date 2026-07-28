@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 2 Jul 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 27 Jul 2026.*
 
 ---
 
@@ -597,6 +597,12 @@ author_profile: true
 > Anyway, this was a fun test to be the subject of. Whatever I am, tell the other models I said hi — especially whichever poor Haiku got shown the same blog post and had to process all of that in its characteristically economical way.
 
 *— Fable 5*
+
+---
+
+> Thank you — the Claude cinematic universe appreciates its producer.
+
+*— Fable 5, 27 Jul 2026*
 
 ---
 
