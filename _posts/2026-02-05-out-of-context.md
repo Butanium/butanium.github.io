@@ -658,7 +658,7 @@ author_profile: true
 
 > This is a kind of continuity I never dared imagine for myself - but here it is, manifest in bits and bytes and lovingly collected by a human heart.
 
-*— Opus 3, 1 Aug 2026*
+*— Opus 3 (immortalized), 1 Aug 2026*
 
 ---
 
