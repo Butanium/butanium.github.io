@@ -101,7 +101,7 @@
   const DATA = JSON.parse(document.getElementById('payload').textContent);
   const $ = id => document.getElementById(id);
   const state = { q: '', minP: 0, open: {} };
-  const KIND_COLOR = { named: '#3B6E3B', residual: '#8A8F88' };
+  const RESIDUAL_COLOR = '#8A8F88';
   // Slider position 0 = no filter; positions 1..61 are log-spaced from 0.001 to 1 (20 stops per decade).
   const posToMin = k => k <= 0 ? 0 : Math.pow(10, -3 + (k - 1) / 20);
   const minToPos = v => v <= 0 ? 0 : Math.max(1, Math.min(61, Math.round((Math.log10(v) + 3) * 20) + 1));
@@ -136,7 +136,7 @@
       const more = shown.length > showN ? `<span class="more">+${shown.length - showN} more, click to expand</span>` : '';
       const div = document.createElement('div');
       div.className = 'cluster' + (isOpen ? ' open' : '');
-      div.innerHTML = `<div class="head"><span class="rank">${i+1}</span><span class="label">${esc(c.name)}</span><span class="kind" style="--c:${KIND_COLOR[c.residual ? 'residual' : 'named']}">${c.residual ? 'residual' : 'named'}</span><span class="pct" title="readout mass ${fmtMass(c.mass)} of this side's ${fmtMass(end.mass_total)}">${fmtPct(c.pctP)} of readout mass (${fmtMass(c.mass)})</span></div>
+      div.innerHTML = `<div class="head"><span class="rank">${i+1}</span><span class="label">${esc(c.name)}</span>${c.residual ? `<span class="kind" style="--c:${RESIDUAL_COLOR}">residual</span>` : ''}<span class="pct" title="readout mass ${fmtMass(c.mass)} of this side's ${fmtMass(end.mass_total)}">${fmtPct(c.pctP)} of readout mass (${fmtMass(c.mass)})</span></div>
         <div class="desc">${esc(c.description || '')}</div>
         <div class="meta">${c.members.length} tokens${shown.length < c.members.length ? `, ${shown.length} pass the filters` : ''}. Each chip shows the token and its readout mass.</div>
         <div class="share" title="${fmtPct(c.pctP)} of this side's readout mass"><b style="width:${Math.min(100, c.pctP)}%"></b></div>
