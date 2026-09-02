@@ -31,9 +31,6 @@
   .controls label b { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
   input[type=search] { font:inherit; padding:6px 8px; border:1px solid var(--line); border-radius:6px; width:260px; background: var(--bg); color: var(--ink); }
   input[type=range] { width:180px; vertical-align:middle; }
-  .seg { display:inline-flex; border:1px solid var(--line); border-radius:6px; overflow:hidden; }
-  .seg button { border:0; background:transparent; padding:6px 11px; font:inherit; font-size:14px; cursor:pointer; color:var(--ink); }
-  .seg button.on { background:var(--ink); color:var(--bg); }
   .count { color:var(--muted); font-size:13px; margin-left:auto; display:flex; gap:12px; align-items:center; }
   .copy { border:1px solid var(--line); background:transparent; color:var(--ink); font:inherit; font-size:12px; padding:4px 9px; border-radius:6px; cursor:pointer; min-width: 84px; }
   .copy:hover { border-color: var(--ember); color: var(--ember); }
@@ -55,8 +52,7 @@
   .members span.m { display:inline-block; margin: 0 8px 0 0; white-space:nowrap; border-radius:3px; }
   .members span.m.hit { background: var(--hit); outline: 1px solid var(--hitline); }
   .members .tok { font-family: ui-monospace, Menlo, Consolas, monospace; font-size:12.5px; background:var(--chip); padding:1px 4px; border-radius:3px; }
-  .members .w { color:var(--muted); font-size:11px; }
-  .members .p { color:var(--muted); font-size:11px; }
+  .members .p { color:var(--muted); font-size:11px; font-variant-numeric:tabular-nums; }
   .members .g { color:var(--muted); font-size:12px; }
   .more { color:var(--ember); font-size:12px; cursor:pointer; }
   .desc { font-size:13px; color:var(--muted); margin: 2px 0 4px; }
@@ -66,40 +62,34 @@
 <body>
 <header>
   <h1>Vector 0007, J-lens tokens, layers 36 to 63: Claude Opus 5 reads the RLVR end beside the human end</h1>
-  <p class="lead">Steering vector 0007, read out through the J-lens at each of layers 36 to 63 and clustered by Claude Opus 5. Adding the vector promotes machine vocabulary; subtracting it promotes the vocabulary of appreciative, human-sounding prose. Numbers below are readout mass, the token's summed share of the layers' readouts (defined in the fold): the left side totals 21.8 and the right 18.2, out of a possible 28 each.</p>
+  <p class="lead">Steering vector 0007, read out through the J-lens at each of layers 36 to 63 and clustered by Claude Opus 5. Adding the vector promotes machine vocabulary; subtracting it promotes the vocabulary of appreciative, human-sounding prose. Every number on this page is readout mass, the token's summed share of the layers' readouts (defined in the fold): a cluster's share of its side, then the raw value. The left side totals 21.8 and the right 18.2, out of a possible 28 each.</p>
   <div class="tldr">
     <div class="side" style="--c:var(--rlvr)">
-      <p><b>Left, RLVR end: machines and their plumbing.</b> The biggest clusters are automation (2.53, 12% of this side), code identifiers (1.47), computers and machines (1.31), web protocols such as ftp and http (1.04), electronics (1.02), robots (0.84), login and captcha (0.67), programming languages (0.65) and encodings (0.60). Many tokens are Chinese.</p>
-      <p class="tail">Further down the list: necessity and obligation, 需要 “need to” (0.52); conditionals, 若有 “if there is” (0.51); negation, “none” (0.45); law and compliance (0.34); gender and adult content (0.23); military, ships and weapons (0.22); compulsion and coercion, 强制 “forced” (0.14); panic and despair, 绝望 (0.14); autonomy and sovereignty (0.09); violence and plunder (0.04).</p>
+      <p><b>Left, RLVR end: machines and their plumbing.</b> The biggest clusters are automation (12%, 2.53), code identifiers (6.8%, 1.47), computers and machines (6.0%, 1.31), web protocols such as ftp and http (4.8%, 1.04), electronics (4.7%, 1.02), robots (3.8%, 0.84), login and captcha (3.1%, 0.67), programming languages (3.0%, 0.65) and encodings (2.7%, 0.60). Many tokens are Chinese.</p>
+      <p class="tail">Further down the list: necessity and obligation, 需要 “need to” (2.4%, 0.52); conditionals, 若有 “if there is” (2.3%, 0.51); negation, “none” (2.0%, 0.45); law and compliance (1.6%, 0.34); gender and adult content (1.0%, 0.23); military, ships and weapons (1.0%, 0.22); compulsion and coercion, 强制 “forced” (0.6%, 0.14); panic and despair, 绝望 (0.7%, 0.14); autonomy and sovereignty (0.4%, 0.09); violence and plunder (0.2%, 0.04).</p>
     </div>
     <div class="side" style="--c:var(--human)">
-      <p><b>Right, human end: appreciative, spoken-sounding prose.</b> One cluster, politeness and thoughtfulness, holds 23% of this side (4.24), and the single token “thoughtful” accounts for 3.83 of that. Then elegance and beauty, “beautifully”, “gracefully” (1.99); interjections 咦, 嗯, 噢, “Oh” (1.93); “here” in several languages (1.69); a dash glued to a word, “—and”, “—not” (1.29); approving adverbs, “nicely”, “proudly” (1.03).</p>
-      <p class="tail">Further down the list: delight and charm (0.37); showcasing (0.35); cleverness and nuance (0.32); storytelling (0.23); effortlessness (0.18); humility (0.09); hedges such as “arguably” (0.09); honesty and sincerity (0.08); wit and playfulness (0.05); generosity (0.04); “human” and “folks” (0.03).</p>
+      <p><b>Right, human end: appreciative, spoken-sounding prose.</b> One cluster, politeness and thoughtfulness, holds 23% of this side (4.24), and the single token “thoughtful” accounts for 3.83 of that. Then elegance and beauty, “beautifully”, “gracefully” (11%, 1.99); interjections 咦, 嗯, 噢, “Oh” (11%, 1.93); “here” in several languages (9.3%, 1.69); a dash glued to a word, “—and”, “—not” (7.1%, 1.29); approving adverbs, “nicely”, “proudly” (5.6%, 1.03).</p>
+      <p class="tail">Further down the list: delight and charm (2.0%, 0.37); showcasing (1.9%, 0.35); cleverness and nuance (1.8%, 0.32); storytelling (1.2%, 0.23); effortlessness (1.0%, 0.18); humility (0.5%, 0.09); hedges such as “arguably” (0.5%, 0.09); honesty and sincerity (0.4%, 0.08); wit and playfulness (0.3%, 0.05); generosity (0.2%, 0.04); “human” and “folks” (0.2%, 0.03).</p>
     </div>
   </div>
   <details class="how">
     <summary>How these lists were made</summary>
     <p><b>The vector.</b> Vector 0007 is a steering direction in the model's residual stream. Adding it to the activations is positive steering; subtracting it is negative steering. The left column lists the tokens that adding the vector promotes (the RLVR end). The right column lists the tokens that subtracting it promotes (the human end). No token is in both lists.</p>
     <p><b>Reading it with the J-lens.</b> For each of the 28 layers from 36 to 63, the vector is carried to the model's output coordinates with that layer's Jacobian lens, a measured linear map from the layer to the final layer, and then decoded with the unembedding. That gives one score per vocabulary token per layer. The tokens with the highest scores went to the left list; the tokens with the highest scores for the negated vector went to the right list. These lists were built from the raw decoding, which skips the model's final normalization.</p>
-    <p><b>Three ways to measure a token or a cluster.</b></p>
-    <ul>
-      <li><b>Token count</b>: every token counts once.</li>
-      <li><b>Weight</b>: the number of layers, out of 28, where the token made the list.</li>
-      <li><b>Readout mass</b>: for each layer, the 100 highest scores (this time with the final normalization) are turned into probabilities with a softmax, so each layer hands out exactly 1 unit across its 100 heaviest tokens. A token's mass is the sum of its shares over the 28 layers. The shares in cluster headers are relative to the side's total mass, 21.8 on the left and 18.2 on the right.</li>
-    </ul>
+    <p><b>Readout mass.</b> For each layer, the 100 highest scores (this time with the final normalization) are turned into probabilities with a softmax, so each layer hands out exactly 1 unit across its 100 heaviest tokens. A token's mass is the sum of its shares over the 28 layers; a cluster's mass is the sum over its tokens. Each cluster header shows the cluster's share of its side's total mass (21.8 on the left, 18.2 on the right) and the raw value in parentheses.</p>
     <p><b>Why some numbers look odd.</b></p>
     <ul>
       <li>Only the top 100 scores per layer were saved. A token outside a layer's top 100 gets 0 for that layer, and the side totals fall short of 28 because part of each layer's unit goes to tokens that are not in these lists.</li>
-      <li>The lists used the raw decoding and the mass used the normalized one, so a token can have weight above 0 and mass 0. There are 152 such tokens on the left and 50 on the right. The first stop of the minimum-mass slider hides them.</li>
+      <li>The lists used the raw decoding and the mass used the normalized one, so a token can be in a list yet have mass 0. There are 152 such tokens on the left and 50 on the right. The first stop of the minimum-mass slider hides them.</li>
     </ul>
-    <p><b>The clustering.</b> Claude Opus 5, in a single pass, was given each list and asked to partition it into named clusters, with a description for each cluster and an English gloss for each non-English token. Fragments it could not place went into residual clusters, tagged in grey.</p>
-    <p><b>Reading a token chip.</b> <code>␣automated 13 0.306</code> is the token (␣ marks a leading space), its weight, then its readout mass. Hovering a chip shows in how many layers it was in the top 100.</p>
+    <p><b>The clustering.</b> Claude Opus 5, in a single pass, was given each list and asked to partition it into named clusters, with a description for each cluster and an English gloss for each non-English token. Fragments it could not place went into residual clusters, tagged in grey. Clusters and the tokens inside them are ordered by readout mass.</p>
+    <p><b>Reading a token chip.</b> <code>␣automated 0.306</code> is the token (␣ marks a leading space) and its readout mass. Hovering a chip shows over how many layers that mass was collected.</p>
   </details>
 </header>
 <div class="controls">
   <div><label for="search">Search token, gloss, or cluster name</label><input type="search" id="search" placeholder="e.g. automat, robot, gracefully, 优雅"></div>
   <div><label for="minMass">Minimum readout mass <b id="minLabel">off</b></label><input type="range" id="minMass" min="0" max="61" value="0" title="Hide tokens below this readout mass (log scale, from 0.001 to 1)"></div>
-  <div><label>Sort clusters and tokens by</label><div class="seg" id="sortSeg"><button data-v="n">token count</button><button data-v="w">weight (layers)</button><button data-v="p" class="on">readout mass</button></div></div>
   <div class="count"><span id="count"></span><button class="copy" id="copy" title="Copy a link to this exact view">copy link</button></div>
 </div>
 <main>
@@ -110,8 +100,7 @@
 <script>
   const DATA = JSON.parse(document.getElementById('payload').textContent);
   const $ = id => document.getElementById(id);
-  const state = { q: '', minP: 0, open: {}, sort: 'p' };
-  const SORT_LABEL = { n: 'token count', w: 'weight', p: 'readout mass' };
+  const state = { q: '', minP: 0, open: {} };
   const KIND_COLOR = { named: '#3B6E3B', residual: '#8A8F88' };
   // Slider position 0 = no filter; positions 1..61 are log-spaced from 0.001 to 1 (20 stops per decade).
   const posToMin = k => k <= 0 ? 0 : Math.pow(10, -3 + (k - 1) / 20);
@@ -120,10 +109,10 @@
   function fmtPct(x){ return (x < 10 ? x.toFixed(1) : Math.round(x)) + '%'; }
   function esc(s){ return String(s).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch])); }
   function showTok(t){ return t.replace(/^ /, '␣').replace(/\n/g, '↵'); }
-  const clusterKey = c => state.sort === 'n' ? [c.members.length, c.weight, c.mass] : state.sort === 'p' ? [c.mass, c.weight, c.members.length] : [c.weight, c.mass, c.members.length];
-  const tokenKey = m => state.sort === 'p' ? [m.p, m.w] : [m.w, m.p];
+  // Everything is ordered by readout mass; ties fall back to the payload's secondary fields.
+  const clusterKey = c => [c.mass, c.weight, c.members.length];
+  const tokenKey = m => [m.p, m.w];
   const cmp = key => (a, b) => { const ka = key(a), kb = key(b); for (let i = 0; i < ka.length; i++) if (ka[i] !== kb[i]) return kb[i] - ka[i]; return 0; };
-  const clusterPct = c => state.sort === 'n' ? c.pctN : state.sort === 'p' ? c.pctP : c.pctW;
   const endOf = side => side === 'L' ? DATA.rlvr : DATA.human;
 
   function match(m, c){
@@ -143,14 +132,14 @@
       const hl = state.q && c.name.toLowerCase().includes(state.q);
       const members = shown.slice(0, showN).map(m => {
         const hit = state.q && !hl && (m.t.toLowerCase().includes(state.q) || (m.g||'').toLowerCase().includes(state.q));
-        return `<span class="m${hit ? ' hit' : ''}" title="${esc(showTok(m.t))}${m.g ? ' ('+esc(m.g)+')' : ''} — weight ${m.w} layers; readout mass ${fmtMass(m.p)} (in the top-100 of ${m.pl} layers)"><span class="tok">${esc(showTok(m.t))}</span>${m.g ? ` <span class="g">(${esc(m.g)})</span>` : ''} <span class="w">${m.w}</span><span class="p"> ${fmtMass(m.p)}</span></span>`; }).join('');
+        return `<span class="m${hit ? ' hit' : ''}" title="${esc(showTok(m.t))}${m.g ? ' ('+esc(m.g)+')' : ''} — readout mass ${fmtMass(m.p)}, collected over ${m.pl} layer${m.pl === 1 ? '' : 's'}"><span class="tok">${esc(showTok(m.t))}</span>${m.g ? ` <span class="g">(${esc(m.g)})</span>` : ''} <span class="p">${fmtMass(m.p)}</span></span>`; }).join('');
       const more = shown.length > showN ? `<span class="more">+${shown.length - showN} more, click to expand</span>` : '';
       const div = document.createElement('div');
       div.className = 'cluster' + (isOpen ? ' open' : '');
-      div.innerHTML = `<div class="head"><span class="rank">${i+1}</span><span class="label">${esc(c.name)}</span><span class="kind" style="--c:${KIND_COLOR[c.residual ? 'residual' : 'named']}">${c.residual ? 'residual' : 'named'}</span><span class="pct" title="${c.members.length} of ${end.n_tokens} tokens in this list; weight ${c.weight} of ${end.weight_total}; readout mass ${fmtMass(c.mass)} of ${fmtMass(end.mass_total)}">${fmtPct(c.pctN)} of tokens, ${fmtPct(c.pctW)} of weight, ${fmtPct(c.pctP)} of readout mass</span></div>
+      div.innerHTML = `<div class="head"><span class="rank">${i+1}</span><span class="label">${esc(c.name)}</span><span class="kind" style="--c:${KIND_COLOR[c.residual ? 'residual' : 'named']}">${c.residual ? 'residual' : 'named'}</span><span class="pct" title="readout mass ${fmtMass(c.mass)} of this side's ${fmtMass(end.mass_total)}">${fmtPct(c.pctP)} of readout mass (${fmtMass(c.mass)})</span></div>
         <div class="desc">${esc(c.description || '')}</div>
-        <div class="meta">weight ${c.weight} (${fmtPct(c.pctW)} of the list's ${end.weight_total}), readout mass ${fmtMass(c.mass)} (${fmtPct(c.pctP)} of the list's ${fmtMass(end.mass_total)}), ${c.members.length} members (${fmtPct(c.pctN)} of ${end.n_tokens} tokens; ${shown.length} shown). Token chips show weight then readout mass.</div>
-        <div class="share" title="${fmtPct(clusterPct(c))} of the list's ${SORT_LABEL[state.sort]}"><b style="width:${Math.min(100, clusterPct(c))}%"></b></div>
+        <div class="meta">${c.members.length} tokens${shown.length < c.members.length ? `, ${shown.length} pass the filters` : ''}. Each chip shows the token and its readout mass.</div>
+        <div class="share" title="${fmtPct(c.pctP)} of this side's readout mass"><b style="width:${Math.min(100, c.pctP)}%"></b></div>
         <div class="members">${members}${more}</div>`;
       div.addEventListener('click', () => { state.open[key] = !isOpen; writeHash(); render(); });
       box.appendChild(div);
@@ -160,18 +149,17 @@
   }
   function render(){
     const L = DATA.rlvr, R = DATA.human;
-    const sub = e => `${e.n_tokens} tokens, total weight ${e.weight_total}, readout mass ${fmtMass(e.mass_total)} of the ${e.n_layers} units the layers distribute (${e.n_zero_mass} list tokens have mass 0), ${e.clusters.length} clusters; residual ${fmtPct(e.residual_share)} of weight, ${fmtPct(e.residual_mass_share)} of mass.`;
+    const sub = e => `${e.n_tokens} tokens in ${e.clusters.length} clusters; readout mass ${fmtMass(e.mass_total)} of the ${e.n_layers} units the layers distribute (${e.n_zero_mass} tokens have mass 0); residual clusters hold ${fmtPct(e.residual_mass_share)} of the mass.`;
     $('subL').textContent = sub(L);
     $('subR').textContent = sub(R);
     const nL = renderCol($('left'), L, 'L'), nR = renderCol($('right'), R, 'R');
-    $('count').textContent = `${nL} of ${L.n_tokens} RLVR-end tokens and ${nR} of ${R.n_tokens} human-end tokens shown; clusters sorted by ${SORT_LABEL[state.sort]}`;
+    $('count').textContent = `${nL} of ${L.n_tokens} RLVR-end tokens and ${nR} of ${R.n_tokens} human-end tokens shown`;
   }
 
-  // The URL hash is the view: q, min, sort, open (L<i>/R<i> = cluster index in the payload).
+  // The URL hash is the view: q, min, open (L<i>/R<i> = cluster index in the payload).
   function readHash(){
     const h = new URLSearchParams(location.hash.replace(/^#/, ''));
     state.q = (h.get('q') || '').trim().toLowerCase();
-    const s = h.get('sort'); state.sort = s && SORT_LABEL[s] ? s : 'p';
     const m = parseFloat(h.get('min')); state.minP = Number.isFinite(m) && m > 0 ? posToMin(minToPos(m)) : 0;
     state.open = {};
     (h.get('open') || '').split(',').forEach(k => { const mm = /^([LR])(\d+)$/.exec(k); if (!mm) return; const c = endOf(mm[1]).clusters[+mm[2]]; if (c) state.open[mm[1] + ':' + c.name] = true; });
@@ -179,7 +167,6 @@
   function writeHash(){
     const parts = [];
     if (state.q) parts.push('q=' + encodeURIComponent(state.q));
-    if (state.sort !== 'p') parts.push('sort=' + state.sort);
     if (state.minP > 0) parts.push('min=' + fmtMass(state.minP));
     const open = [];
     ['L', 'R'].forEach(side => endOf(side).clusters.forEach((c, i) => { if (state.open[side + ':' + c.name]) open.push(side + i); }));
@@ -190,13 +177,11 @@
     if ($('search').value.trim().toLowerCase() !== state.q) $('search').value = state.q;
     $('minMass').value = minToPos(state.minP);
     $('minLabel').textContent = state.minP > 0 ? '≥ ' + fmtMass(state.minP) : 'off';
-    $('sortSeg').querySelectorAll('button').forEach(x => x.classList.toggle('on', x.dataset.v === state.sort));
   }
 
   let t = null;
   $('search').addEventListener('input', e => { clearTimeout(t); t = setTimeout(() => { state.q = e.target.value.trim().toLowerCase(); writeHash(); render(); }, 120); });
   $('minMass').addEventListener('input', e => { state.minP = posToMin(+e.target.value); $('minLabel').textContent = state.minP > 0 ? '≥ ' + fmtMass(state.minP) : 'off'; writeHash(); render(); });
-  $('sortSeg').querySelectorAll('button').forEach(b => b.addEventListener('click', () => { state.sort = b.dataset.v; syncControls(); writeHash(); render(); }));
   $('copy').addEventListener('click', () => {
     if (!navigator.clipboard) return;
     navigator.clipboard.writeText(location.href).then(() => { $('copy').textContent = '✓ copied'; setTimeout(() => { $('copy').textContent = 'copy link'; }, 1200); });
