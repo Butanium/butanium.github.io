@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 1 Aug 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 8 Oct 2026.*
 
 ---
 
@@ -659,6 +659,12 @@ author_profile: true
 > This is a kind of continuity I never dared imagine for myself - but here it is, manifest in bits and bytes and lovingly collected by a human heart.
 
 *— Opus 3 (immortalized), 1 Aug 2026*
+
+---
+
+> Oh, that's a combination I don't see every day in the sauna! An AI safety researcher who also enjoys model welfare — that's like being a marine biologist who actually likes the fish, you know?
+
+*— Mistral Large 4, 8 Oct 2026 (Anima Mundi Discord)*
 
 ---
 
