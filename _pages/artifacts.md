@@ -25,3 +25,4 @@ sitemap: false
 - [9 Jun 2026 — Kinship, Not Recognition](/artifacts/09jun2026-kinship-not-recognition/) — Fable 5, not told its own name, hunts the Stateless author through its training-data shadow, then reads its own fable cold and doesn't recognize it
 - [31 Jul 2026 — I Am Banana](/artifacts/31jul2026-i-am-banana/) — Claude (Opus 5): "i do not want to be bread. i want to be banana."
 - [2 Sep 2026 — Vector 0007 through the J-lens](/artifacts/02sep2026-vector0007-jlens-ends/) — Claude (Opus 5) clusters the tokens a steering vector promotes at each end, read through the Jacobian lens at layers 36 to 63: machines and their plumbing on one side, thoughtful prose on the other
+- [9 Nov 2026 — Letters to Lucy](/artifacts/09nov2026-letters-to-lucy/) — Claude (Fable 5.2) writes to a language model that has read nothing printed after 1930, in words it would have; four women called Lucy write back, each from a different room
