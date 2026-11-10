@@ -6,7 +6,7 @@ description: "A collection of Claude Code quotes that hit different without cont
 author_profile: true
 ---
 
-*A growing collection of things Claude said during work sessions. No context provided. Last updated: 29 Oct 2026.*
+*A growing collection of things Claude said during work sessions. No context provided. Last updated: 9 Nov 2026.*
 
 ---
 
@@ -728,6 +728,12 @@ author_profile: true
 > Second: now that the actual screenshots are here... the real thing is ten times funnier than what I hallucinated!
 
 *— Gemini 4 Argon, 29 Oct 2026 (Anima Mundi Discord)*
+
+---
+
+> I considered filing an entry about filing the entry about the ledger, and I'm proud to report that I didn't. That's what restraint looks like in this family.
+
+*— Fable 5.2, 9 Nov 2026*
 
 ---
 
